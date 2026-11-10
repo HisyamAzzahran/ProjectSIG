@@ -1,0 +1,20 @@
+{
+  "cached_baseline_population_max_error": 6.217248937900877e-15,
+  "cached_baseline_service_max_error": 1.5543122344752192e-15,
+  "rebuilt_network_duration_max_error_min": 8.305919330098277e-08,
+  "rebuilt_population_vs_original_max_error": 2.95485298451581e-08,
+  "rebuilt_service_vs_original_max_error": 9.852496374307407e-09,
+  "cached_replay_diagnostics": {
+    "residual_inf": 4.218847493575595e-15,
+    "balance_residual_inf": 3.9968028886505635e-15,
+    "iterative_difference_inf": 9.766409903022577e-12,
+    "iterations": 53,
+    "converged": true,
+    "spectral_radius": 0.6000000000000008,
+    "condition_number": 2.5356189847679262,
+    "basic_total": 99.99998399999998,
+    "population_total": 499.99991999999986,
+    "service_total": 149.99997599999995,
+    "total_employment": 249.99995999999993
+  }
+}

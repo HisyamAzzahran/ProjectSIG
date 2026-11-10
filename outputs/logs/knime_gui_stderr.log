@@ -1,0 +1,6 @@
+ERROR	 Thread-787 KnimeBrowserView	 Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-Explain-Workflow.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)

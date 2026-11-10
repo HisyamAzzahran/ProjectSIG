@@ -1,0 +1,17 @@
+CompileCommand: exclude org/eclipse/jdt/internal/core/dom/rewrite/ASTRewriteAnalyzer.getExtendedRange bool exclude = true
+--- KNIME startup failsafe logging dump: JVM is shutting down before KNIME logging could finish initialization. 14 messages were buffered. Minimum level: DEBUG.
+2026-11-10 10:52:27,404 : DEBUG : KNIME startup log dump : EclipseProxySupportManager : (1/3) Opened OSGi service tracker for 'org.eclipse.core.net.proxy.IProxyService'.
+2026-11-10 10:52:27,511 : DEBUG : KNIME startup log dump : ApplicationHealth : Registering JMX bean for org.knime.core:type=Execution,name=GlobalPool
+2026-11-10 10:52:27,513 : DEBUG : KNIME startup log dump : ApplicationHealth : Registering JMX bean for org.knime.core:type=Execution,name=NodeStates
+2026-11-10 10:52:27,515 : DEBUG : KNIME startup log dump : ApplicationHealth : Registering JMX bean for org.knime.core:type=Memory,name=ObjectInstances
+2026-11-10 10:52:27,515 : DEBUG : KNIME startup log dump : ApplicationHealth : Registering JMX bean for org.knime.core:type=Memory,name=DataTablesRepository
+2026-11-10 10:52:27,520 : DEBUG : KNIME startup log dump : IEarlyStartup : Running application "org.knime.product.KNIME_APPLICATION"
+2026-11-10 10:52:27,520 : DEBUG : KNIME startup log dump : IEarlyStartup : Moving from stage <none> to stage EARLIEST
+2026-11-10 10:52:27,523 : DEBUG : KNIME startup log dump : IEarlyStartup : Executing startup hook `org.knime.bcprov.RegisterBouncyCastleProvider#run()` at stage EARLIEST
+2026-11-10 10:52:27,656 : INFO  : KNIME startup log dump : RegisterBouncyCastleProvider : Added BouncyCastleProvider to Java Security providers
+2026-11-10 10:52:27,657 : DEBUG : KNIME startup log dump : IEarlyStartup : Executing startup hook `org.knime.core.node.logging.JavaUtilLoggingAdapter#run()` at stage EARLIEST
+2026-11-10 10:52:27,659 : DEBUG : KNIME startup log dump : IEarlyStartup : Executing startup hook `org.knime.core.node.logging.ILogAdapter#run()` at stage EARLIEST
+2026-11-10 10:52:27,659 : DEBUG : KNIME startup log dump : IEarlyStartup : Executing startup hook `org.knime.js.cef.CEFEarlyStartup#run()` at stage EARLIEST
+2026-11-10 10:52:28,092 : DEBUG : KNIME startup log dump : KNIMEApplication : Checking for instance location
+2026-11-10 10:52:49,681 : DEBUG : KNIME startup log dump : KNIMEApplication : Instance location not set
+--- End of KNIME startup failsafe logging dump.

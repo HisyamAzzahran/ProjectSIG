@@ -1,0 +1,835 @@
+2026-11-10 10:43:20,913 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:43:20,915 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:43:20,915 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-11-10 10:43:20,915 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-11-10 10:43:20,915 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : # D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\knime.log
+2026-11-10 10:43:20,918 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-11-10 10:43:20,931 : INFO  : main :  : NodeLogger :  :  : # logging date=Tue Nov 10 10:43:20 WIB 2026
+2026-11-10 10:43:20,931 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-11-10 10:43:20,931 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-11-10 10:43:20,931 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-11-10 10:43:20,931 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-11-10 10:43:20,931 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-11-10 10:43:20,931 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-11-10 10:43:20,931 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-11-10 10:43:20,941 : INFO  : main :  : NodeLogger :  :  : # host=MSI
+2026-11-10 10:43:20,941 : INFO  : main :  : NodeLogger :  :  : # username=Muhammad Fatih
+2026-11-10 10:43:20,941 : INFO  : main :  : NodeLogger :  :  : # max mem=16272MB
+2026-11-10 10:43:20,941 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-11-10 10:43:20,955 : INFO  : main :  : NodeLogger :  :  : # KNID=11-be4fb7647189ca62-01-c15d63275f1339c9
+2026-11-10 10:43:20,955 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:43:19,837 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-11-10 10:43:20,783 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-11-10 10:43:20,845 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-11-10 10:43:23,094 : INFO  : ForkJoinPool.commonPool-worker-3 :  : PythonExtensionParser :  :  : Trying to load cached extension 'sdl.harvard.geospatial_2.1.0.202610271233' from C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\sdl.harvard.geospatial
+2026-11-10 10:43:23,588 : INFO  : KNIME-Worker-0 :  : PythonExtensionParser :  :  : Trying to load cached extension 'sdl.harvard.geospatial_2.1.0.202610271233' from C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\sdl.harvard.geospatial
+2026-11-10 10:43:27,104 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-11-10 10:43:27,104 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_database_urls.txt' does not exist.
+2026-11-10 10:43:28,575 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:43:28,582 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-11-10 10:43:37,271 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-11-10 10:43:37,271 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-11-10 10:43:38,373 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-11-10 10:43:39,279 : INFO  : Thread-203 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:43:39,500 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-11-10 10:43:39,745 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:43:39,840 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:43:40,566 : ERROR : Thread-787 :  : KnimeBrowserView :  :  : Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-Explain-Workflow.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+2026-11-10 10:43:41,188 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:43:46,136 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:43:46,147 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:43:46,147 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:43:46,150 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:43:46,158 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:43:46,158 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:43:46,166 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:43:46,221 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:43:46,223 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:44:00,247 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x00000199da34c440 :  : FileUtil :  :  : Deleting 1 temporary files.
+2026-11-10 10:45:20,024 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:45:20,024 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:45:20,024 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-11-10 10:45:20,024 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-11-10 10:45:20,024 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : # D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\knime.log
+2026-11-10 10:45:20,026 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-11-10 10:45:20,036 : INFO  : main :  : NodeLogger :  :  : # logging date=Tue Nov 10 10:45:20 WIB 2026
+2026-11-10 10:45:20,036 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-11-10 10:45:20,036 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-11-10 10:45:20,036 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-11-10 10:45:20,036 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-11-10 10:45:20,036 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-11-10 10:45:20,036 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-11-10 10:45:20,036 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-11-10 10:45:20,043 : INFO  : main :  : NodeLogger :  :  : # host=MSI
+2026-11-10 10:45:20,043 : INFO  : main :  : NodeLogger :  :  : # username=Muhammad Fatih
+2026-11-10 10:45:20,043 : INFO  : main :  : NodeLogger :  :  : # max mem=16272MB
+2026-11-10 10:45:20,043 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-11-10 10:45:20,043 : INFO  : main :  : NodeLogger :  :  : # KNID=11-be4fb7647189ca62-01-c15d63275f1339c9
+2026-11-10 10:45:20,043 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:45:19,489 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-11-10 10:45:19,921 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-11-10 10:45:19,965 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-11-10 10:45:21,086 : INFO  : ForkJoinPool.commonPool-worker-3 :  : PythonExtensionParser :  :  : Trying to load cached extension 'sdl.harvard.geospatial_2.1.0.202610271233' from C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\sdl.harvard.geospatial
+2026-11-10 10:45:21,453 : INFO  : KNIME-Worker-0 :  : PythonExtensionParser :  :  : Trying to load cached extension 'sdl.harvard.geospatial_2.1.0.202610271233' from C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\sdl.harvard.geospatial
+2026-11-10 10:45:23,062 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-11-10 10:45:23,062 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_database_urls.txt' does not exist.
+2026-11-10 10:45:25,353 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:45:25,365 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-11-10 10:45:25,616 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-11-10 10:45:25,617 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-11-10 10:45:26,357 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-11-10 10:45:26,912 : INFO  : Thread-163 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:45:27,668 : ERROR : Thread-781 :  : KnimeBrowserView :  :  : Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-Explain-Workflow.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+2026-11-10 10:45:28,864 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-11-10 10:45:29,574 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:45:29,865 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:45:30,267 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:45:31,203 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:45:31,215 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:45:31,215 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:45:31,223 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:45:31,223 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:45:31,226 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:45:31,270 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:45:31,270 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:45:31,277 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:45:59,779 : ERROR : Thread-992 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:45:59,779 : ERROR : Thread-994 :  : KnimeBrowserView :  :  : Uncaught (in promise) AbortError: The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22 (source: https://org.knime.ui.java/editor/index.html#/space-browsing/local/Local-space-id/local/root; line: 0)
+2026-11-10 10:46:19,980 : ERROR : KNIME-ConfigurationArea-Checker :  : ConfigurationAreaChecker :  :  : Can't check integrity of configuration area ("C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration"): The process cannot access the file because another process has locked a portion of the file
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.knime.core.internal.ConfigurationAreaChecker.lambda$0(ConfigurationAreaChecker.java:135)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-11-10 10:46:28,179 : WARN  : ModalContext :  : Node : GeoFile Reader : 3:28 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+2026-11-10 10:46:28,206 : WARN  : ModalContext :  : Node : GeoFile Reader : 3:2 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+2026-11-10 10:46:28,233 : WARN  : ModalContext :  : Node : GeoFile Reader : 3:1 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+2026-11-10 10:48:28,428 : INFO  : KNIME-Worker-1-Python Script 3:27 :  : PythonScriptingSession : Python Script : 3:27 : PythonScriptingSession created gateway (hash=52e6a0df) on thread 'KNIME-Worker-1-Python Script 3:27'
+2026-11-10 10:48:29,635 : WARN  : KNIME-Worker-1-Python Script 3:27 :  : PythonScriptNodeModel : Python Script : 3:27 : Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\data_loader.py", line 78, in audit
+    zones, points, roads = load_data(root)
+                           ^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\data_loader.py", line 68, in load_data
+    original = shapely.from_wkb(cached.loc[row.ROAD0_, 'geometry']['0'])
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+2026-11-10 10:48:29,639 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:27 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:927: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:48:29,639 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:27 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:48:29,640 : INFO  : KNIME-Worker-1-Python Script 3:27 :  : DefaultPythonGateway : Python Script : 3:27 : Closing PythonGateway (PID=18484) from thread 'KNIME-Worker-1-Python Script 3:27'
+2026-11-10 10:48:29,822 : ERROR : KNIME-Worker-1-Python Script 3:27 :  : Node : Python Script : 3:27 : Execute failed: TypeError: 'GeoValue' object is not subscriptable
+org.knime.core.node.KNIMEException: Execute failed: TypeError: 'GeoValue' object is not subscriptable
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-11-10 10:48:29,830 : WARN  : KNIME-Worker-1-Python Script 3:27 :  : Node : GeoFile Reader : 3:28 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+2026-11-10 10:48:29,831 : WARN  : KNIME-Worker-1-Python Script 3:27 :  : Node : GeoFile Reader : 3:2 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+2026-11-10 10:48:29,831 : WARN  : KNIME-Worker-1-Python Script 3:27 :  : Node : GeoFile Reader : 3:1 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+2026-11-10 10:49:05,242 : INFO  : KNIME-Worker-2-Python Script 3:27 :  : PythonScriptingSession : Python Script : 3:27 : PythonScriptingSession created gateway (hash=6c31b294) on thread 'KNIME-Worker-2-Python Script 3:27'
+2026-11-10 10:49:06,252 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:27 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:927: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:49:06,252 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:27 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:49:06,554 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:27 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:927: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:49:06,554 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:27 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:49:06,733 : WARN  : KNIME-Worker-2-Python Script 3:27 :  : PythonScriptNodeModel : Python Script : 3:27 : Traceback (most recent call last):
+  File "<string>", line 24, in <module>
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3_5.12.0.v202606171811\src\main\python\knime\api\table.py", line 387, in from_pandas
+    return _backend.create_table_from_pandas(data, sentinel, row_ids=row_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_table.py", line 165, in create_table_from_pandas
+    return _create_table_from_pandas(data, sentinel, row_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_table.py", line 151, in _create_table_from_pandas
+    return _create_table_from_pyarrow(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_table.py", line 97, in _create_table_from_pyarrow
+    data = katy.wrap_primitive_arrays(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_types.py", line 1463, in wrap_primitive_arrays
+    arrays = [
+             ^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_types.py", line 1464, in <listcomp>
+    _wrap_primitive_array(column, i == 0, table.schema.names[i])
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_types.py", line 1370, in _wrap_primitive_array
+    raise ValueError(
+2026-11-10 10:49:06,734 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:27 : INFO:pyogrio._io:Created 330 records
+2026-11-10 10:49:06,734 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:27 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:49:06,734 : INFO  : KNIME-Worker-2-Python Script 3:27 :  : DefaultPythonGateway : Python Script : 3:27 : Closing PythonGateway (PID=6684) from thread 'KNIME-Worker-2-Python Script 3:27'
+2026-11-10 10:49:06,883 : ERROR : KNIME-Worker-2-Python Script 3:27 :  : Node : Python Script : 3:27 : Execute failed: ValueError: Data type 'large_string' in column '<RowID>' is not supported in KNIME Python. Please use a different data type.
+org.knime.core.node.KNIMEException: Execute failed: ValueError: Data type 'large_string' in column '<RowID>' is not supported in KNIME Python. Please use a different data type.
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-11-10 10:49:06,889 : WARN  : KNIME-Worker-2-Python Script 3:27 :  : Node : GeoFile Reader : 3:28 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+2026-11-10 10:49:06,889 : WARN  : KNIME-Worker-2-Python Script 3:27 :  : Node : GeoFile Reader : 3:2 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+2026-11-10 10:49:06,889 : WARN  : KNIME-Worker-2-Python Script 3:27 :  : Node : GeoFile Reader : 3:1 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+2026-11-10 10:50:57,527 : INFO  : KNIME-Worker-3-Python Script 3:27 :  : PythonScriptingSession : Python Script : 3:27 : PythonScriptingSession created gateway (hash=176c5e15) on thread 'KNIME-Worker-3-Python Script 3:27'
+2026-11-10 10:50:59,448 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:50:59,448 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:50:59,549 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:50:59,549 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:50:59,549 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:50:59,549 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:50:59,751 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:50:59,751 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:50:59,851 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:50:59,851 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:50:59,851 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:50:59,851 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:50:59,953 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 : INFO:pyogrio._io:Created 330 records
+2026-11-10 10:50:59,953 : INFO  : python-output-redirector-9 :  : PythonScriptingSession : Python Script : 3:27 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:51:00,190 : INFO  : python-js-scripting-0 :  : ColumnarPreferenceUtils : Python Script : 3:27 : Column Data Cache size is 6373 MB.
+2026-11-10 10:51:00,206 : INFO  : pool-63-thread-1 :  : DefaultPythonGateway : Python Script : 3:27 : Closing PythonGateway (PID=5052) from thread 'pool-63-thread-1'
+2026-11-10 10:51:00,212 : INFO  : KNIME-Worker-3-Python Script 3:27 :  : LocalNodeExecutionJob : Python Script : 3:27 : Python Script 3:27 End execute (2 secs)
+2026-11-10 10:51:01,312 : INFO  : pool-92-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=18260) from thread 'pool-92-thread-1'
+2026-11-10 10:51:01,312 : INFO  : KNIME-Worker-6-GeoFile Reader 3:1 :  : LocalNodeExecutionJob : GeoFile Reader : 3:1 : GeoFile Reader 3:1 End execute (0 secs)
+2026-11-10 10:51:01,348 : INFO  : KNIME-Worker-7-Column Filter 3:23 :  : LocalNodeExecutionJob : Column Filter : 3:23 : Column Filter 3:23 End execute (0 secs)
+2026-11-10 10:51:01,348 : INFO  : KNIME-Worker-3-Column Filter 3:19 :  : LocalNodeExecutionJob : Column Filter : 3:19 : Column Filter 3:19 End execute (0 secs)
+2026-11-10 10:51:04,580 : INFO  : python-gateway-closer-0 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=23620) from thread 'python-gateway-closer-0'
+2026-11-10 10:51:06,015 : INFO  : KNIME-Worker-4-GeoFile Reader 3:28 :  : LocalNodeExecutionJob : GeoFile Reader : 3:28 : GeoFile Reader 3:28 End execute (5 secs)
+2026-11-10 10:51:06,016 : INFO  : pool-105-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=19948) from thread 'pool-105-thread-1'
+2026-11-10 10:51:07,058 : INFO  : KNIME-Worker-5-GeoFile Reader 3:2 :  : LocalNodeExecutionJob : GeoFile Reader : 3:2 : GeoFile Reader 3:2 End execute (6 secs)
+2026-11-10 10:51:07,058 : INFO  : pool-109-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=17176) from thread 'pool-109-thread-1'
+2026-11-10 10:51:10,867 : INFO  : KNIME-Worker-6-Geospatial View 3:3 :  : CloseablePythonNodeProxy : Geospatial View : 3:3 : matplotlib.font_manager:generated new fontManager
+2026-11-10 10:51:25,961 : WARN  : KNIME-Worker-7-Road Network Distance Matrix 3:4 :  : CloseablePythonNodeProxy : Road Network Distance Matrix : 3:4 : Traceback (most recent call last):
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.nodes_5.12.0.v202606171811\src\main\python\_node_backend_launcher.py", line 1207, in execute
+    outputs = self._node.execute(exec_context, *inputs)
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.nodes_5.12.0.v202606171811\src\main\python\knime\extension\nodes.py", line 1353, in wrapper
+    results = func(*args, **kwargs)
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\sdl.harvard.geospatial_2.1.0.202610271233\src\main\python\src\nodes\spatialnetwork.py", line 1302, in execute
+    self.split_line(edges["geometry"][idx], pps)
+                    ~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\geopandas\geoseries.py", line 779, in __getitem__
+    return self._wrapped_pandas_method("__getitem__", key)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\geopandas\geoseries.py", line 772, in _wrapped_pandas_method
+    val = getattr(super(), mtd)(*args, **kwargs)
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\pandas\core\series.py", line 1165, in __getitem__
+    return self._get_with(key)
+           ~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\pandas\core\series.py", line 1175, in _get_with
+    return self._get_values_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\pandas\core\series.py", line 1219, in _get_values_tuple
+    raise KeyError("key of type tuple not found and not a MultiIndex")
+KeyError: 'key of type tuple not found and not a MultiIndex'
+
+2026-11-10 10:51:25,961 : INFO  : KNIME-Worker-7-Road Network Distance Matrix 3:4 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=16576) from thread 'KNIME-Worker-7-Road Network Distance Matrix 3:4'
+2026-11-10 10:51:26,232 : ERROR : KNIME-Worker-7-Road Network Distance Matrix 3:4 :  : Node : Road Network Distance Matrix : 3:4 : Execute failed: 'key of type tuple not found and not a MultiIndex'
+org.knime.python3.nodes.PythonNodeRuntimeException: 'key of type tuple not found and not a MultiIndex'
+	at org.knime.python3.nodes.CloseablePythonNodeProxy$FailureState.throwIfFailure(CloseablePythonNodeProxy.java:940)
+	at org.knime.python3.nodes.CloseablePythonNodeProxy.execute(CloseablePythonNodeProxy.java:591)
+	at org.knime.python3.nodes.DelegatingNodeModel.lambda$4(DelegatingNodeModel.java:255)
+	at org.knime.python3.nodes.DelegatingNodeModel.runWithProxy(DelegatingNodeModel.java:317)
+	at org.knime.python3.nodes.DelegatingNodeModel.execute(DelegatingNodeModel.java:253)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-11-10 10:51:30,212 : INFO  : KNIME-Worker-6-Geospatial View 3:3 :  : LocalNodeExecutionJob : Geospatial View : 3:3 : Geospatial View 3:3 End execute (23 secs)
+2026-11-10 10:51:30,213 : INFO  : pool-122-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=2812) from thread 'pool-122-thread-1'
+2026-11-10 10:52:22,904 : WARN  : ModalContext :  : AbstractColumnarContainerTable : GeoFile Reader : 3:1 : Creation of hard links not supported, will copy files instead (and suppress further warnings)
+java.nio.file.FileSystemException: D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\GeoFile Reader (#1)\port_1\data.zip -> C:\Users\MUHAMM~1\AppData\Local\Temp\knime_Case10_Garin_Lo_15580\knime_container_20261110_820407803648429796.knable: The system cannot move the file to a different disk drive
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createLink(Unknown Source)
+	at java.base/java.nio.file.Files.createLink(Unknown Source)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.hardLinkOrCopy(AbstractColumnarContainerTable.java:317)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.saveToFileOverwrite(AbstractColumnarContainerTable.java:174)
+	at org.knime.core.data.columnar.table.UnsavedColumnarContainerTable.saveToFileOverwrite(UnsavedColumnarContainerTable.java:100)
+	at org.knime.core.node.ExtensionTable.saveToFile(ExtensionTable.java:261)
+	at org.knime.core.node.BufferedDataTable.save(BufferedDataTable.java:685)
+	at org.knime.core.node.FileNodePersistor.saveBufferedDataTable(FileNodePersistor.java:1439)
+	at org.knime.core.node.FileNodePersistor.savePort(FileNodePersistor.java:1344)
+	at org.knime.core.node.FileNodePersistor.savePorts(FileNodePersistor.java:1248)
+	at org.knime.core.node.FileNodePersistor.save(FileNodePersistor.java:1202)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.save(FileNativeNodeContainerPersistor.java:548)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.save(FileSingleNodeContainerPersistor.java:641)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.saveNodeContainer(FileWorkflowPersistor.java:2343)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.saveContent(FileWorkflowPersistor.java:2091)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.save(FileWorkflowPersistor.java:1982)
+	at org.knime.core.node.workflow.WorkflowManager.save(WorkflowManager.java:9774)
+	at org.knime.core.node.workflow.WorkflowManager.save(WorkflowManager.java:9723)
+	at org.knime.ui.java.api.SaveProject.saveRegularWorkflow(SaveProject.java:217)
+	at org.knime.ui.java.api.SaveProject.saveLocalProject(SaveProject.java:192)
+	at org.knime.ui.java.api.SaveProject.saveProject(SaveProject.java:176)
+	at org.knime.ui.java.api.SaveProject.lambda$0(SaveProject.java:154)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 10:53:00,209 : INFO  : Framework stop - Equinox Container: bd803ce7-e39e-43b0-996f-3139f49d4213 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=26492) from thread 'Framework stop - Equinox Container: bd803ce7-e39e-43b0-996f-3139f49d4213'
+2026-11-10 10:53:00,362 : INFO  : python-gateway-closer-0 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=8076) from thread 'python-gateway-closer-0'
+2026-11-10 10:53:00,363 : INFO  : python-gateway-closer-1 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=4664) from thread 'python-gateway-closer-1'
+2026-11-10 10:53:00,363 : INFO  : python-gateway-closer-2 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=8372) from thread 'python-gateway-closer-2'
+2026-11-10 10:53:00,591 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x0000029d5f3486c0 :  : FileUtil :  :  : Deleting 5 temporary files.
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:53:13,389 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-11-10 10:53:13,394 : INFO  : main :  : NodeLogger :  :  : # D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\knime.log
+2026-11-10 10:53:13,394 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-11-10 10:53:13,404 : INFO  : main :  : NodeLogger :  :  : # logging date=Tue Nov 10 10:53:13 WIB 2026
+2026-11-10 10:53:13,404 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-11-10 10:53:13,404 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-11-10 10:53:13,404 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-11-10 10:53:13,405 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-11-10 10:53:13,405 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-11-10 10:53:13,405 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-11-10 10:53:13,405 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-11-10 10:53:13,409 : INFO  : main :  : NodeLogger :  :  : # host=MSI
+2026-11-10 10:53:13,416 : INFO  : main :  : NodeLogger :  :  : # username=Muhammad Fatih
+2026-11-10 10:53:13,416 : INFO  : main :  : NodeLogger :  :  : # max mem=16272MB
+2026-11-10 10:53:13,416 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-11-10 10:53:13,416 : INFO  : main :  : NodeLogger :  :  : # KNID=11-be4fb7647189ca62-01-c15d63275f1339c9
+2026-11-10 10:53:13,416 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:53:12,861 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-11-10 10:53:13,290 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-11-10 10:53:13,330 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-11-10 10:53:15,070 : INFO  : ForkJoinPool.commonPool-worker-3 :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-11-10 10:53:15,070 : INFO  : ForkJoinPool.commonPool-worker-3 :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-11-10 10:53:16,402 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-11-10 10:53:16,403 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_database_urls.txt' does not exist.
+2026-11-10 10:53:18,370 : INFO  : ForkJoinPool.commonPool-worker-3 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=14444) from thread 'ForkJoinPool.commonPool-worker-3'
+2026-11-10 10:53:20,582 : INFO  : ForkJoinPool.commonPool-worker-3 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=19964) from thread 'ForkJoinPool.commonPool-worker-3'
+2026-11-10 10:53:22,740 : INFO  : main :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=440) from thread 'main'
+2026-11-10 10:53:24,866 : INFO  : main :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=6548) from thread 'main'
+2026-11-10 10:53:25,366 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-11-10 10:53:26,013 : INFO  : Thread-177 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:53:27,355 : INFO  : ModalContext :  : Pivot2NodeFactory : Case10_Garin_Lowry : 3 : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:53:28,632 : WARN  : ModalContext :  : AbstractColumnarContainerTable : Python Script : 3:27 : Creation of hard links not supported, will copy files instead (and suppress further warnings)
+java.nio.file.FileSystemException: C:\Users\MUHAMM~1\AppData\Local\Temp\knime_Case10_Garin_Lo_18453\knime_container_20261110_8195300086380607394.knable -> D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\Initialize Project (#27)\port_1\data.zip: The system cannot move the file to a different disk drive
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createLink(Unknown Source)
+	at java.base/java.nio.file.Files.createLink(Unknown Source)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.hardLinkOrCopy(AbstractColumnarContainerTable.java:317)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.<init>(AbstractColumnarContainerTable.java:141)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader$SavedColumnarContainerTable.<init>(ColumnarContainerTableLoader.java:97)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader.load(ColumnarContainerTableLoader.java:65)
+	at org.knime.core.node.ExtensionTableRegistry.loadExtensionTable(ExtensionTableRegistry.java:134)
+	at org.knime.core.node.ExtensionTable.loadExtensionTable(ExtensionTable.java:318)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:888)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflowManager(DesktopAPUtil.java:171)
+	at org.knime.ui.java.util.CreateProject.lambda$1(CreateProject.java:146)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$10(DesktopAPUtil.java:422)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 10:53:28,765 : INFO  : ModalContext :  : ColumnarPreferenceUtils : Python Script : 3:27 : Column Data Cache size is 6373 MB.
+2026-11-10 10:53:29,236 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-11-10 10:53:29,246 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:53:32,468 : INFO  : pool-19-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=8184) from thread 'pool-19-thread-1'
+2026-11-10 10:53:32,487 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-11-10 10:53:32,515 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:53:34,965 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:53:35,805 : INFO  : pool-23-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=12152) from thread 'pool-23-thread-1'
+2026-11-10 10:53:36,854 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:53:36,869 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:53:36,870 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:53:36,879 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:53:36,880 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:53:36,882 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:53:36,902 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:53:36,903 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:53:36,958 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:53:38,636 : INFO  : pool-27-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=5880) from thread 'pool-27-thread-1'
+2026-11-10 10:53:40,930 : INFO  : pool-31-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=15140) from thread 'pool-31-thread-1'
+2026-11-10 10:53:43,190 : INFO  : pool-35-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=18944) from thread 'pool-35-thread-1'
+2026-11-10 10:53:45,417 : INFO  : pool-39-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=11244) from thread 'pool-39-thread-1'
+2026-11-10 10:53:47,747 : INFO  : pool-43-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=12036) from thread 'pool-43-thread-1'
+2026-11-10 10:53:49,990 : INFO  : pool-47-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=11132) from thread 'pool-47-thread-1'
+2026-11-10 10:53:52,276 : INFO  : pool-51-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=18660) from thread 'pool-51-thread-1'
+2026-11-10 10:53:54,636 : INFO  : pool-55-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=20004) from thread 'pool-55-thread-1'
+2026-11-10 10:53:56,868 : INFO  : pool-59-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=5964) from thread 'pool-59-thread-1'
+2026-11-10 10:53:59,074 : INFO  : pool-63-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=27472) from thread 'pool-63-thread-1'
+2026-11-10 10:54:01,367 : INFO  : pool-67-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=20080) from thread 'pool-67-thread-1'
+2026-11-10 10:54:03,589 : INFO  : pool-71-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=15992) from thread 'pool-71-thread-1'
+2026-11-10 10:54:06,196 : INFO  : pool-75-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=11336) from thread 'pool-75-thread-1'
+2026-11-10 10:54:06,197 : WARN  : ModalContext :  : Node : Road Network Distance Matrix : 3:4 : Execute failed: 'key of type tuple not found and not a MultiIndex'
+2026-11-10 10:54:08,537 : INFO  : pool-79-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=2024) from thread 'pool-79-thread-1'
+2026-11-10 10:54:11,131 : INFO  : pool-83-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=20836) from thread 'pool-83-thread-1'
+2026-11-10 10:54:13,351 : ERROR : KNIME-ConfigurationArea-Checker :  : ConfigurationAreaChecker :  :  : Can't check integrity of configuration area ("C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration"): The process cannot access the file because another process has locked a portion of the file
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.knime.core.internal.ConfigurationAreaChecker.lambda$0(ConfigurationAreaChecker.java:135)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-11-10 10:54:13,547 : INFO  : pool-87-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=17916) from thread 'pool-87-thread-1'
+2026-11-10 10:54:15,870 : INFO  : pool-91-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=12592) from thread 'pool-91-thread-1'
+2026-11-10 10:55:35,298 : INFO  : pool-97-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=27320) from thread 'pool-97-thread-1'
+2026-11-10 10:55:35,303 : INFO  : KNIME-Worker-1-Road Network Distance Matrix 3:4 :  : LocalNodeExecutionJob : Road Network Distance Matrix : 3:4 : Road Network Distance Matrix 3:4 End execute (7 secs)
+2026-11-10 10:55:35,336 : INFO  : KNIME-Worker-2-Joiner 3:5 :  : ColumnarPreferenceUtils : Joiner : 3:5 : Small Table Cache size is 32 MB
+2026-11-10 10:55:35,588 : INFO  : KNIME-Worker-2-Joiner 3:5 :  : LocalNodeExecutionJob : Joiner : 3:5 : Joiner 3:5 End execute (0 secs)
+2026-11-10 10:55:35,647 : INFO  : KNIME-Worker-1-Joiner 3:6 :  : LocalNodeExecutionJob : Joiner : 3:6 : Joiner 3:6 End execute (0 secs)
+2026-11-10 10:55:35,842 : INFO  : KNIME-Worker-2-Math Formula 3:7 :  : LocalNodeExecutionJob : Math Formula : 3:7 : Math Formula 3:7 End execute (0 secs)
+2026-11-10 10:55:36,021 : INFO  : KNIME-Worker-1-Math Formula 3:13 :  : LocalNodeExecutionJob : Math Formula : 3:13 : Math Formula 3:13 End execute (0 secs)
+2026-11-10 10:55:36,021 : INFO  : KNIME-Worker-3-Math Formula 3:8 :  : LocalNodeExecutionJob : Math Formula : 3:8 : Math Formula 3:8 End execute (0 secs)
+2026-11-10 10:55:36,773 : INFO  : KNIME-Worker-2-Pivot 3:14 :  : LocalNodeExecutionJob : Pivot : 3:14 : Pivot 3:14 End execute (0 secs)
+2026-11-10 10:55:36,773 : INFO  : KNIME-Worker-1-Pivot 3:9 :  : LocalNodeExecutionJob : Pivot : 3:9 : Pivot 3:9 End execute (0 secs)
+2026-11-10 10:55:36,895 : INFO  : KNIME-Worker-2-RowID 3:10 :  : LocalNodeExecutionJob : RowID : 3:10 : RowID 3:10 End execute (0 secs)
+2026-11-10 10:55:36,895 : INFO  : KNIME-Worker-3-RowID 3:15 :  : LocalNodeExecutionJob : RowID : 3:15 : RowID 3:15 End execute (0 secs)
+2026-11-10 10:55:37,236 : INFO  : KNIME-Worker-2-Math Formula (Multi Column) 3:16 :  : LocalNodeExecutionJob : Math Formula (Multi Column) : 3:16 : Math Formula (Multi Column) 3:16 End execute (0 secs)
+2026-11-10 10:55:37,237 : INFO  : KNIME-Worker-1-Math Formula (Multi Column) 3:11 :  : LocalNodeExecutionJob : Math Formula (Multi Column) : 3:11 : Math Formula (Multi Column) 3:11 End execute (0 secs)
+2026-11-10 10:55:37,319 : INFO  : KNIME-Worker-3-Table Transposer 3:17 :  : LocalNodeExecutionJob : Table Transposer : 3:17 : Table Transposer 3:17 End execute (0 secs)
+2026-11-10 10:55:37,319 : INFO  : KNIME-Worker-2-Table Transposer 3:12 :  : LocalNodeExecutionJob : Table Transposer : 3:12 : Table Transposer 3:12 End execute (0 secs)
+2026-11-10 10:55:38,078 : INFO  : KNIME-Worker-4-Python Script 3:20 :  : PythonScriptingSession : Python Script : 3:20 : PythonScriptingSession created gateway (hash=3769f07e) on thread 'KNIME-Worker-4-Python Script 3:20'
+2026-11-10 10:55:38,962 : INFO  : pool-107-thread-1 :  : DefaultPythonGateway : Python Script : 3:20 : Closing PythonGateway (PID=18444) from thread 'pool-107-thread-1'
+2026-11-10 10:55:38,962 : INFO  : KNIME-Worker-4-Python Script 3:20 :  : LocalNodeExecutionJob : Python Script : 3:20 : Python Script 3:20 End execute (1 sec)
+2026-11-10 10:55:39,809 : INFO  : KNIME-Worker-1-Python Script 3:18 :  : PythonScriptingSession : Python Script : 3:18 : PythonScriptingSession created gateway (hash=32fc3fb7) on thread 'KNIME-Worker-1-Python Script 3:18'
+2026-11-10 10:55:40,922 : INFO  : pool-117-thread-1 :  : DefaultPythonGateway : Python Script : 3:18 : Closing PythonGateway (PID=24252) from thread 'pool-117-thread-1'
+2026-11-10 10:55:40,924 : INFO  : KNIME-Worker-1-Python Script 3:18 :  : LocalNodeExecutionJob : Python Script : 3:18 : Python Script 3:18 End execute (3 secs)
+2026-11-10 10:55:40,928 : INFO  : KNIME-Worker-3-Python Script 3:21 :  : PythonScriptingSession : Python Script : 3:21 : PythonScriptingSession created gateway (hash=607988d5) on thread 'KNIME-Worker-3-Python Script 3:21'
+2026-11-10 10:55:41,941 : INFO  : python-output-redirector-2 :  : PythonScriptingSession : Python Script : 3:21 : True
+2026-11-10 10:55:41,976 : INFO  : pool-122-thread-1 :  : DefaultPythonGateway : Python Script : 3:21 : Closing PythonGateway (PID=5280) from thread 'pool-122-thread-1'
+2026-11-10 10:55:41,978 : INFO  : KNIME-Worker-3-Python Script 3:21 :  : LocalNodeExecutionJob : Python Script : 3:21 : Python Script 3:21 End execute (1 sec)
+2026-11-10 10:55:41,981 : INFO  : KNIME-Worker-2-Python Script 3:22 :  : PythonScriptingSession : Python Script : 3:22 : PythonScriptingSession created gateway (hash=4308ec88) on thread 'KNIME-Worker-2-Python Script 3:22'
+2026-11-10 10:55:42,717 : INFO  : pool-126-thread-1 :  : DefaultPythonGateway : Python Script : 3:22 : Closing PythonGateway (PID=3564) from thread 'pool-126-thread-1'
+2026-11-10 10:55:42,718 : INFO  : KNIME-Worker-2-Python Script 3:22 :  : LocalNodeExecutionJob : Python Script : 3:22 : Python Script 3:22 End execute (0 secs)
+2026-11-10 10:55:42,751 : INFO  : KNIME-Worker-4-Column Appender 3:24 :  : LocalNodeExecutionJob : Column Appender : 3:24 : Column Appender 3:24 End execute (0 secs)
+2026-11-10 10:55:42,756 : INFO  : KNIME-Worker-1-Python Script 3:29 :  : PythonScriptingSession : Python Script : 3:29 : PythonScriptingSession created gateway (hash=332edf28) on thread 'KNIME-Worker-1-Python Script 3:29'
+2026-11-10 10:55:42,768 : INFO  : KNIME-Worker-3-Row Filter (deprecated) 3:25 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 3:25 : Row Filter (deprecated) 3:25 End execute (0 secs)
+2026-11-10 10:55:43,075 : INFO  : KNIME-Worker-2-Line Plot (Plotly) 3:26 :  : LocalNodeExecutionJob : Line Plot (Plotly) : 3:26 : Line Plot (Plotly) 3:26 End execute (0 secs)
+2026-11-10 10:55:44,775 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:44,775 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:44,775 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:44,775 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:44,775 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:44,775 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:44,979 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:44,979 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:44,979 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:44,979 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:45,080 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:45,080 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:45,181 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:45,181 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:45,282 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:45,282 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:45,282 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:45,282 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:45,383 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:55:45,383 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:55:45,483 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 330 records
+2026-11-10 10:55:46,087 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 : [WARN]D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-11-10 10:55:46,087 : INFO  : python-output-redirector-3 :  : PythonScriptingSession : Python Script : 3:29 :   return np.array(self, dtype=dtype, copy=copy)
+2026-11-10 10:55:46,383 : WARN  : KNIME-Worker-1-Python Script 3:29 :  : PythonScriptNodeModel : Python Script : 3:29 : Traceback (most recent call last):
+  File "<string>", line 32, in <module>
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\main.py", line 15, in run
+    results,summary,histories,matrices=run_scenarios(root,zones,points,roads)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\scenario_analysis.py", line 17, in run_scenarios
+    original_validation=validate_original(points,duration,pop,svc,root)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\validation.py", line 11, in validate_original
+    original_duration=cached.pivot(index='Origin ID',columns='Destination ID',values='Duration').loc[ids,ids].to_numpy()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\frame.py", line 9366, in pivot
+    return pivot(self, index=index, columns=columns, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\reshape\pivot.py", line 557, in pivot
+    multiindex = MultiIndex.from_arrays(index_list)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\indexes\multi.py", line 534, in from_arrays
+    codes, levels = factorize_from_iterables(arrays)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\categorical.py", line 3110, in factorize_from_iterables
+    codes, categories = zip(*(factorize_from_iterable(it) for it in iterables))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\categorical.py", line 3110, in <genexpr>
+    codes, categories = zip(*(factorize_from_iterable(it) for it in iterables))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\categorical.py", line 3083, in factorize_from_iterable
+    cat = Categorical(values, ordered=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\categorical.py", line 460, in __init__
+    codes, categories = factorize(values, sort=True)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\algorithms.py", line 779, in factorize
+    codes, uniques = values.factorize(use_na_sentinel=use_na_sentinel)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py", line 1490, in factorize
+    uniques_ea = self._from_factorized(uniques, self)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_pandas.py", line 539, in _from_factorized
+    raise NotImplementedError(
+2026-11-10 10:55:46,384 : INFO  : KNIME-Worker-1-Python Script 3:29 :  : DefaultPythonGateway : Python Script : 3:29 : Closing PythonGateway (PID=10188) from thread 'KNIME-Worker-1-Python Script 3:29'
+2026-11-10 10:55:46,528 : ERROR : KNIME-Worker-1-Python Script 3:29 :  : Node : Python Script : 3:29 : Execute failed: NotImplementedError: KnimePandasExtensionArray cannot be created from factorized yet.
+org.knime.core.node.KNIMEException: Execute failed: NotImplementedError: KnimePandasExtensionArray cannot be created from factorized yet.
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-11-10 10:57:10,471 : ERROR : Thread-2016 :  : KnimeBrowserView :  :  : Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-Explain-Workflow.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+2026-11-10 10:57:28,350 : ERROR : Thread-2062 :  : KnimeBrowserView :  :  : Uncaught TypeError: Cannot read properties of null (reading 'projectId') (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 46)
+2026-11-10 10:57:41,820 : INFO  : pool-136-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=20900) from thread 'pool-136-thread-1'
+2026-11-10 10:57:43,494 : INFO  : pool-140-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=27624) from thread 'pool-140-thread-1'
+2026-11-10 10:57:45,316 : INFO  : pool-144-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=3276) from thread 'pool-144-thread-1'
+2026-11-10 10:57:47,079 : INFO  : pool-148-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=15992) from thread 'pool-148-thread-1'
+2026-11-10 10:57:48,761 : INFO  : pool-152-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=24504) from thread 'pool-152-thread-1'
+2026-11-10 10:57:50,427 : INFO  : pool-156-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=20344) from thread 'pool-156-thread-1'
+2026-11-10 10:57:52,134 : INFO  : pool-160-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=17156) from thread 'pool-160-thread-1'
+2026-11-10 10:57:53,928 : INFO  : pool-164-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=8968) from thread 'pool-164-thread-1'
+2026-11-10 10:57:55,615 : INFO  : pool-168-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=1284) from thread 'pool-168-thread-1'
+2026-11-10 10:57:57,338 : INFO  : pool-172-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=16332) from thread 'pool-172-thread-1'
+2026-11-10 10:57:59,021 : INFO  : pool-176-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=18144) from thread 'pool-176-thread-1'
+2026-11-10 10:58:00,711 : INFO  : pool-180-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=27640) from thread 'pool-180-thread-1'
+2026-11-10 10:58:02,405 : INFO  : pool-184-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=5460) from thread 'pool-184-thread-1'
+2026-11-10 10:58:04,089 : INFO  : pool-188-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=26032) from thread 'pool-188-thread-1'
+2026-11-10 10:58:05,766 : INFO  : pool-192-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=5820) from thread 'pool-192-thread-1'
+2026-11-10 10:58:06,591 : WARN  : ModalContext :  : Node : Python Script : 3:29 : Execute failed: NotImplementedError: KnimePandasExtensionArray cannot be created from factorized yet.
+2026-11-10 10:58:08,343 : INFO  : pool-196-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=20420) from thread 'pool-196-thread-1'
+2026-11-10 10:58:10,015 : INFO  : pool-200-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=17040) from thread 'pool-200-thread-1'
+2026-11-10 10:58:11,679 : INFO  : pool-204-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=9344) from thread 'pool-204-thread-1'
+2026-11-10 10:58:11,940 : ERROR : Thread-2227 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:58:11,940 : ERROR : Thread-2229 :  : KnimeBrowserView :  :  : Uncaught (in promise) AbortError: The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22 (source: https://org.knime.ui.java/editor/index.html#/workflow/Case10_Garin_Lowry_74ffddcb-58eb-4656-9434-a861584d2dd8/root?version; line: 0)
+2026-11-10 10:58:36,027 : INFO  : KNIME-Worker-5-Python Script 3:29 :  : PythonScriptingSession : Python Script : 3:29 : PythonScriptingSession created gateway (hash=6d385114) on thread 'KNIME-Worker-5-Python Script 3:29'
+2026-11-10 10:58:38,655 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:58:38,756 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:58:38,856 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 330 records
+2026-11-10 10:58:42,398 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 330 records
+2026-11-10 10:58:42,499 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:58:42,499 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:58:42,499 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:58:42,601 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:58:42,601 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:58:42,702 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:58:42,702 : INFO  : python-output-redirector-7 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 10:58:50,890 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:29 : {"native_baseline_verified": true, "rows": 136, "od_pairs": 18496, "population_max_error": 3.552713678800501e-15, "service_max_error": 1.1102230246251565e-15}
+2026-11-10 10:58:50,890 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:29 :          scenario  population_total  service_total
+2026-11-10 10:58:50,890 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:29 :  baseline_uniform         499.99992     149.999976
+2026-11-10 10:58:50,890 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:29 :    cbd_employment         499.99992     149.999976
+2026-11-10 10:58:50,890 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:29 :      low_friction         499.99992     149.999976
+2026-11-10 10:58:50,890 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:29 :     high_friction         499.99992     149.999976
+2026-11-10 10:58:50,890 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:29 :           beltway         499.99992     149.999976
+2026-11-10 10:58:50,890 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:29 : cbd_high_friction         499.99992     149.999976
+2026-11-10 10:58:50,890 : INFO  : python-output-redirector-6 :  : PythonScriptingSession : Python Script : 3:29 :       cbd_beltway         499.99992     149.999976
+2026-11-10 10:58:51,051 : INFO  : pool-209-thread-1 :  : DefaultPythonGateway : Python Script : 3:29 : Closing PythonGateway (PID=19964) from thread 'pool-209-thread-1'
+2026-11-10 10:58:51,052 : INFO  : KNIME-Worker-5-Python Script 3:29 :  : LocalNodeExecutionJob : Python Script : 3:29 : Python Script 3:29 End execute (15 secs)
+2026-11-10 10:58:53,421 : INFO  : pool-215-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=23420) from thread 'pool-215-thread-1'
+2026-11-10 10:58:53,643 : INFO  : KNIME-Worker-7-Joiner 3:30 :  : LocalNodeExecutionJob : Joiner : 3:30 : Joiner 3:30 End execute (0 secs)
+2026-11-10 10:58:55,860 : INFO  : pool-219-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=14008) from thread 'pool-219-thread-1'
+2026-11-10 10:58:55,904 : INFO  : KNIME-Worker-8-Row Filter (deprecated) 3:31 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 3:31 : Row Filter (deprecated) 3:31 End execute (0 secs)
+2026-11-10 10:58:58,068 : INFO  : pool-223-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=21760) from thread 'pool-223-thread-1'
+2026-11-10 10:59:07,432 : INFO  : KNIME-Worker-6-Geospatial View 3:32 :  : LocalNodeExecutionJob : Geospatial View : 3:32 : Geospatial View 3:32 End execute (9 secs)
+2026-11-10 10:59:07,432 : INFO  : pool-227-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=23096) from thread 'pool-227-thread-1'
+2026-11-10 10:59:54,280 : INFO  : main :  : KNIMECorePlugin :  :  : Setting console view log level to WARN
+2026-11-10 10:59:57,704 : INFO  : Worker-1: Workflow Coach loader :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=19516) from thread 'Worker-1: Workflow Coach loader'
+2026-11-10 10:59:59,810 : INFO  : Worker-1: Workflow Coach loader :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=9976) from thread 'Worker-1: Workflow Coach loader'
+2026-11-10 11:00:00,537 : INFO  : Worker-1: Workflow Coach loader :  : StringHistory : File Reader (deprecated) : 2:4:4 : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\.metadata\knime\history_ASCIIfile.txt' does not exist.
+2026-11-10 11:00:01,310 : INFO  : Worker-1: Workflow Coach loader :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.core.ui.workflowcoach.data.PrefsTripleProvider>
+2026-11-10 11:00:01,310 : INFO  : Worker-1: Workflow Coach loader :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.data.CommunityTripleProvider>
+2026-11-10 11:00:01,310 : INFO  : Worker-1: Workflow Coach loader :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.local.data.WorkspaceTripleProvider>
+2026-11-10 11:01:37,261 : INFO  : python-gateway-closer-0 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=20488) from thread 'python-gateway-closer-0'
+2026-11-10 11:03:37,266 : INFO  : python-gateway-closer-0 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=27364) from thread 'python-gateway-closer-0'
+2026-11-10 11:04:31,241 : INFO  : pool-236-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=12740) from thread 'pool-236-thread-1'
+2026-11-10 11:04:32,907 : INFO  : pool-240-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=13264) from thread 'pool-240-thread-1'
+2026-11-10 11:04:34,573 : INFO  : pool-244-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=20732) from thread 'pool-244-thread-1'
+2026-11-10 11:04:36,255 : INFO  : pool-248-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=3348) from thread 'pool-248-thread-1'
+2026-11-10 11:04:37,937 : INFO  : pool-252-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=20988) from thread 'pool-252-thread-1'
+2026-11-10 11:04:39,594 : INFO  : pool-256-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=4768) from thread 'pool-256-thread-1'
+2026-11-10 11:04:41,273 : INFO  : pool-260-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=26620) from thread 'pool-260-thread-1'
+2026-11-10 11:04:42,978 : INFO  : pool-264-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=18784) from thread 'pool-264-thread-1'
+2026-11-10 11:04:44,738 : INFO  : pool-268-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=6900) from thread 'pool-268-thread-1'
+2026-11-10 11:04:46,474 : INFO  : pool-272-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=2496) from thread 'pool-272-thread-1'
+2026-11-10 11:04:48,155 : INFO  : pool-276-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=26944) from thread 'pool-276-thread-1'
+2026-11-10 11:04:49,798 : INFO  : pool-280-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=17316) from thread 'pool-280-thread-1'
+2026-11-10 11:04:51,542 : INFO  : pool-284-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=10180) from thread 'pool-284-thread-1'
+2026-11-10 11:04:53,203 : INFO  : pool-288-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=3864) from thread 'pool-288-thread-1'
+2026-11-10 11:04:54,939 : INFO  : pool-292-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=9736) from thread 'pool-292-thread-1'
+2026-11-10 11:04:57,370 : INFO  : pool-296-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=17732) from thread 'pool-296-thread-1'
+2026-11-10 11:04:59,143 : INFO  : pool-300-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=22532) from thread 'pool-300-thread-1'
+2026-11-10 11:05:00,839 : INFO  : pool-304-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=23736) from thread 'pool-304-thread-1'
+2026-11-10 11:05:01,905 : ERROR : main :  : NodeMigrationRuleRegistry :  :  : Plug-in org.knime.database.nodes was unable to load class org.knime.database.node.utility.tablecreator3.DBTableCreate3NodeMigrationRule.
+org.eclipse.core.runtime.CoreException: Plug-in org.knime.database.nodes was unable to load class org.knime.database.node.utility.tablecreator3.DBTableCreate3NodeMigrationRule.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:245)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:228)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:1034)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:286)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.knime.workflow.migration.NodeMigrationRuleRegistry.<init>(NodeMigrationRuleRegistry.java:107)
+	at org.knime.workflow.migration.NodeMigrationRuleRegistry.<clinit>(NodeMigrationRuleRegistry.java:76)
+	at org.knime.workflow.migration.WorkflowMigrationManager.hasMatchingRule(WorkflowMigrationManager.java:793)
+	at org.knime.workflow.migration.MigrationWorkflowEditorEventListener.workflowLoaded(MigrationWorkflowEditorEventListener.java:102)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.lambda$6(LoadWorkflowRunnable.java:243)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:212)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1403)
+Caused by: java.lang.ClassNotFoundException: org.knime.database.node.utility.tablecreator3.DBTableCreate3NodeMigrationRule cannot be found by org.knime.database.nodes_5.12.0.v202606171318
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:567)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:562)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:652)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:226)
+	... 32 more
+2026-11-10 11:05:33,465 : INFO  : pool-308-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=7240) from thread 'pool-308-thread-1'
+2026-11-10 11:05:35,103 : INFO  : pool-312-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=18148) from thread 'pool-312-thread-1'
+2026-11-10 11:05:36,774 : INFO  : pool-316-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=2708) from thread 'pool-316-thread-1'
+2026-11-10 11:05:38,660 : INFO  : pool-320-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=9904) from thread 'pool-320-thread-1'
+2026-11-10 11:05:40,623 : INFO  : pool-324-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=15684) from thread 'pool-324-thread-1'
+2026-11-10 11:05:42,303 : INFO  : pool-328-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=3308) from thread 'pool-328-thread-1'
+2026-11-10 11:05:43,967 : INFO  : pool-332-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=13604) from thread 'pool-332-thread-1'
+2026-11-10 11:05:45,643 : INFO  : pool-336-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=20068) from thread 'pool-336-thread-1'
+2026-11-10 11:05:45,941 : WARN  : main :  : Node : GeoFile Reader : 3:28 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+2026-11-10 11:05:45,941 : WARN  : main :  : Node : GeoFile Reader : 3:2 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+2026-11-10 11:05:45,941 : WARN  : main :  : Node : GeoFile Reader : 3:1 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+2026-11-10 11:05:46,800 : INFO  : KNIME-Worker-10-Python Script 3:27 :  : PythonScriptingSession : Python Script : 3:27 : PythonScriptingSession created gateway (hash=881e6b1) on thread 'KNIME-Worker-10-Python Script 3:27'
+2026-11-10 11:05:48,163 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:27 : INFO:pyogrio._io:Created 330 records
+2026-11-10 11:05:48,267 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:27 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:05:48,305 : INFO  : pool-343-thread-1 :  : DefaultPythonGateway : Python Script : 3:27 : Closing PythonGateway (PID=19704) from thread 'pool-343-thread-1'
+2026-11-10 11:05:48,307 : INFO  : KNIME-Worker-10-Python Script 3:27 :  : LocalNodeExecutionJob : Python Script : 3:27 : Python Script 3:27 End execute (2 secs)
+2026-11-10 11:05:49,963 : INFO  : pool-347-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=25120) from thread 'pool-347-thread-1'
+2026-11-10 11:05:51,621 : INFO  : pool-351-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=27352) from thread 'pool-351-thread-1'
+2026-11-10 11:05:53,273 : INFO  : pool-355-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=27404) from thread 'pool-355-thread-1'
+2026-11-10 11:05:54,967 : INFO  : pool-359-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=21428) from thread 'pool-359-thread-1'
+2026-11-10 11:05:56,641 : INFO  : pool-363-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=5368) from thread 'pool-363-thread-1'
+2026-11-10 11:05:58,272 : INFO  : pool-367-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=27168) from thread 'pool-367-thread-1'
+2026-11-10 11:05:59,939 : INFO  : pool-371-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=26512) from thread 'pool-371-thread-1'
+2026-11-10 11:06:01,605 : INFO  : pool-375-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=6504) from thread 'pool-375-thread-1'
+2026-11-10 11:06:03,267 : INFO  : pool-379-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=22716) from thread 'pool-379-thread-1'
+2026-11-10 11:06:04,931 : INFO  : pool-383-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=22976) from thread 'pool-383-thread-1'
+2026-11-10 11:06:06,601 : INFO  : pool-387-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=812) from thread 'pool-387-thread-1'
+2026-11-10 11:06:08,270 : INFO  : pool-391-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=26860) from thread 'pool-391-thread-1'
+2026-11-10 11:06:10,392 : INFO  : KNIME-Worker-12-GeoFile Reader 3:28 :  : LocalNodeExecutionJob : GeoFile Reader : 3:28 : GeoFile Reader 3:28 End execute (2 secs)
+2026-11-10 11:06:10,393 : INFO  : pool-400-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=21532) from thread 'pool-400-thread-1'
+2026-11-10 11:06:11,298 : INFO  : KNIME-Worker-11-GeoFile Reader 3:1 :  : LocalNodeExecutionJob : GeoFile Reader : 3:1 : GeoFile Reader 3:1 End execute (3 secs)
+2026-11-10 11:06:11,298 : INFO  : pool-405-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=16300) from thread 'pool-405-thread-1'
+2026-11-10 11:06:11,300 : INFO  : KNIME-Worker-12-Column Filter 3:23 :  : LocalNodeExecutionJob : Column Filter : 3:23 : Column Filter 3:23 End execute (0 secs)
+2026-11-10 11:06:11,300 : INFO  : KNIME-Worker-10-Column Filter 3:19 :  : LocalNodeExecutionJob : Column Filter : 3:19 : Column Filter 3:19 End execute (0 secs)
+2026-11-10 11:06:12,172 : INFO  : KNIME-Worker-9-GeoFile Reader 3:2 :  : LocalNodeExecutionJob : GeoFile Reader : 3:2 : GeoFile Reader 3:2 End execute (3 secs)
+2026-11-10 11:06:12,172 : INFO  : pool-409-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=20440) from thread 'pool-409-thread-1'
+2026-11-10 11:06:13,839 : INFO  : pool-413-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=25432) from thread 'pool-413-thread-1'
+2026-11-10 11:06:15,597 : INFO  : pool-417-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=11260) from thread 'pool-417-thread-1'
+2026-11-10 11:06:22,456 : INFO  : KNIME-Worker-12-Road Network Distance Matrix 3:4 :  : LocalNodeExecutionJob : Road Network Distance Matrix : 3:4 : Road Network Distance Matrix 3:4 End execute (6 secs)
+2026-11-10 11:06:22,456 : INFO  : pool-426-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=17628) from thread 'pool-426-thread-1'
+2026-11-10 11:06:22,504 : INFO  : KNIME-Worker-10-Joiner 3:5 :  : LocalNodeExecutionJob : Joiner : 3:5 : Joiner 3:5 End execute (0 secs)
+2026-11-10 11:06:22,538 : INFO  : KNIME-Worker-9-Joiner 3:6 :  : LocalNodeExecutionJob : Joiner : 3:6 : Joiner 3:6 End execute (0 secs)
+2026-11-10 11:06:22,633 : INFO  : KNIME-Worker-12-Math Formula 3:7 :  : LocalNodeExecutionJob : Math Formula : 3:7 : Math Formula 3:7 End execute (0 secs)
+2026-11-10 11:06:22,686 : INFO  : KNIME-Worker-10-Math Formula 3:13 :  : LocalNodeExecutionJob : Math Formula : 3:13 : Math Formula 3:13 End execute (0 secs)
+2026-11-10 11:06:22,692 : INFO  : KNIME-Worker-9-Math Formula 3:8 :  : LocalNodeExecutionJob : Math Formula : 3:8 : Math Formula 3:8 End execute (0 secs)
+2026-11-10 11:06:23,164 : INFO  : KNIME-Worker-10-Pivot 3:9 :  : LocalNodeExecutionJob : Pivot : 3:9 : Pivot 3:9 End execute (0 secs)
+2026-11-10 11:06:23,166 : INFO  : KNIME-Worker-12-Pivot 3:14 :  : LocalNodeExecutionJob : Pivot : 3:14 : Pivot 3:14 End execute (0 secs)
+2026-11-10 11:06:23,205 : INFO  : KNIME-Worker-10-RowID 3:15 :  : LocalNodeExecutionJob : RowID : 3:15 : RowID 3:15 End execute (0 secs)
+2026-11-10 11:06:23,205 : INFO  : KNIME-Worker-9-RowID 3:10 :  : LocalNodeExecutionJob : RowID : 3:10 : RowID 3:10 End execute (0 secs)
+2026-11-10 11:06:23,393 : INFO  : KNIME-Worker-12-Math Formula (Multi Column) 3:16 :  : LocalNodeExecutionJob : Math Formula (Multi Column) : 3:16 : Math Formula (Multi Column) 3:16 End execute (0 secs)
+2026-11-10 11:06:23,394 : INFO  : KNIME-Worker-10-Math Formula (Multi Column) 3:11 :  : LocalNodeExecutionJob : Math Formula (Multi Column) : 3:11 : Math Formula (Multi Column) 3:11 End execute (0 secs)
+2026-11-10 11:06:23,395 : INFO  : KNIME-Worker-13-Python Script 3:20 :  : PythonScriptingSession : Python Script : 3:20 : PythonScriptingSession created gateway (hash=5c2f2674) on thread 'KNIME-Worker-13-Python Script 3:20'
+2026-11-10 11:06:23,441 : INFO  : KNIME-Worker-9-Table Transposer 3:17 :  : LocalNodeExecutionJob : Table Transposer : 3:17 : Table Transposer 3:17 End execute (0 secs)
+2026-11-10 11:06:23,443 : INFO  : KNIME-Worker-12-Table Transposer 3:12 :  : LocalNodeExecutionJob : Table Transposer : 3:12 : Table Transposer 3:12 End execute (0 secs)
+2026-11-10 11:06:24,193 : INFO  : pool-430-thread-1 :  : DefaultPythonGateway : Python Script : 3:20 : Closing PythonGateway (PID=12888) from thread 'pool-430-thread-1'
+2026-11-10 11:06:24,194 : INFO  : KNIME-Worker-13-Python Script 3:20 :  : LocalNodeExecutionJob : Python Script : 3:20 : Python Script 3:20 End execute (0 secs)
+2026-11-10 11:06:24,396 : INFO  : KNIME-Worker-11-Geospatial View 3:3 :  : LocalNodeExecutionJob : Geospatial View : 3:3 : Geospatial View 3:3 End execute (8 secs)
+2026-11-10 11:06:24,396 : INFO  : pool-435-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=20768) from thread 'pool-435-thread-1'
+2026-11-10 11:06:25,600 : INFO  : KNIME-Worker-10-Python Script 3:18 :  : PythonScriptingSession : Python Script : 3:18 : PythonScriptingSession created gateway (hash=6b124ca4) on thread 'KNIME-Worker-10-Python Script 3:18'
+2026-11-10 11:06:26,392 : INFO  : pool-441-thread-1 :  : DefaultPythonGateway : Python Script : 3:18 : Closing PythonGateway (PID=13316) from thread 'pool-441-thread-1'
+2026-11-10 11:06:26,393 : INFO  : KNIME-Worker-10-Python Script 3:18 :  : LocalNodeExecutionJob : Python Script : 3:18 : Python Script 3:18 End execute (2 secs)
+2026-11-10 11:06:26,395 : INFO  : KNIME-Worker-9-Python Script 3:21 :  : PythonScriptingSession : Python Script : 3:21 : PythonScriptingSession created gateway (hash=28f773d5) on thread 'KNIME-Worker-9-Python Script 3:21'
+2026-11-10 11:06:27,225 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:21 : True
+2026-11-10 11:06:27,294 : INFO  : pool-446-thread-1 :  : DefaultPythonGateway : Python Script : 3:21 : Closing PythonGateway (PID=14136) from thread 'pool-446-thread-1'
+2026-11-10 11:06:27,294 : INFO  : KNIME-Worker-9-Python Script 3:21 :  : LocalNodeExecutionJob : Python Script : 3:21 : Python Script 3:21 End execute (0 secs)
+2026-11-10 11:06:27,301 : INFO  : KNIME-Worker-11-Python Script 3:22 :  : PythonScriptingSession : Python Script : 3:22 : PythonScriptingSession created gateway (hash=5fd4abb4) on thread 'KNIME-Worker-11-Python Script 3:22'
+2026-11-10 11:06:27,975 : INFO  : pool-450-thread-1 :  : DefaultPythonGateway : Python Script : 3:22 : Closing PythonGateway (PID=13944) from thread 'pool-450-thread-1'
+2026-11-10 11:06:27,975 : INFO  : KNIME-Worker-11-Python Script 3:22 :  : LocalNodeExecutionJob : Python Script : 3:22 : Python Script 3:22 End execute (0 secs)
+2026-11-10 11:06:27,989 : INFO  : KNIME-Worker-10-Column Appender 3:24 :  : LocalNodeExecutionJob : Column Appender : 3:24 : Column Appender 3:24 End execute (0 secs)
+2026-11-10 11:06:27,992 : INFO  : KNIME-Worker-9-Python Script 3:29 :  : PythonScriptingSession : Python Script : 3:29 : PythonScriptingSession created gateway (hash=2b0605c0) on thread 'KNIME-Worker-9-Python Script 3:29'
+2026-11-10 11:06:28,000 : INFO  : KNIME-Worker-13-Row Filter (deprecated) 3:25 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 3:25 : Row Filter (deprecated) 3:25 End execute (0 secs)
+2026-11-10 11:06:28,016 : INFO  : KNIME-Worker-12-Line Plot (Plotly) 3:26 :  : LocalNodeExecutionJob : Line Plot (Plotly) : 3:26 : Line Plot (Plotly) 3:26 End execute (0 secs)
+2026-11-10 11:06:30,197 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:06:30,301 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:06:30,405 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 330 records
+2026-11-10 11:06:33,356 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 330 records
+2026-11-10 11:06:33,564 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:06:33,668 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:06:33,772 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:06:33,885 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:06:33,990 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:06:34,099 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:06:34,203 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:06:40,708 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 : {"native_baseline_verified": true, "rows": 136, "od_pairs": 18496, "population_max_error": 3.552713678800501e-15, "service_max_error": 1.1102230246251565e-15}
+2026-11-10 11:06:40,708 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :          scenario  population_total  service_total
+2026-11-10 11:06:40,708 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :  baseline_uniform         499.99992     149.999976
+2026-11-10 11:06:40,708 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :    cbd_employment         499.99992     149.999976
+2026-11-10 11:06:40,708 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :      low_friction         499.99992     149.999976
+2026-11-10 11:06:40,708 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :     high_friction         499.99992     149.999976
+2026-11-10 11:06:40,708 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :           beltway         499.99992     149.999976
+2026-11-10 11:06:40,708 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 : cbd_high_friction         499.99992     149.999976
+2026-11-10 11:06:40,708 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :       cbd_beltway         499.99992     149.999976
+2026-11-10 11:06:40,831 : INFO  : pool-457-thread-1 :  : DefaultPythonGateway : Python Script : 3:29 : Closing PythonGateway (PID=14728) from thread 'pool-457-thread-1'
+2026-11-10 11:06:40,832 : INFO  : KNIME-Worker-9-Python Script 3:29 :  : LocalNodeExecutionJob : Python Script : 3:29 : Python Script 3:29 End execute (12 secs)
+2026-11-10 11:06:42,534 : INFO  : pool-463-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=26644) from thread 'pool-463-thread-1'
+2026-11-10 11:06:42,633 : INFO  : KNIME-Worker-10-Joiner 3:30 :  : LocalNodeExecutionJob : Joiner : 3:30 : Joiner 3:30 End execute (0 secs)
+2026-11-10 11:06:44,484 : INFO  : pool-467-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=18528) from thread 'pool-467-thread-1'
+2026-11-10 11:06:44,513 : INFO  : KNIME-Worker-13-Row Filter (deprecated) 3:31 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 3:31 : Row Filter (deprecated) 3:31 End execute (0 secs)
+2026-11-10 11:06:46,164 : INFO  : pool-471-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=26800) from thread 'pool-471-thread-1'
+2026-11-10 11:06:53,241 : INFO  : KNIME-Worker-12-Geospatial View 3:32 :  : LocalNodeExecutionJob : Geospatial View : 3:32 : Geospatial View 3:32 End execute (7 secs)
+2026-11-10 11:06:53,256 : INFO  : pool-475-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=3936) from thread 'pool-475-thread-1'

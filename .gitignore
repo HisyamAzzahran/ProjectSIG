@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.knimeLock
+knime/validation_workspace/
+knime/report_workspace/
+knime/workflow/
+knime/extended_workflow/
+knime/setup/geospatial_compat.yml
+outputs/reports/preview/
+outputs/reports/Paket_Laporan_dan_Hasil_Garin_Lowry.zip
+docs/original_case10_method.txt
+Implementasi Model Garin-Lowry pada Kota Hipotetis Menggunakan KNIME Analytics P.docx
+.env
+.env.*
+*.pem
+*.key
+knime/batch_workspace/

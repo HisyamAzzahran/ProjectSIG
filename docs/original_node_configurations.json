@@ -1,0 +1,2688 @@
+{
+  "Column Appender (#24)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "selected_rowid_mode_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "selected_rowid_mode": "IDENTICAL",
+      "selected_rowid_table": "0",
+      "selected_rowid_table_number": "-1"
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory",
+    "node-name": "Column Appender",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "node_creation_config": {
+      "input": {
+        "port_0": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        }
+      },
+      "Appended columns": {}
+    },
+    "name": "Column Appender",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 3",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Column Filter (#19)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "column-filter": {
+        "filter-type": "STANDARD",
+        "included_names": {
+          "array-size": "1",
+          "0": "BEMP_Unif"
+        },
+        "excluded_names": {
+          "array-size": "14",
+          "0": "AREA",
+          "1": "PERIMETER",
+          "2": "TRACT0_ID",
+          "3": "BEMP_CBD",
+          "4": "POP_CBD",
+          "5": "POP_Unif",
+          "6": "POP_A2B2",
+          "7": "POP_Belt",
+          "8": "SEMP_CBD",
+          "9": "SEMP_Unif",
+          "10": "SEMP_A2B2",
+          "11": "SEMP_Belt",
+          "12": "ORIG_FID",
+          "13": "geometry"
+        },
+        "enforce_option": "EnforceExclusion",
+        "name_pattern": {
+          "pattern": "",
+          "type": "Wildcard",
+          "caseSensitive": "true",
+          "excludeMatching": "false"
+        },
+        "datatype": {
+          "typelist": {
+            "org.knime.core.data.DoubleValue": "false",
+            "org.knime.core.data.LongValue": "false",
+            "org.knime.geospatial.core.data.GeoPointValue": "false",
+            "org.knime.core.data.BooleanValue": "false",
+            "org.knime.core.data.IntValue": "false",
+            "org.knime.core.data.StringValue": "false",
+            "org.knime.core.data.date.DateAndTimeValue": "false"
+          }
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+    "node-name": "Column Filter",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "5.1.0.v202303300812",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "5.1.0.v202303300812",
+    "factory_settings": {},
+    "name": "Column Filter",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 1",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Column Filter (#23)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "column-filter": {
+        "filter-type": "STANDARD",
+        "included_names": {
+          "array-size": "1",
+          "0": "TRACT0_ID"
+        },
+        "excluded_names": {
+          "array-size": "14",
+          "0": "AREA",
+          "1": "PERIMETER",
+          "2": "BEMP_Unif",
+          "3": "BEMP_CBD",
+          "4": "POP_CBD",
+          "5": "POP_Unif",
+          "6": "POP_A2B2",
+          "7": "POP_Belt",
+          "8": "SEMP_CBD",
+          "9": "SEMP_Unif",
+          "10": "SEMP_A2B2",
+          "11": "SEMP_Belt",
+          "12": "ORIG_FID",
+          "13": "geometry"
+        },
+        "enforce_option": "EnforceExclusion",
+        "name_pattern": {
+          "pattern": "",
+          "type": "Wildcard",
+          "caseSensitive": "true",
+          "excludeMatching": "false"
+        },
+        "datatype": {
+          "typelist": {
+            "org.knime.core.data.DoubleValue": "false",
+            "org.knime.core.data.LongValue": "false",
+            "org.knime.geospatial.core.data.GeoPointValue": "false",
+            "org.knime.core.data.BooleanValue": "false",
+            "org.knime.core.data.IntValue": "false",
+            "org.knime.core.data.StringValue": "false",
+            "org.knime.core.data.date.DateAndTimeValue": "false"
+          }
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+    "node-name": "Column Filter",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "5.1.0.v202303300812",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "5.1.0.v202303300812",
+    "factory_settings": {},
+    "name": "Column Filter",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 1",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "GeoFile Reader (#1)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "json-type_Internals": "OBJECT",
+      "data_url": "E:\\KNIME\\CMGISV3\\Chp10\\data\\trtpt.zip",
+      "extension_version_Internals": "1.1.0"
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory",
+    "node-name": "GeoFile Reader",
+    "node-bundle-name": "KNIME Python 3 - Nodes",
+    "node-bundle-symbolic-name": "org.knime.python3.nodes",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "5.1.0.v202303300951",
+    "node-feature-name": "KNIME Python Extension Development (Labs)",
+    "node-feature-symbolic-name": "org.knime.features.python3.nodes.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "5.1.0.v202303300951",
+    "factory_settings": {
+      "extension_id": "sdl.harvard.geospatial",
+      "node_id": "GeoFileReaderNode"
+    },
+    "name": "GeoFile Reader",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 15",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "GeoFile Reader (#2)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "json-type_Internals": "OBJECT",
+      "data_url": "E:\\KNIME\\CMGISV3\\Chp10\\data\\simroad.shp",
+      "extension_version_Internals": "1.1.0"
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory",
+    "node-name": "GeoFile Reader",
+    "node-bundle-name": "KNIME Python 3 - Nodes",
+    "node-bundle-symbolic-name": "org.knime.python3.nodes",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "5.1.0.v202303300951",
+    "node-feature-name": "KNIME Python Extension Development (Labs)",
+    "node-feature-symbolic-name": "org.knime.features.python3.nodes.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "5.1.0.v202303300951",
+    "factory_settings": {
+      "extension_id": "sdl.harvard.geospatial",
+      "node_id": "GeoFileReaderNode"
+    },
+    "name": "GeoFile Reader",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 330, Cols: 11",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Geospatial View (#3)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "json-type_Internals": "OBJECT",
+      "geo_col": "geometry",
+      "stroke": "true",
+      "name_cols": {
+        "json-type_Internals": "STRING_ARRAY",
+        "array-size": "0",
+        "null_Internals": "false"
+      },
+      "popup_cols": {
+        "json-type_Internals": "STRING_ARRAY",
+        "array-size": "0",
+        "null_Internals": "false"
+      },
+      "size_settings": {
+        "json-type_Internals": "OBJECT",
+        "size_col": "<none>",
+        "size_scale": "1.0"
+      },
+      "color_settings": {
+        "json-type_Internals": "OBJECT",
+        "color_col": "speed1",
+        "color_map": "viridis",
+        "use_classify": "false",
+        "classification_method": "EqualInterval",
+        "classification_bins": "5"
+      },
+      "basemap_setting": {
+        "json-type_Internals": "OBJECT",
+        "base_map": "OpenStreetMap"
+      },
+      "legend_settings": {
+        "json-type_Internals": "OBJECT",
+        "plot": "false",
+        "caption": ""
+      },
+      "extension_version_Internals": "1.1.0"
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory",
+    "node-name": "Geospatial View",
+    "node-bundle-name": "Geospatial Analytics Extension for KNIME",
+    "node-bundle-symbolic-name": "sdl.harvard.geospatial",
+    "node-bundle-vendor": "SDL, Harvard, Cambridge US",
+    "node-bundle-version": "1.1.1.202307190156",
+    "node-feature-name": "Geospatial Analytics Extension for KNIME",
+    "node-feature-symbolic-name": "sdl.harvard.features.geospatial.feature.group",
+    "node-feature-vendor": "SDL, Harvard, Cambridge US",
+    "node-feature-version": "1.1.1.202307190156",
+    "factory_settings": {
+      "extension_id": "sdl.harvard.geospatial",
+      "node_id": "ViewNode"
+    },
+    "name": "Geospatial View",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {},
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": "56e51b10-16e0-4133-be80-889728cecfcc"
+    }
+  },
+  "Joiner (#5)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "includeMatchesInOutput_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "includeMatchesInOutput": "true",
+      "includeLeftUnmatchedInOutput_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "includeLeftUnmatchedInOutput": "false",
+      "includeRightUnmatchedInOutput_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "includeRightUnmatchedInOutput": "false",
+      "leftTableJoinPredicate_Internals": {
+        "SettingsModelID": "SMID_stringarray",
+        "EnabledStatus": "true"
+      },
+      "leftTableJoinPredicate": {
+        "array-size": "1",
+        "0": "Origin ID"
+      },
+      "rightTableJoinPredicate_Internals": {
+        "SettingsModelID": "SMID_stringarray",
+        "EnabledStatus": "true"
+      },
+      "rightTableJoinPredicate": {
+        "array-size": "1",
+        "0": "ORIG_FID"
+      },
+      "compositionMode_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "compositionMode": "MATCH_ALL",
+      "mergeJoinColumns_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "mergeJoinColumns": "false",
+      "dataCellComparisonMode_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "dataCellComparisonMode": "STRICT",
+      "outputUnmatchedRowsToSeparatePorts_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "outputUnmatchedRowsToSeparatePorts": "false",
+      "rowKeyFactory_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "rowKeyFactory": "CONCATENATE",
+      "rowKeySeparator_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "rowKeySeparator": "_",
+      "duplicateHandling_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "duplicateHandling": "APPEND_SUFFIX",
+      "suffix_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "suffix": " (right)",
+      "outputRowOrder_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "outputRowOrder": "ARBITRARY",
+      "maxOpenFiles_Internals": {
+        "SettingsModelID": "SMID_integer",
+        "EnabledStatus": "true"
+      },
+      "maxOpenFiles": "200",
+      "enableHiliting_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableHiliting": "false",
+      "leftColumnSelectionConfig": {
+        "filter-type": "STANDARD",
+        "included_names": {
+          "array-size": "6",
+          "0": "Origin ID",
+          "1": "Destination ID",
+          "2": "duration",
+          "3": "distance",
+          "4": "Origin snap distance",
+          "5": "Destination snap distance"
+        },
+        "excluded_names": {
+          "array-size": "0"
+        },
+        "enforce_option": "EnforceExclusion",
+        "name_pattern": {
+          "pattern": "",
+          "type": "Wildcard",
+          "caseSensitive": "true",
+          "excludeMatching": "false"
+        },
+        "datatype": {
+          "typelist": {
+            "org.knime.core.data.LongValue": "false",
+            "org.knime.core.data.DoubleValue": "false",
+            "org.knime.core.data.BooleanValue": "false",
+            "org.knime.core.data.IntValue": "false",
+            "org.knime.core.data.StringValue": "false",
+            "org.knime.core.data.date.DateAndTimeValue": "false"
+          }
+        }
+      },
+      "rightColumnSelectionConfig": {
+        "filter-type": "STANDARD",
+        "included_names": {
+          "array-size": "1",
+          "0": "PERIMETER"
+        },
+        "excluded_names": {
+          "array-size": "14",
+          "0": "AREA",
+          "1": "TRACT0_ID",
+          "2": "BEMP_Unif",
+          "3": "BEMP_CBD",
+          "4": "POP_CBD",
+          "5": "POP_Unif",
+          "6": "POP_A2B2",
+          "7": "POP_Belt",
+          "8": "SEMP_CBD",
+          "9": "SEMP_Unif",
+          "10": "SEMP_A2B2",
+          "11": "SEMP_Belt",
+          "12": "ORIG_FID",
+          "13": "geometry"
+        },
+        "enforce_option": "EnforceExclusion",
+        "name_pattern": {
+          "pattern": "",
+          "type": "Wildcard",
+          "caseSensitive": "true",
+          "excludeMatching": "false"
+        },
+        "datatype": {
+          "typelist": {
+            "org.knime.core.data.DoubleValue": "false",
+            "org.knime.core.data.LongValue": "false",
+            "org.knime.geospatial.core.data.GeoPointValue": "false",
+            "org.knime.core.data.BooleanValue": "false",
+            "org.knime.core.data.IntValue": "false",
+            "org.knime.core.data.StringValue": "false",
+            "org.knime.core.data.date.DateAndTimeValue": "false"
+          }
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
+    "node-name": "Joiner",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "name": "Joiner",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 18496, Cols: 7",
+        "port_dir_location": "port_1"
+      },
+      "port_2": {
+        "index": "2",
+        "port_spec_class": "org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec",
+        "port_object_class": "org.knime.core.node.port.inactive.InactiveBranchPortObject",
+        "port_object_summary": "Inactive Port Object",
+        "port_spec_location": "spec/spec.zip",
+        "port_object_location": "object/portobject.zip",
+        "port_dir_location": "port_2"
+      },
+      "port_3": {
+        "index": "3",
+        "port_spec_class": "org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec",
+        "port_object_class": "org.knime.core.node.port.inactive.InactiveBranchPortObject",
+        "port_object_summary": "Inactive Port Object",
+        "port_spec_location": "spec/spec.zip",
+        "port_object_location": "object/portobject.zip",
+        "port_dir_location": "port_3"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Joiner (#6)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "includeMatchesInOutput_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "includeMatchesInOutput": "true",
+      "includeLeftUnmatchedInOutput_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "includeLeftUnmatchedInOutput": "false",
+      "includeRightUnmatchedInOutput_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "includeRightUnmatchedInOutput": "false",
+      "leftTableJoinPredicate_Internals": {
+        "SettingsModelID": "SMID_stringarray",
+        "EnabledStatus": "true"
+      },
+      "leftTableJoinPredicate": {
+        "array-size": "1",
+        "0": "Destination ID"
+      },
+      "rightTableJoinPredicate_Internals": {
+        "SettingsModelID": "SMID_stringarray",
+        "EnabledStatus": "true"
+      },
+      "rightTableJoinPredicate": {
+        "array-size": "1",
+        "0": "ORIG_FID"
+      },
+      "compositionMode_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "compositionMode": "MATCH_ALL",
+      "mergeJoinColumns_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "mergeJoinColumns": "false",
+      "dataCellComparisonMode_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "dataCellComparisonMode": "STRICT",
+      "outputUnmatchedRowsToSeparatePorts_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "outputUnmatchedRowsToSeparatePorts": "false",
+      "rowKeyFactory_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "rowKeyFactory": "CONCATENATE",
+      "rowKeySeparator_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "rowKeySeparator": "_",
+      "duplicateHandling_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "duplicateHandling": "APPEND_SUFFIX",
+      "suffix_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "suffix": " (right)",
+      "outputRowOrder_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "outputRowOrder": "ARBITRARY",
+      "maxOpenFiles_Internals": {
+        "SettingsModelID": "SMID_integer",
+        "EnabledStatus": "true"
+      },
+      "maxOpenFiles": "200",
+      "enableHiliting_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableHiliting": "false",
+      "leftColumnSelectionConfig": {
+        "filter-type": "STANDARD",
+        "included_names": {
+          "array-size": "7",
+          "0": "Origin ID",
+          "1": "Destination ID",
+          "2": "duration",
+          "3": "distance",
+          "4": "Origin snap distance",
+          "5": "Destination snap distance",
+          "6": "PERIMETER"
+        },
+        "excluded_names": {
+          "array-size": "0"
+        },
+        "enforce_option": "EnforceExclusion",
+        "name_pattern": {
+          "pattern": "",
+          "type": "Wildcard",
+          "caseSensitive": "true",
+          "excludeMatching": "false"
+        },
+        "datatype": {
+          "typelist": {
+            "org.knime.core.data.LongValue": "false",
+            "org.knime.core.data.DoubleValue": "false",
+            "org.knime.core.data.BooleanValue": "false",
+            "org.knime.core.data.IntValue": "false",
+            "org.knime.core.data.StringValue": "false",
+            "org.knime.core.data.date.DateAndTimeValue": "false"
+          }
+        }
+      },
+      "rightColumnSelectionConfig": {
+        "filter-type": "STANDARD",
+        "included_names": {
+          "array-size": "1",
+          "0": "PERIMETER"
+        },
+        "excluded_names": {
+          "array-size": "14",
+          "0": "AREA",
+          "1": "TRACT0_ID",
+          "2": "BEMP_Unif",
+          "3": "BEMP_CBD",
+          "4": "POP_CBD",
+          "5": "POP_Unif",
+          "6": "POP_A2B2",
+          "7": "POP_Belt",
+          "8": "SEMP_CBD",
+          "9": "SEMP_Unif",
+          "10": "SEMP_A2B2",
+          "11": "SEMP_Belt",
+          "12": "ORIG_FID",
+          "13": "geometry"
+        },
+        "enforce_option": "EnforceExclusion",
+        "name_pattern": {
+          "pattern": "",
+          "type": "Wildcard",
+          "caseSensitive": "true",
+          "excludeMatching": "false"
+        },
+        "datatype": {
+          "typelist": {
+            "org.knime.core.data.DoubleValue": "false",
+            "org.knime.core.data.LongValue": "false",
+            "org.knime.geospatial.core.data.GeoPointValue": "false",
+            "org.knime.core.data.BooleanValue": "false",
+            "org.knime.core.data.IntValue": "false",
+            "org.knime.core.data.StringValue": "false",
+            "org.knime.core.data.date.DateAndTimeValue": "false"
+          }
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
+    "node-name": "Joiner",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "name": "Joiner",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 18496, Cols: 8",
+        "port_dir_location": "port_1"
+      },
+      "port_2": {
+        "index": "2",
+        "port_spec_class": "org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec",
+        "port_object_class": "org.knime.core.node.port.inactive.InactiveBranchPortObject",
+        "port_object_summary": "Inactive Port Object",
+        "port_spec_location": "spec/spec.zip",
+        "port_object_location": "object/portobject.zip",
+        "port_dir_location": "port_2"
+      },
+      "port_3": {
+        "index": "3",
+        "port_spec_class": "org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec",
+        "port_object_class": "org.knime.core.node.port.inactive.InactiveBranchPortObject",
+        "port_object_summary": "Inactive Port Object",
+        "port_spec_location": "spec/spec.zip",
+        "port_object_location": "object/portobject.zip",
+        "port_dir_location": "port_3"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Line Plot _Plotly_ (#26)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "showClearSelectionButton_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "showClearSelectionButton": "true",
+      "columns_Internals": {
+        "SettingsModelID": "SMID_columnfilter",
+        "EnabledStatus": "true"
+      },
+      "columns": {
+        "filter-type": "STANDARD",
+        "included_names": {
+          "array-size": "2",
+          "0": "0",
+          "1": "0 (#1)"
+        },
+        "excluded_names": {
+          "array-size": "1",
+          "0": "TRACT0_ID"
+        },
+        "enforce_option": "EnforceExclusion",
+        "name_pattern": {
+          "pattern": "",
+          "type": "Wildcard",
+          "caseSensitive": "true",
+          "excludeMatching": "false"
+        },
+        "datatype": {
+          "typelist": {
+            "org.knime.core.data.DoubleValue": "false",
+            "org.knime.core.data.LongValue": "false",
+            "org.knime.core.data.IntValue": "false"
+          }
+        }
+      },
+      "showLegend_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "showLegend": "false",
+      "enableGL_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableGL": "true",
+      "showFullscreen_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "showFullscreen": "true",
+      "title_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "title": "Line Plot",
+      "dataColor_Internals": {
+        "SettingsModelID": "SMID_color",
+        "EnabledStatus": "true"
+      },
+      "dataColor": {
+        "Red": "0",
+        "Green": "0",
+        "Blue": "255",
+        "Alpha": "255"
+      },
+      "publishSelectionToggle_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "publishSelectionToggle": "true",
+      "xAxisLabel_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "xAxisLabel": "",
+      "reportMissing_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "reportMissing": "true",
+      "showWarnings_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "showWarnings": "true",
+      "subscribeFilterToggle_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "subscribeFilterToggle": "true",
+      "publishSelection_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "publishSelection": "true",
+      "backgroundColor_Internals": {
+        "SettingsModelID": "SMID_color",
+        "EnabledStatus": "true"
+      },
+      "backgroundColor": {
+        "Red": "255",
+        "Green": "255",
+        "Blue": "255",
+        "Alpha": "255"
+      },
+      "enableEditing_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableEditing": "false",
+      "svg_Internals": {
+        "SettingsModelID": "SMID_svg",
+        "EnabledStatus": "true"
+      },
+      "svg": {
+        "width": "800",
+        "height": "600",
+        "fullscreen": "true",
+        "showFullscreen": "true"
+      },
+      "subscribeToFilters_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "subscribeToFilters": "true",
+      "enableSelection_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableSelection": "true",
+      "showGrid_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "showGrid": "true",
+      "overrideColors_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "overrideColors": "false",
+      "showSelectedOnlyToggle_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "showSelectedOnlyToggle": "true",
+      "yAxisLabel_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "yAxisLabel": "",
+      "tooltipToggle_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "tooltipToggle": "true",
+      "enablePlotlyEditor_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enablePlotlyEditor": "false",
+      "subscribeSelectionToggle_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "subscribeSelectionToggle": "true",
+      "xAxisColumn_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "xAxisColumn": {
+        "useRowID": "false",
+        "columnName": "TRACT0_ID"
+      },
+      "gridColor_Internals": {
+        "SettingsModelID": "SMID_color",
+        "EnabledStatus": "true"
+      },
+      "gridColor": {
+        "Red": "0",
+        "Green": "0",
+        "Blue": "0",
+        "Alpha": "255"
+      },
+      "enableFeatureSelection_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableFeatureSelection": "true",
+      "enableViewControls_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableViewControls": "true",
+      "subscribeToSelection_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "subscribeToSelection": "true",
+      "mValues_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "mValues": "Leave\u00a0missing\u00a0values",
+      "daColor_Internals": {
+        "SettingsModelID": "SMID_color",
+        "EnabledStatus": "true"
+      },
+      "daColor": {
+        "Red": "255",
+        "Green": "255",
+        "Blue": "255",
+        "Alpha": "255"
+      },
+      "hideInWizard": "false",
+      "maxRows": "2500",
+      "generateImage": "false",
+      "customCSS": ""
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.dynamic.js.v30.DynamicJSNodeFactory",
+    "node-name": "Line Plot (Plotly)",
+    "node-bundle-name": "Plotly.js integration into KNIME",
+    "node-bundle-symbolic-name": "org.knime.js.plotly",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202211090000",
+    "node-feature-name": "KNIME Plotly",
+    "node-feature-symbolic-name": "org.knime.features.js.plotly.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.0.v202211090000",
+    "factory_settings": {
+      "nodeDir": "org.knime.js.plotly:nodes/:linePlot"
+    },
+    "name": "Line Plot (Plotly)",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec",
+        "port_object_class": "org.knime.core.node.port.inactive.InactiveBranchPortObject",
+        "port_object_summary": "Inactive Port Object",
+        "port_spec_location": "spec/spec.zip",
+        "port_object_location": "object/portobject.zip",
+        "port_dir_location": "port_1"
+      },
+      "port_2": {
+        "index": "2",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 10, Cols: 4",
+        "port_dir_location": "port_2"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Math Formula (#13)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "expression": "pow($netwkTime$,-1 )",
+      "replaced_column": "G",
+      "append_column": "false",
+      "convert_to_int": "false"
+    },
+    "nodeAnnotation": {
+      "text": "Node 13%%00013%%00010",
+      "contentType": "text/plain",
+      "bgcolor": "16777215",
+      "x-coordinate": "303",
+      "y-coordinate": "658",
+      "width": "106",
+      "height": "30",
+      "alignment": "CENTER",
+      "borderSize": "0",
+      "borderColor": "16777215",
+      "defFontSize": "9",
+      "annotation-version": "20151123",
+      "styles": {
+        "style_0": {
+          "start": "5",
+          "length": "2",
+          "fontname": "Arial",
+          "fontstyle": "0",
+          "fontsize": "9",
+          "fgcolor": "0"
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.ext.jep.JEPNodeFactory",
+    "node-name": "Math Formula",
+    "node-bundle-name": "KNIME Math Expression Node",
+    "node-bundle-symbolic-name": "org.knime.ext.jep",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202208041429",
+    "node-feature-name": "KNIME Math Expression (JEP)",
+    "node-feature-symbolic-name": "org.knime.features.ext.jep.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.0.v202208041429",
+    "factory_settings": {},
+    "name": "Math Formula",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 18496, Cols: 10",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Math Formula (#7)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "expression": "($PERIMETER$+$PERIMETER (right)$)*0.25*1000/804.67+$Duration$",
+      "replaced_column": "netwkTime",
+      "append_column": "false",
+      "convert_to_int": "false"
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.ext.jep.JEPNodeFactory",
+    "node-name": "Math Formula",
+    "node-bundle-name": "KNIME Math Expression Node",
+    "node-bundle-symbolic-name": "org.knime.ext.jep",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202208041429",
+    "node-feature-name": "KNIME Math Expression (JEP)",
+    "node-feature-symbolic-name": "org.knime.features.ext.jep.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.0.v202208041429",
+    "factory_settings": {},
+    "name": "Math Formula",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 18496, Cols: 9",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Math Formula (#8)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "expression": "pow($netwkTime$,-1 )",
+      "replaced_column": "G",
+      "append_column": "false",
+      "convert_to_int": "false"
+    },
+    "nodeAnnotation": {
+      "text": "Node 8%%00013%%00010",
+      "contentType": "text/plain",
+      "bgcolor": "16777215",
+      "x-coordinate": "391",
+      "y-coordinate": "539",
+      "width": "106",
+      "height": "30",
+      "alignment": "CENTER",
+      "borderSize": "0",
+      "borderColor": "16777215",
+      "defFontSize": "9",
+      "annotation-version": "20151123",
+      "styles": {}
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.ext.jep.JEPNodeFactory",
+    "node-name": "Math Formula",
+    "node-bundle-name": "KNIME Math Expression Node",
+    "node-bundle-symbolic-name": "org.knime.ext.jep",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202208041429",
+    "node-feature-name": "KNIME Math Expression (JEP)",
+    "node-feature-symbolic-name": "org.knime.features.ext.jep.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.0.v202208041429",
+    "factory_settings": {},
+    "name": "Math Formula",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 18496, Cols: 10",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Math Formula _Multi Column_ (#11)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "expression": "$$CURRENT_COLUMN$$/COL_SUM($$CURRENT_COLUMN$$)*0.3",
+      "replaced_column": "_suffix",
+      "append_column": "true",
+      "convert_to_int": "false",
+      "column_selection": {
+        "filter-type": "STANDARD",
+        "included_names": {
+          "array-size": "136",
+          "0": "1",
+          "1": "2",
+          "2": "3",
+          "3": "4",
+          "4": "5",
+          "5": "6",
+          "6": "7",
+          "7": "8",
+          "8": "9",
+          "9": "10",
+          "10": "11",
+          "11": "12",
+          "12": "13",
+          "13": "14",
+          "14": "15",
+          "15": "16",
+          "16": "17",
+          "17": "18",
+          "18": "19",
+          "19": "20",
+          "20": "21",
+          "21": "22",
+          "22": "23",
+          "23": "24",
+          "24": "25",
+          "25": "26",
+          "26": "27",
+          "27": "28",
+          "28": "29",
+          "29": "30",
+          "30": "31",
+          "31": "32",
+          "32": "33",
+          "33": "34",
+          "34": "35",
+          "35": "36",
+          "36": "37",
+          "37": "38",
+          "38": "39",
+          "39": "40",
+          "40": "41",
+          "41": "42",
+          "42": "43",
+          "43": "44",
+          "44": "45",
+          "45": "46",
+          "46": "47",
+          "47": "48",
+          "48": "49",
+          "49": "50",
+          "50": "51",
+          "51": "52",
+          "52": "53",
+          "53": "54",
+          "54": "55",
+          "55": "56",
+          "56": "57",
+          "57": "58",
+          "58": "59",
+          "59": "60",
+          "60": "61",
+          "61": "62",
+          "62": "63",
+          "63": "64",
+          "64": "65",
+          "65": "66",
+          "66": "67",
+          "67": "68",
+          "68": "69",
+          "69": "70",
+          "70": "71",
+          "71": "72",
+          "72": "73",
+          "73": "74",
+          "74": "75",
+          "75": "76",
+          "76": "77",
+          "77": "78",
+          "78": "79",
+          "79": "80",
+          "80": "81",
+          "81": "82",
+          "82": "83",
+          "83": "84",
+          "84": "85",
+          "85": "86",
+          "86": "87",
+          "87": "88",
+          "88": "89",
+          "89": "90",
+          "90": "91",
+          "91": "92",
+          "92": "93",
+          "93": "94",
+          "94": "95",
+          "95": "96",
+          "96": "97",
+          "97": "98",
+          "98": "99",
+          "99": "100",
+          "100": "101",
+          "101": "102",
+          "102": "103",
+          "103": "104",
+          "104": "105",
+          "105": "106",
+          "106": "107",
+          "107": "108",
+          "108": "109",
+          "109": "110",
+          "110": "111",
+          "111": "112",
+          "112": "113",
+          "113": "114",
+          "114": "115",
+          "115": "116",
+          "116": "117",
+          "117": "118",
+          "118": "119",
+          "119": "120",
+          "120": "121",
+          "121": "122",
+          "122": "123",
+          "123": "124",
+          "124": "125",
+          "125": "126",
+          "126": "127",
+          "127": "128",
+          "128": "129",
+          "129": "130",
+          "130": "131",
+          "131": "132",
+          "132": "133",
+          "133": "134",
+          "134": "135",
+          "135": "136"
+        },
+        "excluded_names": {
+          "array-size": "0"
+        },
+        "enforce_option": "EnforceExclusion",
+        "name_pattern": {
+          "pattern": "",
+          "type": "Wildcard",
+          "caseSensitive": "true",
+          "excludeMatching": "false"
+        },
+        "datatype": {
+          "typelist": {
+            "org.knime.core.data.DoubleValue": "false",
+            "org.knime.core.data.BooleanValue": "false",
+            "org.knime.core.data.IntValue": "false",
+            "org.knime.core.data.LongValue": "false",
+            "org.knime.core.data.StringValue": "false",
+            "org.knime.core.data.date.DateAndTimeValue": "false"
+          }
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory",
+    "node-name": "Math Formula (Multi Column)",
+    "node-bundle-name": "KNIME Math Expression Node",
+    "node-bundle-symbolic-name": "org.knime.ext.jep",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202208041429",
+    "node-feature-name": "KNIME Math Expression (JEP)",
+    "node-feature-symbolic-name": "org.knime.features.ext.jep.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.0.v202208041429",
+    "factory_settings": {},
+    "name": "Math Formula (Multi Column)",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 136",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Math Formula _Multi Column_ (#16)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "expression": "$$CURRENT_COLUMN$$/COL_SUM($$CURRENT_COLUMN$$)*2",
+      "replaced_column": "",
+      "append_column": "true",
+      "convert_to_int": "false",
+      "column_selection": {
+        "filter-type": "STANDARD",
+        "included_names": {
+          "array-size": "136",
+          "0": "1",
+          "1": "2",
+          "2": "3",
+          "3": "4",
+          "4": "5",
+          "5": "6",
+          "6": "7",
+          "7": "8",
+          "8": "9",
+          "9": "10",
+          "10": "11",
+          "11": "12",
+          "12": "13",
+          "13": "14",
+          "14": "15",
+          "15": "16",
+          "16": "17",
+          "17": "18",
+          "18": "19",
+          "19": "20",
+          "20": "21",
+          "21": "22",
+          "22": "23",
+          "23": "24",
+          "24": "25",
+          "25": "26",
+          "26": "27",
+          "27": "28",
+          "28": "29",
+          "29": "30",
+          "30": "31",
+          "31": "32",
+          "32": "33",
+          "33": "34",
+          "34": "35",
+          "35": "36",
+          "36": "37",
+          "37": "38",
+          "38": "39",
+          "39": "40",
+          "40": "41",
+          "41": "42",
+          "42": "43",
+          "43": "44",
+          "44": "45",
+          "45": "46",
+          "46": "47",
+          "47": "48",
+          "48": "49",
+          "49": "50",
+          "50": "51",
+          "51": "52",
+          "52": "53",
+          "53": "54",
+          "54": "55",
+          "55": "56",
+          "56": "57",
+          "57": "58",
+          "58": "59",
+          "59": "60",
+          "60": "61",
+          "61": "62",
+          "62": "63",
+          "63": "64",
+          "64": "65",
+          "65": "66",
+          "66": "67",
+          "67": "68",
+          "68": "69",
+          "69": "70",
+          "70": "71",
+          "71": "72",
+          "72": "73",
+          "73": "74",
+          "74": "75",
+          "75": "76",
+          "76": "77",
+          "77": "78",
+          "78": "79",
+          "79": "80",
+          "80": "81",
+          "81": "82",
+          "82": "83",
+          "83": "84",
+          "84": "85",
+          "85": "86",
+          "86": "87",
+          "87": "88",
+          "88": "89",
+          "89": "90",
+          "90": "91",
+          "91": "92",
+          "92": "93",
+          "93": "94",
+          "94": "95",
+          "95": "96",
+          "96": "97",
+          "97": "98",
+          "98": "99",
+          "99": "100",
+          "100": "101",
+          "101": "102",
+          "102": "103",
+          "103": "104",
+          "104": "105",
+          "105": "106",
+          "106": "107",
+          "107": "108",
+          "108": "109",
+          "109": "110",
+          "110": "111",
+          "111": "112",
+          "112": "113",
+          "113": "114",
+          "114": "115",
+          "115": "116",
+          "116": "117",
+          "117": "118",
+          "118": "119",
+          "119": "120",
+          "120": "121",
+          "121": "122",
+          "122": "123",
+          "123": "124",
+          "124": "125",
+          "125": "126",
+          "126": "127",
+          "127": "128",
+          "128": "129",
+          "129": "130",
+          "130": "131",
+          "131": "132",
+          "132": "133",
+          "133": "134",
+          "134": "135",
+          "135": "136"
+        },
+        "excluded_names": {
+          "array-size": "0"
+        },
+        "enforce_option": "EnforceExclusion",
+        "name_pattern": {
+          "pattern": "",
+          "type": "Wildcard",
+          "caseSensitive": "true",
+          "excludeMatching": "false"
+        },
+        "datatype": {
+          "typelist": {
+            "org.knime.core.data.DoubleValue": "false",
+            "org.knime.core.data.BooleanValue": "false",
+            "org.knime.core.data.IntValue": "false",
+            "org.knime.core.data.LongValue": "false",
+            "org.knime.core.data.StringValue": "false",
+            "org.knime.core.data.date.DateAndTimeValue": "false"
+          }
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory",
+    "node-name": "Math Formula (Multi Column)",
+    "node-bundle-name": "KNIME Math Expression Node",
+    "node-bundle-symbolic-name": "org.knime.ext.jep",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202208041429",
+    "node-feature-name": "KNIME Math Expression (JEP)",
+    "node-feature-symbolic-name": "org.knime.features.ext.jep.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.0.v202208041429",
+    "factory_settings": {},
+    "name": "Math Formula (Multi Column)",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 136",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Pivot (#14)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "grouByColumns_Internals": {
+        "SettingsModelID": "SMID_filterString",
+        "EnabledStatus": "true"
+      },
+      "grouByColumns": {
+        "InclList": {
+          "array-size": "1",
+          "0": "Origin ID"
+        },
+        "ExclList": {
+          "array-size": "9",
+          "0": "Destination ID",
+          "1": "duration",
+          "2": "distance",
+          "3": "Origin snap distance",
+          "4": "Destination snap distance",
+          "5": "PERIMETER",
+          "6": "PERIMETER (right)",
+          "7": "netwkTime",
+          "8": "G"
+        },
+        "keep_all_columns_selected": "false"
+      },
+      "maxNoneNumericalVals_Internals": {
+        "SettingsModelID": "SMID_integer",
+        "EnabledStatus": "true"
+      },
+      "maxNoneNumericalVals": "10000",
+      "enableHilite_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableHilite": "false",
+      "sortInMemory_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "sortInMemory": "false",
+      "aggregationColumn": {
+        "columnNames": {
+          "array-size": "1",
+          "0": "G"
+        },
+        "columnTypes": {
+          "array-size": "1",
+          "0": {
+            "cell_class": "org.knime.core.data.def.DoubleCell",
+            "is_null": "false"
+          }
+        },
+        "aggregationMethod": {
+          "array-size": "1",
+          "0": "First"
+        },
+        "inclMissingVals": {
+          "array-size": "1",
+          "0": "false"
+        }
+      },
+      "aggregationOperatorSettings": {},
+      "patternAggregators": {},
+      "dataTypeAggregators": {},
+      "columnNamePolicy_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "columnNamePolicy": "Keep original name(s)",
+      "retainOrder_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "retainOrder": "false",
+      "inMemory_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "inMemory": "false",
+      "valueDelimiter_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "valueDelimiter": ", ",
+      "nodeVersion_Internals": {
+        "SettingsModelID": "SMID_integer",
+        "EnabledStatus": "true"
+      },
+      "nodeVersion": "1",
+      "typeMatch": "0",
+      "pivotColumns_Internals": {
+        "SettingsModelID": "SMID_filterString",
+        "EnabledStatus": "true"
+      },
+      "pivotColumns": {
+        "InclList": {
+          "array-size": "1",
+          "0": "Destination ID"
+        },
+        "ExclList": {
+          "array-size": "9",
+          "0": "Origin ID",
+          "1": "duration",
+          "2": "distance",
+          "3": "Origin snap distance",
+          "4": "Destination snap distance",
+          "5": "PERIMETER",
+          "6": "PERIMETER (right)",
+          "7": "netwkTime",
+          "8": "G"
+        },
+        "keep_all_columns_selected": "false"
+      },
+      "missing_values_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "missing_values": "true",
+      "total_aggregation_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "total_aggregation": "false",
+      "ignore_domain_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "ignore_domain": "true",
+      "column_name_option_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "column_name_option": "Pivot name",
+      "sort_lexicographical_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "sort_lexicographical": "false"
+    },
+    "nodeAnnotation": {
+      "text": "Node 14",
+      "contentType": "text/plain",
+      "bgcolor": "16777215",
+      "x-coordinate": "391",
+      "y-coordinate": "658",
+      "width": "106",
+      "height": "15",
+      "alignment": "CENTER",
+      "borderSize": "0",
+      "borderColor": "16777215",
+      "defFontSize": "9",
+      "annotation-version": "20151123",
+      "styles": {}
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.pivot.Pivot2NodeFactory",
+    "node-name": "Pivoting",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "name": "Pivot",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 137",
+        "port_dir_location": "port_1"
+      },
+      "port_2": {
+        "index": "2",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 2",
+        "port_dir_location": "port_2"
+      },
+      "port_3": {
+        "index": "3",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 1, Cols: 137",
+        "port_dir_location": "port_3"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Pivot (#9)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "grouByColumns_Internals": {
+        "SettingsModelID": "SMID_filterString",
+        "EnabledStatus": "true"
+      },
+      "grouByColumns": {
+        "InclList": {
+          "array-size": "1",
+          "0": "Origin ID"
+        },
+        "ExclList": {
+          "array-size": "9",
+          "0": "Destination ID",
+          "1": "duration",
+          "2": "distance",
+          "3": "Origin snap distance",
+          "4": "Destination snap distance",
+          "5": "PERIMETER",
+          "6": "PERIMETER (right)",
+          "7": "netwkTime",
+          "8": "G"
+        },
+        "keep_all_columns_selected": "false"
+      },
+      "maxNoneNumericalVals_Internals": {
+        "SettingsModelID": "SMID_integer",
+        "EnabledStatus": "true"
+      },
+      "maxNoneNumericalVals": "10000",
+      "enableHilite_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableHilite": "false",
+      "sortInMemory_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "sortInMemory": "false",
+      "aggregationColumn": {
+        "columnNames": {
+          "array-size": "1",
+          "0": "G"
+        },
+        "columnTypes": {
+          "array-size": "1",
+          "0": {
+            "cell_class": "org.knime.core.data.def.DoubleCell",
+            "is_null": "false"
+          }
+        },
+        "aggregationMethod": {
+          "array-size": "1",
+          "0": "First"
+        },
+        "inclMissingVals": {
+          "array-size": "1",
+          "0": "false"
+        }
+      },
+      "aggregationOperatorSettings": {},
+      "patternAggregators": {},
+      "dataTypeAggregators": {},
+      "columnNamePolicy_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "columnNamePolicy": "Keep original name(s)",
+      "retainOrder_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "retainOrder": "false",
+      "inMemory_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "inMemory": "false",
+      "valueDelimiter_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "valueDelimiter": ", ",
+      "nodeVersion_Internals": {
+        "SettingsModelID": "SMID_integer",
+        "EnabledStatus": "true"
+      },
+      "nodeVersion": "1",
+      "typeMatch": "0",
+      "pivotColumns_Internals": {
+        "SettingsModelID": "SMID_filterString",
+        "EnabledStatus": "true"
+      },
+      "pivotColumns": {
+        "InclList": {
+          "array-size": "1",
+          "0": "Destination ID"
+        },
+        "ExclList": {
+          "array-size": "9",
+          "0": "Origin ID",
+          "1": "duration",
+          "2": "distance",
+          "3": "Origin snap distance",
+          "4": "Destination snap distance",
+          "5": "PERIMETER",
+          "6": "PERIMETER (right)",
+          "7": "netwkTime",
+          "8": "G"
+        },
+        "keep_all_columns_selected": "false"
+      },
+      "missing_values_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "missing_values": "true",
+      "total_aggregation_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "total_aggregation": "false",
+      "ignore_domain_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "ignore_domain": "true",
+      "column_name_option_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "column_name_option": "Pivot name",
+      "sort_lexicographical_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "sort_lexicographical": "false"
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.pivot.Pivot2NodeFactory",
+    "node-name": "Pivoting",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "name": "Pivot",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 137",
+        "port_dir_location": "port_1"
+      },
+      "port_2": {
+        "index": "2",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 2",
+        "port_dir_location": "port_2"
+      },
+      "port_3": {
+        "index": "3",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 1, Cols: 137",
+        "port_dir_location": "port_3"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Python Script (#18)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "script": "import knime.scripting.io as knio%%00010import numpy as np%%00010import pandas as pd%%00010%%00010A = knio.input_tables[0].to_pandas()%%00010B =knio.input_tables[1].to_pandas()%%00010%%00010# convert dataframes to matrices%%00010T= A.values%%00010G= B.values%%00010%%00010# define N%%00010N = len(A)%%00010%%00010# calculate IAB%%00010IGT = np.identity(N) - np.dot(G,T )%%00010%%00010# convert IAB to dataframe%%00010df = pd.DataFrame(IGT)%%00010%%00010knio.output_tables[0] = knio.Table.from_pandas(df)%%00010",
+      "python3_command": ""
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.python3.scripting.nodes.script.PythonScriptNodeFactory",
+    "node-name": "Python Script",
+    "node-bundle-name": "KNIME Python 3 - Scripting Nodes",
+    "node-bundle-symbolic-name": "org.knime.python3.scripting.nodes",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.1.v202301311311",
+    "node-feature-name": "KNIME Python Integration",
+    "node-feature-symbolic-name": "org.knime.features.python3.scripting.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.3.v202305111430",
+    "factory_settings": {},
+    "node_creation_config": {
+      "Input object (pickled)": {},
+      "Input table": {
+        "port_0": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        },
+        "port_1": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        }
+      },
+      "Output table": {
+        "port_0": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        }
+      },
+      "Output image": {},
+      "Output object (pickled)": {}
+    },
+    "name": "Python Script",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 136",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Python Script (#20)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "script": "import knime.scripting.io as knio%%00010import numpy as np%%00010import pandas as pd%%00010%%00010A = knio.input_tables[0].to_pandas()%%00010B =knio.input_tables[1].to_pandas()%%00010%%00010# convert dataframes to matrices%%00010G= A.values%%00010B= B.values%%00010# calculate IAB%%00010GB = np.dot(G, B)%%00010%%00010# convert IAB to dataframe%%00010df = pd.DataFrame(GB)%%00010%%00010knio.output_tables[0] = knio.Table.from_pandas(df)%%00010",
+      "python3_command": ""
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.python3.scripting.nodes.script.PythonScriptNodeFactory",
+    "node-name": "Python Script",
+    "node-bundle-name": "KNIME Python 3 - Scripting Nodes",
+    "node-bundle-symbolic-name": "org.knime.python3.scripting.nodes",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.1.v202301311311",
+    "node-feature-name": "KNIME Python Integration",
+    "node-feature-symbolic-name": "org.knime.features.python3.scripting.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.3.v202305111430",
+    "factory_settings": {},
+    "node_creation_config": {
+      "Input object (pickled)": {},
+      "Input table": {
+        "port_0": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        },
+        "port_1": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        }
+      },
+      "Output table": {
+        "port_0": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        }
+      },
+      "Output image": {},
+      "Output object (pickled)": {}
+    },
+    "name": "Python Script",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 1",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Python Script (#21)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "script": "import knime.scripting.io as knio%%00010import numpy as np%%00010import pandas as pd%%00010from scipy.linalg import lu_factor, lu_solve%%00010%%00010A = knio.input_tables[0].to_pandas()%%00010B =knio.input_tables[1].to_pandas()%%00010%%00010# convert dataframes to matrices%%00010IGT= A.values%%00010PB= B.values %%00010N = len(IGT)%%00010# 4.1 Factor AA matrix, print out INFO (indicating if the solution exists).%%00010lu, piv = lu_factor(IGT.T)%%00010x = lu_solve((lu, piv), PB )%%00010print(np.allclose(IGT.T @ x - PB, np.zeros((N,))))%%00010%%00010# convert matrix to dataframe%%00010df = pd.DataFrame(x)%%00010%%00010knio.output_tables[0] = knio.Table.from_pandas(df)%%00010",
+      "python3_command": ""
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.python3.scripting.nodes.script.PythonScriptNodeFactory",
+    "node-name": "Python Script",
+    "node-bundle-name": "KNIME Python 3 - Scripting Nodes",
+    "node-bundle-symbolic-name": "org.knime.python3.scripting.nodes",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.1.v202301311311",
+    "node-feature-name": "KNIME Python Integration",
+    "node-feature-symbolic-name": "org.knime.features.python3.scripting.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.3.v202305111430",
+    "factory_settings": {},
+    "node_creation_config": {
+      "Input object (pickled)": {},
+      "Input table": {
+        "port_0": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        },
+        "port_1": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        }
+      },
+      "Output table": {
+        "port_0": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        }
+      },
+      "Output image": {},
+      "Output object (pickled)": {}
+    },
+    "name": "Python Script",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 1",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Python Script (#22)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "script": "import knime.scripting.io as knio%%00010import numpy as np%%00010import pandas as pd%%00010%%00010A = knio.input_tables[0].to_pandas()%%00010B =knio.input_tables[1].to_pandas()%%00010%%00010# convert dataframes to matrices%%00010G= A.values%%00010B= B.values%%00010# calculate IAB%%00010GB = np.dot(G, B)%%00010%%00010# convert IAB to dataframe%%00010df = pd.DataFrame(GB)%%00010%%00010knio.output_tables[0] = knio.Table.from_pandas(df)%%00010",
+      "python3_command": ""
+    },
+    "nodeAnnotation": {
+      "text": "Node 22(20)",
+      "contentType": "text/plain",
+      "bgcolor": "16777215",
+      "x-coordinate": "847",
+      "y-coordinate": "659",
+      "width": "106",
+      "height": "15",
+      "alignment": "CENTER",
+      "borderSize": "0",
+      "borderColor": "16777215",
+      "defFontSize": "9",
+      "annotation-version": "20151123",
+      "styles": {
+        "style_0": {
+          "start": "5",
+          "length": "6",
+          "fontname": "Arial",
+          "fontstyle": "0",
+          "fontsize": "9",
+          "fgcolor": "0"
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.python3.scripting.nodes.script.PythonScriptNodeFactory",
+    "node-name": "Python Script",
+    "node-bundle-name": "KNIME Python 3 - Scripting Nodes",
+    "node-bundle-symbolic-name": "org.knime.python3.scripting.nodes",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.1.v202301311311",
+    "node-feature-name": "KNIME Python Integration",
+    "node-feature-symbolic-name": "org.knime.features.python3.scripting.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.3.v202305111430",
+    "factory_settings": {},
+    "node_creation_config": {
+      "Input object (pickled)": {},
+      "Input table": {
+        "port_0": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        },
+        "port_1": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        }
+      },
+      "Output table": {
+        "port_0": {
+          "object_class": "org.knime.core.node.BufferedDataTable"
+        }
+      },
+      "Output image": {},
+      "Output object (pickled)": {}
+    },
+    "name": "Python Script",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 1",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Road Network Distance Matrix (#4)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "json-type_Internals": "OBJECT",
+      "o_geo_col": "geometry",
+      "o_id_col": "ORIG_FID",
+      "d_geo_col": "geometry",
+      "d_id_col": "ORIG_FID",
+      "r_geo_col": "geometry",
+      "r_speed_col": "speed",
+      "speed_unit": "MILE_HOUR",
+      "extension_version_Internals": "1.1.1"
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory",
+    "node-name": "Road Network Distance Matrix",
+    "node-bundle-name": "Geospatial Analytics Extension for KNIME",
+    "node-bundle-symbolic-name": "sdl.harvard.geospatial",
+    "node-bundle-vendor": "SDL, Harvard, Cambridge US",
+    "node-bundle-version": "1.1.1.202306211527",
+    "node-feature-name": "Geospatial Analytics Extension for KNIME",
+    "node-feature-symbolic-name": "sdl.harvard.features.geospatial.feature.group",
+    "node-feature-vendor": "SDL, Harvard, Cambridge US",
+    "node-feature-version": "1.1.1.202306211527",
+    "factory_settings": {
+      "extension_id": "sdl.harvard.geospatial",
+      "node_id": "RoadNetworkDistanceMatrix"
+    },
+    "name": "Road Network Distance Matrix",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 18496, Cols: 6",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Row Filter (#25)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "rowFilter": {
+        "RowFilter_TypeID": "RangeVal_RowFilter",
+        "ColumnName": "TRACT0_ID",
+        "include": "true",
+        "deepFiltering": "false",
+        "lowerBound": {
+          "datacell": "org.knime.core.data.def.LongCell",
+          "org.knime.core.data.def.LongCell": {
+            "LongCell": "1"
+          }
+        },
+        "upperBound": {
+          "datacell": "org.knime.core.data.def.LongCell",
+          "org.knime.core.data.def.LongCell": {
+            "LongCell": "10"
+          }
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory",
+    "node-name": "Row Filter",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "name": "Row Filter",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 10, Cols: 3",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "RowID (#10)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "replaceRowKey_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "replaceRowKey": "true",
+      "newRowKeyColumnName_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "newRowKeyColumnName": "Origin ID",
+      "removeRowKeyCol_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "removeRowKeyCol": "true",
+      "ensureUniqueness_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "ensureUniqueness": "false",
+      "replaceMissingValues_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "replaceMissingValues": "false",
+      "appendRowKeyCol_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "appendRowKeyCol": "false",
+      "newColumnName4RowKeyValues_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "false"
+      },
+      "newColumnName4RowKeyValues": "",
+      "enableHilite_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableHilite": "false"
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2",
+    "node-name": "RowID",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "name": "RowID",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 136",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "RowID (#15)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "replaceRowKey_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "replaceRowKey": "true",
+      "newRowKeyColumnName_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "newRowKeyColumnName": "Origin ID",
+      "removeRowKeyCol_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "removeRowKeyCol": "true",
+      "ensureUniqueness_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "ensureUniqueness": "false",
+      "replaceMissingValues_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "replaceMissingValues": "false",
+      "appendRowKeyCol_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "appendRowKeyCol": "false",
+      "newColumnName4RowKeyValues_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "false"
+      },
+      "newColumnName4RowKeyValues": "",
+      "enableHilite_Internals": {
+        "SettingsModelID": "SMID_boolean",
+        "EnabledStatus": "true"
+      },
+      "enableHilite": "false"
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2",
+    "node-name": "RowID",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "name": "RowID",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 136",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Table Transposer (#12)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "chunk_size_Internals": {
+        "SettingsModelID": "SMID_integer",
+        "EnabledStatus": "false"
+      },
+      "chunk_size": "10",
+      "guess_or_fixed_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "guess_or_fixed": "Guess chunk size based on available memory"
+    },
+    "nodeAnnotation": {
+      "text": "Node 12%%00013%%00010",
+      "contentType": "text/plain",
+      "bgcolor": "16777215",
+      "x-coordinate": "747",
+      "y-coordinate": "545",
+      "width": "106",
+      "height": "30",
+      "alignment": "CENTER",
+      "borderSize": "0",
+      "borderColor": "16777215",
+      "defFontSize": "9",
+      "annotation-version": "20151123",
+      "styles": {}
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.transpose.TransposeTableNodeFactory",
+    "node-name": "Transpose",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "name": "Table Transposer",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 136",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  },
+  "Table Transposer (#17)": {
+    "node_file": "settings.xml",
+    "flow_stack": {},
+    "internal_node_subsettings": {
+      "memory_policy": "CacheSmallInMemory"
+    },
+    "model": {
+      "chunk_size_Internals": {
+        "SettingsModelID": "SMID_integer",
+        "EnabledStatus": "false"
+      },
+      "chunk_size": "10",
+      "guess_or_fixed_Internals": {
+        "SettingsModelID": "SMID_string",
+        "EnabledStatus": "true"
+      },
+      "guess_or_fixed": "Guess chunk size based on available memory"
+    },
+    "nodeAnnotation": {
+      "text": "Node 17%%00013%%00010",
+      "contentType": "text/plain",
+      "bgcolor": "16777215",
+      "x-coordinate": "644",
+      "y-coordinate": "649",
+      "width": "106",
+      "height": "30",
+      "alignment": "CENTER",
+      "borderSize": "0",
+      "borderColor": "16777215",
+      "defFontSize": "9",
+      "annotation-version": "20151123",
+      "styles": {
+        "style_0": {
+          "start": "5",
+          "length": "2",
+          "fontname": "Arial",
+          "fontstyle": "0",
+          "fontsize": "9",
+          "fgcolor": "0"
+        }
+      }
+    },
+    "customDescription": "",
+    "state": "EXECUTED",
+    "factory": "org.knime.base.node.preproc.transpose.TransposeTableNodeFactory",
+    "node-name": "Transpose",
+    "node-bundle-name": "KNIME Base Nodes",
+    "node-bundle-symbolic-name": "org.knime.base",
+    "node-bundle-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-bundle-version": "4.7.0.v202301251625",
+    "node-feature-name": "KNIME Base nodes",
+    "node-feature-symbolic-name": "org.knime.features.base.feature.group",
+    "node-feature-vendor": "KNIME AG, Zurich, Switzerland",
+    "node-feature-version": "4.7.2.v202303231026",
+    "factory_settings": {},
+    "name": "Table Transposer",
+    "hasContent": "true",
+    "isInactive": "false",
+    "ports": {
+      "port_1": {
+        "index": "1",
+        "port_spec_class": "org.knime.core.data.DataTableSpec",
+        "port_object_class": "org.knime.core.node.BufferedDataTable",
+        "port_object_summary": "Rows: 136, Cols: 136",
+        "port_dir_location": "port_1"
+      }
+    },
+    "filestores": {
+      "file_store_location": "",
+      "file_store_id": ""
+    }
+  }
+}

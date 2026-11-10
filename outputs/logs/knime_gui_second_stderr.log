@@ -1,0 +1,80 @@
+ERROR	 Thread-781 KnimeBrowserView	 Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-Explain-Workflow.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+ERROR	 Thread-992 KnimeBrowserView	 %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+ERROR	 Thread-994 KnimeBrowserView	 Uncaught (in promise) AbortError: The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22 (source: https://org.knime.ui.java/editor/index.html#/space-browsing/local/Local-space-id/local/root; line: 0)
+ERROR	 KNIME-ConfigurationArea-Checker ConfigurationAreaChecker	 Can't check integrity of configuration area ("C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration"): The process cannot access the file because another process has locked a portion of the file
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.knime.core.internal.ConfigurationAreaChecker.lambda$0(ConfigurationAreaChecker.java:135)
+	at java.base/java.lang.Thread.run(Unknown Source)
+ERROR	 KNIME-Worker-1-Python Script 3:27 Node	 Execute failed: TypeError: 'GeoValue' object is not subscriptable
+org.knime.core.node.KNIMEException: Execute failed: TypeError: 'GeoValue' object is not subscriptable
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+ERROR	 KNIME-Worker-2-Python Script 3:27 Node	 Execute failed: ValueError: Data type 'large_string' in column '<RowID>' is not supported in KNIME Python. Please use a different data type.
+org.knime.core.node.KNIMEException: Execute failed: ValueError: Data type 'large_string' in column '<RowID>' is not supported in KNIME Python. Please use a different data type.
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+ERROR	 KNIME-Worker-7-Road Network Distance Matrix 3:4 Node	 Execute failed: 'key of type tuple not found and not a MultiIndex'
+org.knime.python3.nodes.PythonNodeRuntimeException: 'key of type tuple not found and not a MultiIndex'
+	at org.knime.python3.nodes.CloseablePythonNodeProxy$FailureState.throwIfFailure(CloseablePythonNodeProxy.java:940)
+	at org.knime.python3.nodes.CloseablePythonNodeProxy.execute(CloseablePythonNodeProxy.java:591)
+	at org.knime.python3.nodes.DelegatingNodeModel.lambda$4(DelegatingNodeModel.java:255)
+	at org.knime.python3.nodes.DelegatingNodeModel.runWithProxy(DelegatingNodeModel.java:317)
+	at org.knime.python3.nodes.DelegatingNodeModel.execute(DelegatingNodeModel.java:253)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)

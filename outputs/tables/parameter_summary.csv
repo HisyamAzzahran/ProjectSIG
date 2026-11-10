@@ -1,0 +1,8 @@
+scenario,population_per_worker,service_per_person,residential_exponent,service_exponent,basic_total,speed_column
+baseline_uniform,2.0,0.3,1.0,1.0,99.99998399999998,speed
+beltway,2.0,0.3,1.0,1.0,99.99998399999998,speed1
+cbd_beltway,2.0,0.3,1.0,1.0,99.99998399999998,speed1
+cbd_employment,2.0,0.3,1.0,1.0,99.99998399999998,speed
+cbd_high_friction,2.0,0.3,2.0,2.0,99.99998399999998,speed
+high_friction,2.0,0.3,2.0,2.0,99.99998399999998,speed
+low_friction,2.0,0.3,0.5,0.5,99.99998399999998,speed

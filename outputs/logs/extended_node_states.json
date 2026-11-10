@@ -1,0 +1,245 @@
+[
+  {
+    "node": "Column Appender (#24)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 3"
+    ]
+  },
+  {
+    "node": "Column Filter (#19)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 1"
+    ]
+  },
+  {
+    "node": "Column Filter (#23)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 1"
+    ]
+  },
+  {
+    "node": "Custom Case - Three Centers (#33)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 12"
+    ]
+  },
+  {
+    "node": "Custom Population Map (#34)",
+    "state": "EXECUTED",
+    "outputs": []
+  },
+  {
+    "node": "GeoFile Reader (#1)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 15"
+    ]
+  },
+  {
+    "node": "GeoFile Reader (#2)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 330, Cols: 14"
+    ]
+  },
+  {
+    "node": "Geospatial View (#3)",
+    "state": "EXECUTED",
+    "outputs": []
+  },
+  {
+    "node": "Initialize Project (#27)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 4, Cols: 2"
+    ]
+  },
+  {
+    "node": "Join Scenarios to Geometry (#30)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 1088, Cols: 12",
+      "Inactive Port Object",
+      "Inactive Port Object"
+    ]
+  },
+  {
+    "node": "Joiner (#5)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 18496, Cols: 7",
+      "Inactive Port Object",
+      "Inactive Port Object"
+    ]
+  },
+  {
+    "node": "Joiner (#6)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 18496, Cols: 8",
+      "Inactive Port Object",
+      "Inactive Port Object"
+    ]
+  },
+  {
+    "node": "Line Plot _Plotly_ (#26)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Inactive Port Object",
+      "Rows: 10, Cols: 4"
+    ]
+  },
+  {
+    "node": "Math Formula (#13)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 18496, Cols: 10"
+    ]
+  },
+  {
+    "node": "Math Formula (#7)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 18496, Cols: 9"
+    ]
+  },
+  {
+    "node": "Math Formula (#8)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 18496, Cols: 10"
+    ]
+  },
+  {
+    "node": "Math Formula _Multi Column_ (#11)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 136"
+    ]
+  },
+  {
+    "node": "Math Formula _Multi Column_ (#16)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 136"
+    ]
+  },
+  {
+    "node": "Pivot (#14)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 137",
+      "Rows: 136, Cols: 2",
+      "Rows: 1, Cols: 137"
+    ]
+  },
+  {
+    "node": "Pivot (#9)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 137",
+      "Rows: 136, Cols: 2",
+      "Rows: 1, Cols: 137"
+    ]
+  },
+  {
+    "node": "Population Geospatial View (#32)",
+    "state": "EXECUTED",
+    "outputs": []
+  },
+  {
+    "node": "Python Script (#18)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 136"
+    ]
+  },
+  {
+    "node": "Python Script (#20)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 1"
+    ]
+  },
+  {
+    "node": "Python Script (#21)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 1"
+    ]
+  },
+  {
+    "node": "Python Script (#22)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 1"
+    ]
+  },
+  {
+    "node": "Read Zone Polygons (#28)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 17"
+    ]
+  },
+  {
+    "node": "Road Network Distance Matrix (#4)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 18496, Cols: 6"
+    ]
+  },
+  {
+    "node": "Row Filter (#25)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 10, Cols: 3"
+    ]
+  },
+  {
+    "node": "RowID (#10)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 136"
+    ]
+  },
+  {
+    "node": "RowID (#15)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 136"
+    ]
+  },
+  {
+    "node": "Select Baseline Map (#31)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 12"
+    ]
+  },
+  {
+    "node": "Table Transposer (#12)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 136"
+    ]
+  },
+  {
+    "node": "Table Transposer (#17)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 136, Cols: 136"
+    ]
+  },
+  {
+    "node": "Validate and Run Scenarios (#29)",
+    "state": "EXECUTED",
+    "outputs": [
+      "Rows: 1088, Cols: 12"
+    ]
+  }
+]

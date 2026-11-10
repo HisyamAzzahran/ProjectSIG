@@ -1,0 +1,658 @@
+[
+  {
+    "file": "Laporan_Garin_Lowry_KNIME_dan_Studi_Mandiri.pdf",
+    "pages": [
+      {
+        "page": 1,
+        "chars": 283,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 11,
+          "TimesNewRomanPS-BoldMT": 4
+        },
+        "colors": {
+          "0": 15
+        },
+        "start": " \n \n \nLAPORAN PRAKTIKUM \nSISTEM INFORMASI GEOGRAFIS \nImplementasi Model Garin–Lowry pada Kota Hipote"
+      },
+      {
+        "page": 2,
+        "chars": 1067,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 20,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 21
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 2 dari 31 \nABSTRAK \nProyek ini mereproduksi Model Garin–L"
+      },
+      {
+        "page": 3,
+        "chars": 2964,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 31,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 32
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 3 dari 31 \nDAFTAR ISI \n1. Pendahuluan...................."
+      },
+      {
+        "page": 4,
+        "chars": 1720,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 28,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 31
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 4 dari 31 \n1. Pendahuluan \n1.1 Latar Belakang \nLokasi keg"
+      },
+      {
+        "page": 5,
+        "chars": 1592,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 25,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 28
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 5 dari 31 \n1.3 Penjelasan Model dengan Bahasa Sederhana \n"
+      },
+      {
+        "page": 6,
+        "chars": 351,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 8
+        },
+        "colors": {
+          "0": 8
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 6 dari 31 \nmemperkenalkan kota monosentris, perubahan pek"
+      },
+      {
+        "page": 7,
+        "chars": 1314,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 53,
+          "TimesNewRomanPS-BoldMT": 4
+        },
+        "colors": {
+          "0": 57
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 7 dari 31 \n2. Metodologi \n2.1 Alat, Data, dan Audit \nKomp"
+      },
+      {
+        "page": 8,
+        "chars": 731,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 15,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 16
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 8 dari 31 \n \nGambar 2. Struktur kota memakai poligon dan "
+      },
+      {
+        "page": 9,
+        "chars": 1343,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 88,
+          "TimesNewRomanPS-BoldMT": 4
+        },
+        "colors": {
+          "0": 92
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 9 dari 31 \nmemperluas keluaran skenario, dan menambahkan "
+      },
+      {
+        "page": 10,
+        "chars": 1624,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 33,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 36
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 10 dari 31 \nsalinan \nlokal \nekstensi \ndengan \nmekanisme \n"
+      },
+      {
+        "page": 11,
+        "chars": 640,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 63,
+          "TimesNewRomanPS-BoldMT": 4
+        },
+        "colors": {
+          "0": 67
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 11 dari 31 \n \nGambar 4. Heatmap durasi jaringan. Seluruh "
+      },
+      {
+        "page": 12,
+        "chars": 1979,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 31,
+          "TimesNewRomanPS-BoldMT": 4
+        },
+        "colors": {
+          "0": 35
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 12 dari 31 \nG merupakan matriks alokasi penduduk dari pek"
+      },
+      {
+        "page": 13,
+        "chars": 846,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 83,
+          "TimesNewRomanPS-BoldMT": 5
+        },
+        "colors": {
+          "0": 88
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 13 dari 31 \n \nGambar 5. Kurva konvergensi baseline. Sumbu"
+      },
+      {
+        "page": 14,
+        "chars": 426,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 10
+        },
+        "colors": {
+          "0": 10
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 14 dari 31 \n \nSeluruh skenario mempertahankan total peker"
+      },
+      {
+        "page": 15,
+        "chars": 943,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 17,
+          "TimesNewRomanPS-BoldMT": 4
+        },
+        "colors": {
+          "0": 21
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 15 dari 31 \n3. Hasil dan Pembahasan \n3.1 Bukti Proyek Ber"
+      },
+      {
+        "page": 16,
+        "chars": 714,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 41,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 44
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 16 dari 31 \n \nGambar 6. Output tabel baseline pada KNIME."
+      },
+      {
+        "page": 17,
+        "chars": 593,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 15
+        },
+        "colors": {
+          "0": 15
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 17 dari 31 \ntidak dibulatkan sebelum perhitungan. Semua a"
+      },
+      {
+        "page": 18,
+        "chars": 533,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 77,
+          "TimesNewRomanPS-BoldMT": 6
+        },
+        "colors": {
+          "0": 83
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 18 dari 31 \n \nGambar 8. Choropleth pekerjaan jasa baselin"
+      },
+      {
+        "page": 19,
+        "chars": 1185,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 21
+        },
+        "colors": {
+          "0": 21
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 19 dari 31 \nP CBD adalah penduduk zona 71. Radius berbobo"
+      },
+      {
+        "page": 20,
+        "chars": 557,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 12,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 13
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 20 dari 31 \n \nGambar 10. Perubahan penduduk akibat pening"
+      },
+      {
+        "page": 21,
+        "chars": 582,
+        "images": 2,
+        "fonts": {
+          "TimesNewRomanPSMT": 15
+        },
+        "colors": {
+          "0": 15
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 21 dari 31 \n \nGambar 11. Output KNIME untuk delapan skena"
+      },
+      {
+        "page": 22,
+        "chars": 1140,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 20,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 23
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 22 dari 31 \n3.5 Studi Kasus Mandiri: Kota Tiga Pusat \nPer"
+      },
+      {
+        "page": 23,
+        "chars": 1054,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 53,
+          "TimesNewRomanPS-BoldMT": 8
+        },
+        "colors": {
+          "0": 61
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 23 dari 31 \nVariabel yang dikendalikan. Total pekerjaan d"
+      },
+      {
+        "page": 24,
+        "chars": 591,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 14,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 15
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 24 dari 31 \n \nGambar 14. Penduduk pada skenario tiga pusa"
+      },
+      {
+        "page": 25,
+        "chars": 195,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 8
+        },
+        "colors": {
+          "0": 8
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 25 dari 31 \n \nGambar 15. Perubahan penduduk: tiga pusat d"
+      },
+      {
+        "page": 26,
+        "chars": 1005,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 19,
+          "TimesNewRomanPS-BoldMT": 2
+        },
+        "colors": {
+          "0": 21
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 26 dari 31 \n \nGambar 16. Perbandingan penduduk pada CBD d"
+      },
+      {
+        "page": 27,
+        "chars": 280,
+        "images": 2,
+        "fonts": {
+          "TimesNewRomanPSMT": 11
+        },
+        "colors": {
+          "0": 11
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 27 dari 31 \n \nGambar 17. Tampilan peta hasil studi mandir"
+      },
+      {
+        "page": 28,
+        "chars": 891,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 15,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 16
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 28 dari 31 \n3.6 Keterbatasan dan Makna Hasil \nModel belum"
+      },
+      {
+        "page": 29,
+        "chars": 1512,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 22,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 25
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 29 dari 31 \n4. Kesimpulan dan Rekomendasi \n4.1 Kesimpulan"
+      },
+      {
+        "page": 30,
+        "chars": 1433,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 24,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 25
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 30 dari 31 \nDaftar Pustaka \n[1] Lowry, I. S. (1964). A Mo"
+      },
+      {
+        "page": 31,
+        "chars": 1483,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 60,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 63
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 31 dari 31 \nLampiran: Berkas Hasil dan Cara Reproduksi \nB"
+      }
+    ]
+  },
+  {
+    "file": "Penjelasan_Mudah_Project_Garin_Lowry.pdf",
+    "pages": [
+      {
+        "page": 1,
+        "chars": 226,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 11,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 14
+        },
+        "start": " \n \n \nLAPORAN PRAKTIKUM \nSISTEM INFORMASI GEOGRAFIS \nPenjelasan Mudah Proyek Garin–Lowry \nPanduan me"
+      },
+      {
+        "page": 2,
+        "chars": 498,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 11,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 12
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 2 dari 7 \n1. Apa yang Dikerjakan Proyek Ini? \nProyek ini "
+      },
+      {
+        "page": 3,
+        "chars": 1051,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 19,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 20
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 3 dari 7 \n2. Cara Kerjanya dengan Analogi \nBayangkan sebu"
+      },
+      {
+        "page": 4,
+        "chars": 577,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 11,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 12
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 4 dari 7 \n3. Mengapa Memakai KNIME? \nKNIME membuat urutan"
+      },
+      {
+        "page": 5,
+        "chars": 836,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 18,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 19
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 5 dari 7 \n4. Apa Saja Studi Kasusnya? \n• Pekerjaan dasar "
+      },
+      {
+        "page": 6,
+        "chars": 714,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 13,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 14
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 6 dari 7 \n5. Cara Menjelaskan Hasil kepada Dosen \nSampaik"
+      },
+      {
+        "page": 7,
+        "chars": 1010,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 15,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 16
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 7 dari 7 \n6. Apakah Sudah Berjalan dan Bagaimana Membukan"
+      }
+    ]
+  },
+  {
+    "file": "Studi_Kasus_Mandiri_Kota_Tiga_Pusat.pdf",
+    "pages": [
+      {
+        "page": 1,
+        "chars": 237,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 11,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 14
+        },
+        "start": " \n \n \nLAPORAN PRAKTIKUM \nSISTEM INFORMASI GEOGRAFIS \nStudi Kasus Mandiri: Kota Tiga Pusat Pekerjaan "
+      },
+      {
+        "page": 2,
+        "chars": 982,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 14,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 15
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 2 dari 12 \nDAFTAR ISI \n1. Pendahuluan...................."
+      },
+      {
+        "page": 3,
+        "chars": 754,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 13,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 16
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 3 dari 12 \n1. Pendahuluan \n1.1 Masalah dan Asal Rancangan"
+      },
+      {
+        "page": 4,
+        "chars": 780,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 17,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 18
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 4 dari 12 \n2. Metodologi \nData terdiri atas 136 poligon, "
+      },
+      {
+        "page": 5,
+        "chars": 1121,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 20,
+          "TimesNewRomanPS-BoldMT": 3
+        },
+        "colors": {
+          "0": 23
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 5 dari 12 \n3. Hasil dan Pembahasan \nPertanyaan eksperimen"
+      },
+      {
+        "page": 6,
+        "chars": 1053,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 53,
+          "TimesNewRomanPS-BoldMT": 8
+        },
+        "colors": {
+          "0": 61
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 6 dari 12 \nVariabel yang dikendalikan. Total pekerjaan da"
+      },
+      {
+        "page": 7,
+        "chars": 589,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 14,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 15
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 7 dari 12 \n \nGambar 3. Penduduk pada skenario tiga pusat,"
+      },
+      {
+        "page": 8,
+        "chars": 193,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 8
+        },
+        "colors": {
+          "0": 8
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 8 dari 12 \n \nGambar 4. Perubahan penduduk: tiga pusat dik"
+      },
+      {
+        "page": 9,
+        "chars": 1003,
+        "images": 1,
+        "fonts": {
+          "TimesNewRomanPSMT": 18,
+          "TimesNewRomanPS-BoldMT": 2
+        },
+        "colors": {
+          "0": 20
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 9 dari 12 \n \nGambar 5. Perbandingan penduduk pada CBD dan"
+      },
+      {
+        "page": 10,
+        "chars": 278,
+        "images": 2,
+        "fonts": {
+          "TimesNewRomanPSMT": 11
+        },
+        "colors": {
+          "0": 11
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 10 dari 12 \n \nGambar 6. Tampilan peta hasil studi mandiri"
+      },
+      {
+        "page": 11,
+        "chars": 1037,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 16,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 17
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 11 dari 12 \n4. Kesimpulan dan Rekomendasi \nRancangan tiga"
+      },
+      {
+        "page": 12,
+        "chars": 1433,
+        "images": 0,
+        "fonts": {
+          "TimesNewRomanPSMT": 24,
+          "TimesNewRomanPS-BoldMT": 1
+        },
+        "colors": {
+          "0": 25
+        },
+        "start": "Praktikum SIG | Model Garin–Lowry \nHalaman 12 dari 12 \nDaftar Pustaka \n[1] Lowry, I. S. (1964). A Mo"
+      }
+    ]
+  }
+]

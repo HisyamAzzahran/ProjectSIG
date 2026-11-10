@@ -1,0 +1,548 @@
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\knime.log
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # logging date=Tue Nov 10 10:14:23 WIB 2026
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-11-10 10:14:23,311 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-11-10 10:14:23,328 : INFO  : main :  : NodeLogger :  :  : # host=MSI
+2026-11-10 10:14:23,360 : INFO  : main :  : NodeLogger :  :  : # username=Muhammad Fatih
+2026-11-10 10:14:23,360 : INFO  : main :  : NodeLogger :  :  : # max mem=16272MB
+2026-11-10 10:14:23,360 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-11-10 10:14:23,436 : INFO  : main :  : NodeLogger :  :  : # KNID=11-be4fb7647189ca62-01-c15d63275f1339c9
+2026-11-10 10:14:23,436 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:07:36,223 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-11-10 10:14:27,253 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-11-10 10:14:27,253 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_database_urls.txt' does not exist.
+2026-11-10 10:14:29,743 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-11-10 10:14:29,840 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:14:34,562 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-11-10 10:14:34,562 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-11-10 10:14:35,971 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-11-10 10:14:37,046 : INFO  : Thread-188 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:14:37,703 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-11-10 10:14:37,876 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:14:37,895 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:14:38,329 : ERROR : Thread-792 :  : KnimeBrowserView :  :  : Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-Explain-Workflow.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+2026-11-10 10:14:38,468 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:14:41,779 : ERROR : Thread-1104 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:14:41,780 : ERROR : Thread-1106 :  : KnimeBrowserView :  :  : Uncaught (in promise) AbortError: The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22 (source: https://org.knime.ui.java/editor/index.html#/space-browsing/local/Local-space-id/local/root; line: 0)
+2026-11-10 10:14:44,345 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:14:44,355 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:14:44,356 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:14:44,386 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:14:44,387 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:14:44,419 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:14:44,432 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:14:44,433 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:14:44,435 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:15:00,855 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Case10-Implementing the Garin-Lowry Model in a Hypothetical City : 3 : Unable to load additional factory settings into node "Line Plot (Plotly)": Extension not found: org.knime.js.plotly
+2026-11-10 10:15:00,888 : WARN  : ModalContext :  : FileNodePersistor : MISSING GeoFile Reader : 3:1 : Unable to load port content for node "MISSING GeoFile Reader": Data cell implementation 'org.knime.geospatial.core.data.cell.GeoPointCell' not found.
+org.knime.core.node.InvalidSettingsException: Data cell implementation 'org.knime.geospatial.core.data.cell.GeoPointCell' not found.
+	at org.knime.core.data.DataType.load(DataType.java:692)
+	at org.knime.core.data.DataColumnSpec.load(DataColumnSpec.java:489)
+	at org.knime.core.data.DataTableSpec.load(DataTableSpec.java:322)
+	at org.knime.core.node.BufferedDataTable.loadSpec(BufferedDataTable.java:742)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:785)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflowManager(DesktopAPUtil.java:171)
+	at org.knime.ui.java.util.CreateProject.lambda$1(CreateProject.java:146)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$10(DesktopAPUtil.java:422)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 10:15:00,895 : WARN  : ModalContext :  : Node : MISSING GeoFile Reader : 3:1 : Node can't be executed - Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is not installed)
+2026-11-10 10:15:00,898 : WARN  : ModalContext :  : FileNodePersistor : MISSING GeoFile Reader : 3:2 : Unable to load port content for node "MISSING GeoFile Reader": Data cell implementation 'org.knime.geospatial.core.data.cell.GeoLineCell' not found.
+org.knime.core.node.InvalidSettingsException: Data cell implementation 'org.knime.geospatial.core.data.cell.GeoLineCell' not found.
+	at org.knime.core.data.DataType.load(DataType.java:692)
+	at org.knime.core.data.DataColumnSpec.load(DataColumnSpec.java:489)
+	at org.knime.core.data.DataTableSpec.load(DataTableSpec.java:322)
+	at org.knime.core.node.BufferedDataTable.loadSpec(BufferedDataTable.java:742)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:785)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflowManager(DesktopAPUtil.java:171)
+	at org.knime.ui.java.util.CreateProject.lambda$1(CreateProject.java:146)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$10(DesktopAPUtil.java:422)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 10:15:00,899 : WARN  : ModalContext :  : Node : MISSING GeoFile Reader : 3:2 : Node can't be executed - Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is not installed)
+2026-11-10 10:15:01,460 : INFO  : ModalContext :  : ColumnarPreferenceUtils : MISSING Road Network Distance Matrix : 3:4 : Column Data Cache size is 6373 MB.
+2026-11-10 10:15:01,485 : ERROR : ModalContext :  : FileNodePersistor : Column Filter : 3:19 : Unexpected "NullPointerException" encountered
+2026-11-10 10:15:01,486 : WARN  : ModalContext :  : FileNodePersistor : Column Filter : 3:19 : Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+java.lang.NullPointerException: Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+	at org.knime.core.node.Node.invokeGetDelegate(Node.java:2733)
+	at org.knime.core.data.columnar.table.virtual.reference.ReferenceTables.extractExtensionTable(ReferenceTables.java:141)
+	at org.knime.core.data.columnar.table.virtual.reference.ReferenceTables.createReferenceTable(ReferenceTables.java:96)
+	at org.knime.core.data.columnar.table.VirtualTableExtensionTable.createReferenceTables(VirtualTableExtensionTable.java:205)
+	at org.knime.core.data.columnar.table.VirtualTableExtensionTable.<init>(VirtualTableExtensionTable.java:176)
+	at org.knime.core.data.columnar.table.VirtualTableExtensionTableLoader.load(VirtualTableExtensionTableLoader.java:65)
+	at org.knime.core.node.ExtensionTableRegistry.loadExtensionTable(ExtensionTableRegistry.java:134)
+	at org.knime.core.node.ExtensionTable.loadExtensionTable(ExtensionTable.java:318)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:888)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflowManager(DesktopAPUtil.java:171)
+	at org.knime.ui.java.util.CreateProject.lambda$1(CreateProject.java:146)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$10(DesktopAPUtil.java:422)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 10:15:01,489 : ERROR : ModalContext :  : FileNodePersistor : Column Filter : 3:23 : Unexpected "NullPointerException" encountered
+2026-11-10 10:15:01,489 : WARN  : ModalContext :  : FileNodePersistor : Column Filter : 3:23 : Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+java.lang.NullPointerException: Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+	at org.knime.core.node.Node.invokeGetDelegate(Node.java:2733)
+	at org.knime.core.data.columnar.table.virtual.reference.ReferenceTables.extractExtensionTable(ReferenceTables.java:141)
+	at org.knime.core.data.columnar.table.virtual.reference.ReferenceTables.createReferenceTable(ReferenceTables.java:96)
+	at org.knime.core.data.columnar.table.VirtualTableExtensionTable.createReferenceTables(VirtualTableExtensionTable.java:205)
+	at org.knime.core.data.columnar.table.VirtualTableExtensionTable.<init>(VirtualTableExtensionTable.java:176)
+	at org.knime.core.data.columnar.table.VirtualTableExtensionTableLoader.load(VirtualTableExtensionTableLoader.java:65)
+	at org.knime.core.node.ExtensionTableRegistry.loadExtensionTable(ExtensionTableRegistry.java:134)
+	at org.knime.core.node.ExtensionTable.loadExtensionTable(ExtensionTable.java:318)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:888)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflowManager(DesktopAPUtil.java:171)
+	at org.knime.ui.java.util.CreateProject.lambda$1(CreateProject.java:146)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$10(DesktopAPUtil.java:422)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 10:15:01,904 : WARN  : ModalContext :  : FileNodePersistor : Column Appender : 3:24 : Unable to load port content for node "Column Appender": No BufferedDataTable  with ID 18
+org.knime.core.node.InvalidSettingsException: No BufferedDataTable  with ID 18
+	at org.knime.core.node.BufferedDataTable.getDataTable(BufferedDataTable.java:154)
+	at org.knime.core.data.container.TableSpecReplacerTable.load(TableSpecReplacerTable.java:179)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:884)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:858)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflowManager(DesktopAPUtil.java:171)
+	at org.knime.ui.java.util.CreateProject.lambda$1(CreateProject.java:146)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$10(DesktopAPUtil.java:422)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: Case10-Implementing the Garin-Lowry Model in a Hypothetical City 3 loaded with error during data load
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: Case10-Implementing the Garin-Lowry Model in a Hypothetical City 3
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is not installed)
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is not installed)
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Geospatial View" not available from extension "Geospatial Analytics Extension for KNIME" (provided by "SDL, Harvard, Cambridge US"; plugin "sdl.harvard.geospatial" is not installed)
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Road Network Distance Matrix" not available from extension "Geospatial Analytics Extension for KNIME" (provided by "SDL, Harvard, Cambridge US"; plugin "sdl.harvard.geospatial" is not installed)
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Python Script" not available from extension "KNIME Python Integration" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.scripting.nodes" is not installed)
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Python Script" not available from extension "KNIME Python Integration" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.scripting.nodes" is not installed)
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Python Script" not available from extension "KNIME Python Integration" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.scripting.nodes" is not installed)
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Python Script" not available from extension "KNIME Python Integration" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.scripting.nodes" is not installed)
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to load additional factory settings into node "Line Plot (Plotly)": Extension not found: org.knime.js.plotly
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING GeoFile Reader 3:1
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING GeoFile Reader": Data cell implementation 'org.knime.geospatial.core.data.cell.GeoPointCell' not found.
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING GeoFile Reader 3:2
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING GeoFile Reader": Data cell implementation 'org.knime.geospatial.core.data.cell.GeoLineCell' not found.
+2026-11-10 10:15:01,937 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2026-11-10 10:15:01,938 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Column Filter 3:19
+2026-11-10 10:15:01,938 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+2026-11-10 10:15:01,938 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Column Filter 3:23
+2026-11-10 10:15:01,938 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+2026-11-10 10:15:01,938 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Column Appender 3:24
+2026-11-10 10:15:01,938 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Column Appender": No BufferedDataTable  with ID 18
+2026-11-10 10:15:01,938 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from EXECUTED to IDLE
+2026-11-10 10:15:07,313 : ERROR : Thread-2134 :  : KnimeBrowserView :  :  : Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-KAI-Building-Mode.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+2026-11-10 10:15:28,746 : ERROR : Thread-2898 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:15:28,746 : ERROR : Thread-2900 :  : KnimeBrowserView :  :  : Uncaught (in promise) AbortError: The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22 (source: https://org.knime.ui.java/editor/index.html#/workflow/Case10-Implementing%20the%20Garin-Lowry%20Model%20in%20a%20Hypothetical%20City_ff95aaf9-e3d6-4119-a60c-8728baf28e84/root?version; line: 0)
+2026-11-10 10:15:58,981 : ERROR : Thread-4679 :  : KnimeBrowserView :  :  : %cerror%c NodeDescription::Problem fetching NativeNode description 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:18:07,682 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x000001d8c442dc58 :  : FileUtil :  :  : Deleting 25 temporary files.
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\knime.log
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # logging date=Tue Nov 10 10:22:31 WIB 2026
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-11-10 10:22:31,786 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-11-10 10:22:31,802 : INFO  : main :  : NodeLogger :  :  : # host=MSI
+2026-11-10 10:22:31,802 : INFO  : main :  : NodeLogger :  :  : # username=Muhammad Fatih
+2026-11-10 10:22:31,818 : INFO  : main :  : NodeLogger :  :  : # max mem=16272MB
+2026-11-10 10:22:31,818 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-11-10 10:22:31,818 : INFO  : main :  : NodeLogger :  :  : # KNID=11-be4fb7647189ca62-01-c15d63275f1339c9
+2026-11-10 10:22:31,818 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:22:26,011 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-11-10 10:22:32,809 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-11-10 10:22:32,841 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-11-10 10:22:35,139 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-11-10 10:22:35,139 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_database_urls.txt' does not exist.
+2026-11-10 10:22:38,735 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-11-10 10:22:38,736 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-11-10 10:22:38,804 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-11-10 10:22:38,841 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:22:39,867 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-11-10 10:22:40,621 : INFO  : Thread-186 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:22:41,575 : INFO  : ModalContext :  : Pivot2NodeFactory : Case10-Implementing the Garin-Lowry Model in a Hypothetical City : 3 : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:22:41,813 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[20(1) -> 21( 2)]"
+2026-11-10 10:22:41,816 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[17(1) -> 18( 2)]"
+2026-11-10 10:22:41,816 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[21(1) -> 22( 2)]"
+2026-11-10 10:22:41,818 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[19(1) -> 20( 2)]"
+2026-11-10 10:22:41,842 : WARN  : ModalContext :  : Node : MISSING GeoFile Reader : 3:1 : Node can't be executed - Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is not installed)
+Unable to load port content for node "MISSING GeoFile Reader": Data cell implementation 'org.knime.geospatial.core.data.cell.GeoPointCell' not found.
+2026-11-10 10:22:41,847 : WARN  : ModalContext :  : Node : MISSING GeoFile Reader : 3:1 : Node can't be executed - Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is installed)
+2026-11-10 10:22:41,851 : WARN  : ModalContext :  : Node : MISSING GeoFile Reader : 3:2 : Node can't be executed - Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is not installed)
+Unable to load port content for node "MISSING GeoFile Reader": Data cell implementation 'org.knime.geospatial.core.data.cell.GeoLineCell' not found.
+2026-11-10 10:22:41,852 : WARN  : ModalContext :  : Node : MISSING GeoFile Reader : 3:2 : Node can't be executed - Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is installed)
+2026-11-10 10:22:41,854 : WARN  : ModalContext :  : Node : Column Filter : 3:19 : 
+Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+2026-11-10 10:22:41,855 : WARN  : ModalContext :  : Node : Column Filter : 3:23 : 
+Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+2026-11-10 10:22:42,075 : WARN  : ModalContext :  : Node : Column Appender : 3:24 : 
+Unable to load port content for node "Column Appender": No BufferedDataTable  with ID 18
+2026-11-10 10:22:42,112 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: Case10-Implementing the Garin-Lowry Model in a Hypothetical City 3 loaded with errors
+2026-11-10 10:22:42,112 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: Case10-Implementing the Garin-Lowry Model in a Hypothetical City 3
+2026-11-10 10:22:42,112 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is installed)
+2026-11-10 10:22:42,112 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is installed)
+2026-11-10 10:22:42,112 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Geospatial View" not available from extension "Geospatial Analytics Extension for KNIME" (provided by "SDL, Harvard, Cambridge US"; plugin "sdl.harvard.geospatial" is not installed)
+2026-11-10 10:22:42,112 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Road Network Distance Matrix" not available from extension "Geospatial Analytics Extension for KNIME" (provided by "SDL, Harvard, Cambridge US"; plugin "sdl.harvard.geospatial" is not installed)
+2026-11-10 10:22:42,113 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[20(1) -> 21( 2)]"
+2026-11-10 10:22:42,113 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[17(1) -> 18( 2)]"
+2026-11-10 10:22:42,113 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[21(1) -> 22( 2)]"
+2026-11-10 10:22:42,113 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[19(1) -> 20( 2)]"
+2026-11-10 10:22:43,237 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:22:45,151 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:22:45,880 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-11-10 10:22:47,469 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:22:47,541 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:22:47,569 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:22:48,152 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:22:48,153 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:22:48,157 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:22:48,201 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:22:48,202 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:22:48,222 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:25:00,623 : ERROR : main :  : runtime :  :  : Cannot continue the operation.  There is another install operation in progress.
+2026-11-10 10:25:00,633 : ERROR : main :  : runtime :  :  : Cannot continue the operation.  There is another install operation in progress.
+2026-11-10 10:25:18,580 : ERROR : Thread-3576 :  : KnimeBrowserView :  :  : %cerror%c NodeDescription::Problem fetching NativeNode description 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:26:13,042 : INFO  : Provisioning Event Dispatcher :  : PythonGatewayCreationGate :  :  : Blocking Python process startup during installation (thread='Provisioning Event Dispatcher')
+2026-11-10 10:26:13,842 : INFO  : Provisioning Event Dispatcher :  : PythonGatewayCreationGate :  :  : Allowing Python process startup again after installation (thread='Provisioning Event Dispatcher')
+2026-11-10 10:26:17,767 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x000002b7c1514808 :  : FileUtil :  :  : Deleting 1 temporary files.
+2026-11-10 10:26:17,844 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\org.eclipse.osgi\280\0\.cp\swt-gdip-win32-4969r18.dll
+2026-11-10 10:28:33,826 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:28:33,826 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:28:33,831 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-11-10 10:28:33,832 : INFO  : main :  : NodeLogger :  :  : # C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\knime.log
+2026-11-10 10:28:33,832 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-11-10 10:28:33,838 : INFO  : main :  : NodeLogger :  :  : # logging date=Tue Nov 10 10:28:33 WIB 2026
+2026-11-10 10:28:33,838 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-11-10 10:28:33,838 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-11-10 10:28:33,838 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-11-10 10:28:33,838 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-11-10 10:28:33,838 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-11-10 10:28:33,838 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-11-10 10:28:33,838 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-11-10 10:28:33,852 : INFO  : main :  : NodeLogger :  :  : # host=MSI
+2026-11-10 10:28:33,852 : INFO  : main :  : NodeLogger :  :  : # username=Muhammad Fatih
+2026-11-10 10:28:33,852 : INFO  : main :  : NodeLogger :  :  : # max mem=16272MB
+2026-11-10 10:28:33,859 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-11-10 10:28:33,860 : INFO  : main :  : NodeLogger :  :  : # KNID=11-be4fb7647189ca62-01-c15d63275f1339c9
+2026-11-10 10:28:33,860 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:26:26,099 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-11-10 10:26:31,011 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-11-10 10:26:31,044 : INFO  : main :  : CondaEnvironmentRegistry :  :  : No metadata.properties found for 'sdl_harvard_geospatial' at C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial - environment needs to be created
+2026-11-10 10:26:31,729 : INFO  : main :  : runtime :  :  : Checking pixi cache directory for knime-python-versions (knime-python-versions-5.12.2-py313_202610261203) package: C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\.pixi-cache
+2026-11-10 10:26:31,772 : INFO  : main :  : runtime :  :  : New knime-python-versions 5.12.2 is newer than cached 5.12.0 - will clean cache.
+2026-11-10 10:26:31,774 : INFO  : main :  : runtime :  :  : Cleaning pixi cache directory: C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\.pixi-cache
+2026-11-10 10:28:29,741 : INFO  : main :  : runtime :  :  : Warming up Python environment at: C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial
+2026-11-10 10:28:33,729 : INFO  : main :  : runtime :  :  : Environment warmup successful.
+2026-11-10 10:28:33,731 : INFO  : main :  : CondaEnvironmentRegistry :  :  : Written environment path file for startup-created environment: sdl_harvard_geospatial -> bundling\sdl_harvard_geospatial\.pixi\envs\default (actual environment path)
+2026-11-10 10:28:33,739 : INFO  : main :  : CondaEnvironmentRegistry :  :  : All conda environment installations completed successfully
+2026-11-10 10:28:33,744 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-11-10 10:28:35,236 : INFO  : python-gateway-creator-0 :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-11-10 10:28:35,237 : INFO  : python-gateway-creator-0 :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-11-10 10:28:36,102 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-11-10 10:28:36,103 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_database_urls.txt' does not exist.
+2026-11-10 10:28:39,668 : INFO  : ForkJoinPool.commonPool-worker-2 :  : PythonExtensionParser :  :  : Saved extension 'sdl.harvard.geospatial_2.1.0.202610271233' cache to C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\sdl.harvard.geospatial
+2026-11-10 10:28:39,891 : INFO  : ForkJoinPool.commonPool-worker-2 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=24288) from thread 'ForkJoinPool.commonPool-worker-2'
+2026-11-10 10:28:40,044 : INFO  : KNIME-Worker-0 :  : PythonExtensionParser :  :  : Trying to load cached extension 'sdl.harvard.geospatial_2.1.0.202610271233' from C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\sdl.harvard.geospatial
+2026-11-10 10:28:40,584 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-11-10 10:28:40,676 : WARN  : main :  : LongStartupHandler :  :  : Startup took 114 seconds. Long startup dialog should have been shown if conda environment installation was not in progress.
+2026-11-10 10:28:41,221 : INFO  : Thread-208 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:28:42,347 : INFO  : ModalContext :  : Pivot2NodeFactory : Case10-Implementing the Garin-Lowry Model in a Hypothetical City : 3 : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:28:42,756 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[20(1) -> 21( 2)]"
+2026-11-10 10:28:42,757 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[17(1) -> 18( 2)]"
+2026-11-10 10:28:42,758 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[21(1) -> 22( 2)]"
+2026-11-10 10:28:42,758 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[19(1) -> 20( 2)]"
+2026-11-10 10:28:43,868 : WARN  : ModalContext :  : Node : GeoFile Reader : 3:1 : Node can't be executed - Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is not installed)
+Unable to load port content for node "MISSING GeoFile Reader": Data cell implementation 'org.knime.geospatial.core.data.cell.GeoPointCell' not found.
+2026-11-10 10:28:44,034 : WARN  : ModalContext :  : Node : GeoFile Reader : 3:2 : Node can't be executed - Node "GeoFile Reader" not available from extension "KNIME Python Extension Development (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python3.nodes" is not installed)
+Unable to load port content for node "MISSING GeoFile Reader": Data cell implementation 'org.knime.geospatial.core.data.cell.GeoLineCell' not found.
+2026-11-10 10:28:44,611 : WARN  : ModalContext :  : Node : Column Filter : 3:19 : 
+Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+2026-11-10 10:28:44,611 : WARN  : ModalContext :  : Node : Column Filter : 3:23 : 
+Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+2026-11-10 10:28:45,073 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-11-10 10:28:45,155 : WARN  : ModalContext :  : Node : Column Appender : 3:24 : 
+Unable to load port content for node "Column Appender": No BufferedDataTable  with ID 18
+2026-11-10 10:28:45,176 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: Case10-Implementing the Garin-Lowry Model in a Hypothetical City 3 loaded with errors
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: Case10-Implementing the Garin-Lowry Model in a Hypothetical City 3
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[20(1) -> 21( 2)]"
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[17(1) -> 18( 2)]"
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[21(1) -> 22( 2)]"
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[19(1) -> 20( 2)]"
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: GeoFile Reader 3:1
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: GeoFile Reader 3:2
+2026-11-10 10:28:45,203 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2026-11-10 10:28:49,586 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-11-10 10:28:50,275 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:28:50,504 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:28:52,701 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:28:52,790 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:28:52,829 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:28:52,855 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:28:52,855 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:28:52,873 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:28:52,919 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:28:52,919 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:28:52,923 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:29:24,455 : INFO  : Provisioning Event Dispatcher :  : PythonGatewayCreationGate :  :  : Blocking Python process startup during installation (thread='Provisioning Event Dispatcher')
+2026-11-10 10:29:24,457 : ERROR : Provisioning Event Dispatcher :  : PythonGatewayTracker :  :  : Found running Python processes (2). Aborting them to allow installation process. If this leads to failures in node execution, please restart those nodes once the installation has finished. Triggered from thread 'Provisioning Event Dispatcher'.
+2026-11-10 10:29:24,458 : INFO  : Provisioning Event Dispatcher :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=5820) from thread 'Provisioning Event Dispatcher'
+2026-11-10 10:29:24,665 : INFO  : Provisioning Event Dispatcher :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=26580) from thread 'Provisioning Event Dispatcher'
+2026-11-10 10:29:24,877 : WARN  : Provisioning Event Dispatcher :  : QueuedPythonGatewayFactory$PythonGatewayQueue :  :  : PythonGatewayCreationGate closed: evicting 1 queued gateways from thread 'Provisioning Event Dispatcher'
+2026-11-10 10:29:25,432 : INFO  : Provisioning Event Dispatcher :  : PythonGatewayCreationGate :  :  : Allowing Python process startup again after installation (thread='Provisioning Event Dispatcher')
+2026-11-10 10:29:32,008 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x000001cb5c247890 :  : FileUtil :  :  : Deleting 1 temporary files.
+2026-11-10 10:29:32,097 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\org.eclipse.osgi\449\0\.cp\swt-gdip-win32-4969r18.dll
+2026-11-10 10:29:41,961 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:29:41,962 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:29:41,962 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-11-10 10:29:41,962 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-11-10 10:29:41,962 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:29:41,962 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:29:41,962 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:29:41,962 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-11-10 10:29:41,962 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-11-10 10:29:41,963 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-11-10 10:29:41,963 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 10:29:41,963 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:29:41,963 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-11-10 10:29:41,963 : INFO  : main :  : NodeLogger :  :  : # C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\knime.log
+2026-11-10 10:29:41,963 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-11-10 10:29:41,972 : INFO  : main :  : NodeLogger :  :  : # logging date=Tue Nov 10 10:29:41 WIB 2026
+2026-11-10 10:29:41,972 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-11-10 10:29:41,972 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-11-10 10:29:41,972 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-11-10 10:29:41,972 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-11-10 10:29:41,972 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-11-10 10:29:41,972 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-11-10 10:29:41,973 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-11-10 10:29:41,983 : INFO  : main :  : NodeLogger :  :  : # host=MSI
+2026-11-10 10:29:41,987 : INFO  : main :  : NodeLogger :  :  : # username=Muhammad Fatih
+2026-11-10 10:29:41,987 : INFO  : main :  : NodeLogger :  :  : # max mem=16272MB
+2026-11-10 10:29:41,988 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-11-10 10:29:41,989 : INFO  : main :  : NodeLogger :  :  : # KNID=11-be4fb7647189ca62-01-c15d63275f1339c9
+2026-11-10 10:29:41,989 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 10:29:37,106 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-11-10 10:29:41,878 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-11-10 10:29:41,905 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-11-10 10:29:43,174 : INFO  : python-gateway-creator-0 :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-11-10 10:29:43,174 : INFO  : python-gateway-creator-0 :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-11-10 10:29:44,039 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-11-10 10:29:44,039 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_database_urls.txt' does not exist.
+2026-11-10 10:29:46,551 : INFO  : ForkJoinPool.commonPool-worker-2 :  : PythonExtensionParser :  :  : Saved extension 'sdl.harvard.geospatial_2.1.0.202610271233' cache to C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\sdl.harvard.geospatial
+2026-11-10 10:29:46,861 : INFO  : ForkJoinPool.commonPool-worker-2 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=20944) from thread 'ForkJoinPool.commonPool-worker-2'
+2026-11-10 10:29:47,011 : INFO  : main :  : PythonExtensionParser :  :  : Trying to load cached extension 'sdl.harvard.geospatial_2.1.0.202610271233' from C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\configuration\sdl.harvard.geospatial
+2026-11-10 10:29:47,545 : INFO  : main :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-11-10 10:29:48,131 : INFO  : Thread-177 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-11-10 10:29:49,214 : INFO  : ModalContext :  : Pivot2NodeFactory : Case10-Implementing the Garin-Lowry Model in a Hypothetical City : 3 : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:29:50,687 : WARN  : ModalContext :  : Node : Column Filter : 3:19 : 
+Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+2026-11-10 10:29:50,690 : WARN  : ModalContext :  : Node : Column Filter : 3:23 : 
+Unable to load port content for node "Column Filter": Cannot invoke "org.knime.core.node.BufferedDataTable.getDelegate()" because "table" is null
+2026-11-10 10:29:51,029 : WARN  : ModalContext :  : Node : Column Appender : 3:24 : 
+Unable to load port content for node "Column Appender": No BufferedDataTable  with ID 18
+2026-11-10 10:29:51,115 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:29:51,142 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-11-10 10:29:54,578 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:29:54,833 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\Users\Muhammad Fatih\knime-workspace\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-11-10 10:29:56,727 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 10:29:57,167 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:29:57,332 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:29:57,333 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 10:29:57,376 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:29:57,385 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:29:57,385 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 10:29:57,389 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:29:57,399 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:29:57,400 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 10:29:59,529 : INFO  : Framework stop - Equinox Container: b67c3192-4aa7-4dbd-85d3-acd5ce4d9176 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=11448) from thread 'Framework stop - Equinox Container: b67c3192-4aa7-4dbd-85d3-acd5ce4d9176'
+2026-11-10 10:29:59,669 : INFO  : python-gateway-closer-0 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=16872) from thread 'python-gateway-closer-0'
+2026-11-10 10:30:00,362 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x0000023e1149d5e0 :  : FileUtil :  :  : Deleting 1 temporary files.

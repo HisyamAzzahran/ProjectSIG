@@ -1,0 +1,13 @@
+{
+  "residual_inf": 8.881784197001252e-15,
+  "balance_residual_inf": 7.105427357601002e-15,
+  "iterative_difference_inf": 9.531930800221744e-12,
+  "iterations": 54,
+  "converged": true,
+  "spectral_radius": 0.5999999999999993,
+  "condition_number": 2.6559653103027197,
+  "basic_total": 99.99998399999998,
+  "population_total": 499.9999199999995,
+  "service_total": 149.9999759999998,
+  "total_employment": 249.9999599999998
+}

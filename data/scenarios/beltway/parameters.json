@@ -1,0 +1,13 @@
+{
+  "scenario": "beltway",
+  "parameters": {
+    "population_per_worker": 2.0,
+    "service_per_person": 0.3,
+    "residential_exponent": 1.0,
+    "service_exponent": 1.0
+  },
+  "speed_column": "speed1",
+  "reference": "baseline_uniform",
+  "basic_total": 99.99998399999998,
+  "origin": "original cached workflow; CBD normalized to preserve saved BEMP_Unif total"
+}

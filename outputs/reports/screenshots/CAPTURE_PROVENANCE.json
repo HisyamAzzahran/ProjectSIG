@@ -1,0 +1,47 @@
+{
+  "01_workflow_extended.png": {
+    "source": "KNIME workflow editor",
+    "node_count": 34,
+    "method": "Direct pywinauto window capture; no table or image content substituted",
+    "captured_at": "2026-11-10T11:51:10.106677+07:00",
+    "sha256": "ad21196aa0216ae50cad94030066bdbfd7cf99ef5c0ff6fb735100fd833a6dbc"
+  },
+  "02_baseline_table_knime.png": {
+    "source": "KNIME native table viewer",
+    "node_id": 24,
+    "rows": 136,
+    "method": "Direct pywinauto window capture; no table or image content substituted",
+    "captured_at": "2026-11-10T11:52:01.132742+07:00",
+    "sha256": "e23dcac193a727329449e87250a7d019cd4b19c09dfeed762ee5d32c3677198c"
+  },
+  "03_all_scenarios_table_knime.png": {
+    "source": "KNIME native table viewer",
+    "node_id": 29,
+    "rows": 1088,
+    "method": "Direct pywinauto window capture; no table or image content substituted",
+    "captured_at": "2026-11-10T11:52:11.299260+07:00",
+    "sha256": "04eaaaeeb11680e1a0cd2148d76005fc282700a4073a400e81a64c20aa2a4cbd"
+  },
+  "04_custom_map_knime.png": {
+    "source": "KNIME Interactive View Geospatial View",
+    "node_id": 34,
+    "scenario": "polycentric_centers",
+    "method": "Direct pywinauto window capture; no table or image content substituted",
+    "captured_at": "2026-11-10T11:53:13.571335+07:00",
+    "sha256": "fee4026475b4a603be11ebaa044736fe89a91e1bfe8e6e9a1c4dd098fbf72b25"
+  },
+  "05_custom_table_knime.png": {
+    "source": "KNIME native table viewer",
+    "node_id": 33,
+    "rows": 136,
+    "method": "Direct pywinauto window capture; no table or image content substituted",
+    "captured_at": "2026-11-10T11:53:39.503798+07:00",
+    "sha256": "7bcae88387cecc35580e8bbf6c3c685d7a3c1f71dce98342a1b693b6d92ab870"
+  },
+  "06_export_extended_knime.png": {
+    "source": "KNIME native export wizard",
+    "method": "Direct pywinauto window capture; no table or image content substituted",
+    "captured_at": "2026-11-10T11:54:35.294446+07:00",
+    "sha256": "ef0f71dc1eb34c6d6f3aa2ee35e2f1296ace05c990493c63b056cf43f812a065"
+  }
+}

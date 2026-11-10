@@ -1,0 +1,164 @@
+{
+  "tract": {
+    "count": 136,
+    "fields": [
+      "AREA",
+      "PERIMETER",
+      "TRACT0_ID",
+      "Shape_Leng",
+      "Shape_Area",
+      "BEMP_Unif",
+      "BEMP_CBD",
+      "POP_CBD",
+      "POP_Unif",
+      "POP_A2B2",
+      "POP_Belt",
+      "SEMP_CBD",
+      "SEMP_Unif",
+      "SEMP_A2B2",
+      "SEMP_Belt",
+      "geometry",
+      "zone_id"
+    ],
+    "crs": "EPSG:3857",
+    "geometry_types": {
+      "Polygon": 136
+    },
+    "invalid": 0,
+    "missing": {
+      "AREA": 0,
+      "PERIMETER": 0,
+      "TRACT0_ID": 0,
+      "Shape_Leng": 0,
+      "Shape_Area": 0,
+      "BEMP_Unif": 0,
+      "BEMP_CBD": 0,
+      "POP_CBD": 0,
+      "POP_Unif": 0,
+      "POP_A2B2": 0,
+      "POP_Belt": 0,
+      "SEMP_CBD": 0,
+      "SEMP_Unif": 0,
+      "SEMP_A2B2": 0,
+      "SEMP_Belt": 0,
+      "geometry": 0,
+      "zone_id": 0
+    },
+    "bounds": [
+      6156016.935962488,
+      -512829.1338800169,
+      6168096.885541948,
+      -500749.18429896183
+    ]
+  },
+  "trtpt": {
+    "count": 136,
+    "fields": [
+      "AREA",
+      "PERIMETER",
+      "TRACT0_ID",
+      "BEMP_Unif",
+      "BEMP_CBD",
+      "POP_CBD",
+      "POP_Unif",
+      "POP_A2B2",
+      "POP_Belt",
+      "SEMP_CBD",
+      "SEMP_Unif",
+      "SEMP_A2B2",
+      "SEMP_Belt",
+      "ORIG_FID",
+      "geometry",
+      "zone_id"
+    ],
+    "crs": "EPSG:3857",
+    "geometry_types": {
+      "Point": 136
+    },
+    "invalid": 0,
+    "missing": {
+      "AREA": 0,
+      "PERIMETER": 0,
+      "TRACT0_ID": 0,
+      "BEMP_Unif": 0,
+      "BEMP_CBD": 0,
+      "POP_CBD": 0,
+      "POP_Unif": 0,
+      "POP_A2B2": 0,
+      "POP_Belt": 0,
+      "SEMP_CBD": 0,
+      "SEMP_Unif": 0,
+      "SEMP_A2B2": 0,
+      "SEMP_Belt": 0,
+      "ORIG_FID": 0,
+      "geometry": 0,
+      "zone_id": 0
+    },
+    "bounds": [
+      6156373.768672444,
+      -512407.1571723831,
+      6167658.886278466,
+      -501133.60916711396
+    ]
+  },
+  "road": {
+    "count": 330,
+    "fields": [
+      "FNODE_",
+      "TNODE_",
+      "LPOLY_",
+      "RPOLY_",
+      "LENGTH",
+      "ROAD0_",
+      "ROAD0_ID",
+      "TYPE",
+      "LENGTH1",
+      "Shape_Leng",
+      "geometry",
+      "speed",
+      "speed1",
+      "length_m"
+    ],
+    "crs": "EPSG:3857",
+    "geometry_types": {
+      "LineString": 330
+    },
+    "invalid": 0,
+    "missing": {
+      "FNODE_": 0,
+      "TNODE_": 0,
+      "LPOLY_": 0,
+      "RPOLY_": 0,
+      "LENGTH": 0,
+      "ROAD0_": 0,
+      "ROAD0_ID": 0,
+      "TYPE": 140,
+      "LENGTH1": 0,
+      "Shape_Leng": 0,
+      "geometry": 0,
+      "speed": 0,
+      "speed1": 0,
+      "length_m": 0
+    },
+    "bounds": [
+      6156017.859456367,
+      -512830.26182712655,
+      6168097.8090358265,
+      -500750.31224607147
+    ]
+  },
+  "TRACT0_ID_zero_count": 126,
+  "cbd_zone_id": 71,
+  "basic_employment_total": 99.99998399999998,
+  "hashes": {
+    "Case10-Implementing the Garin-Lowry Model in a Hypothetical City.knwf": "e2b4337f9b6afbaa7288b6ba5a46b00904d21eb1d013af539535379e33285564",
+    "I-GTmatrix.py": "cc68e3263dfd6275c546a85ba846a63fb6619747cadfadc6bd4e55ec40777592",
+    "Matrixdot.py": "297bf6642c4d60891de910abd9bf922be8fe5a67bbb475f95a43dca5a970f5af",
+    "ODhosp41.csv": "5533aa2a31c10fbff7bb61a2ad52ffddd0172199cedc32ed97771eb1531d01d1",
+    "ODVillage.csv": "63e439f3c8d697e577b39f94b33b7a7f60cb71a4a9fdee2fd00fe6cff47adac1",
+    "road.zip": "3036a7f399afc0766fe9e59545b1d58995e2b4ef6d2ae4b1c18e2820c6f31c4c",
+    "SLE.py": "fa9a43ff016f751aafc4ac85cd7e443c723fdf658523044b9fb69911b4b69e3d",
+    "tract.zip": "98f9661fdccf97d0b6bb8f4fbeb4911eaf1e8e07fdf0c504a861b64b5c6b95e8",
+    "trtpt.zip": "bd770edac066fc319f3bef2a5f1c2baf2d96481ce47d864edb84400bddcd118b"
+  }
+}

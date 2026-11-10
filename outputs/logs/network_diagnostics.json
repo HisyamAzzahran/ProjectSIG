@@ -1,0 +1,28 @@
+{
+  "baseline": {
+    "nodes": 331,
+    "edges": 466,
+    "components_before": 1,
+    "components_after": 1,
+    "topology_bridges": [],
+    "speed_column": "speed",
+    "max_snap_distance_m": 317.7633870359729,
+    "min_snap_distance_m": 115.46971169685177,
+    "directed": false,
+    "gap_tolerance_m": 0.1,
+    "node_rounding_m": 1e-06
+  },
+  "beltway": {
+    "nodes": 331,
+    "edges": 466,
+    "components_before": 1,
+    "components_after": 1,
+    "topology_bridges": [],
+    "speed_column": "speed1",
+    "max_snap_distance_m": 317.7633870359729,
+    "min_snap_distance_m": 115.46971169685177,
+    "directed": false,
+    "gap_tolerance_m": 0.1,
+    "node_rounding_m": 1e-06
+  }
+}

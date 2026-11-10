@@ -1,0 +1,9 @@
+﻿CompileCommand: exclude org/eclipse/jdt/internal/core/dom/rewrite/ASTRewriteAnalyzer.getExtendedRange bool exclude = true
+knimec.exe : KNIME Batch Executor is not installed. Visit https://www.knime.com/batch-execution-in-knime to download 
+and install the extension, then try again.
+At line:2 char:1
++ & 'C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\knimec.exe' - ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (KNIME Batch Exe...then try again.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

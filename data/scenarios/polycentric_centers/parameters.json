@@ -1,0 +1,55 @@
+{
+  "scenario": "polycentric_centers",
+  "label": "Kota Tiga Pusat: CBD 40% dan Dua Satelit 30%–30%",
+  "origin": "Designed specifically for this project; not an original workbook scenario",
+  "parameters": {
+    "population_per_worker": 2.0,
+    "service_per_person": 0.3,
+    "residential_exponent": 1.0,
+    "service_exponent": 1.0
+  },
+  "speed_column": "speed",
+  "centers": [
+    {
+      "zone_id": 71,
+      "role": "CBD",
+      "share": 0.4,
+      "basic_employment": 39.999993599999996,
+      "x": 6162056.910862295,
+      "y": -506789.1610142343,
+      "distance_to_cbd_m": 0.0
+    },
+    {
+      "zone_id": 63,
+      "role": "Satelit Barat",
+      "share": 0.3,
+      "basic_employment": 29.999995199999994,
+      "x": 6158263.222411273,
+      "y": -506886.78083891515,
+      "distance_to_cbd_m": 3794.9442279943637
+    },
+    {
+      "zone_id": 79,
+      "role": "Satelit Timur",
+      "share": 0.3,
+      "basic_employment": 29.999995199999994,
+      "x": 6165796.589589034,
+      "y": -507492.7827006161,
+      "distance_to_cbd_m": 3805.2963691114633
+    }
+  ],
+  "satellite_target_offsets_projected_m": [
+    [
+      -3800.0,
+      0.0
+    ],
+    [
+      3800.0,
+      0.0
+    ]
+  ],
+  "selection": "Nearest existing supplied centroid to each target; unique real zone IDs",
+  "reference_for_causal_comparison": "cbd_employment",
+  "common_reference_in_extended_tables": "baseline_uniform",
+  "control": "Same total basic employment, 30 mph roads, unchanged OD, h=2, e=0.3, a=b=1"
+}

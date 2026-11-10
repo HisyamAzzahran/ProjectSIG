@@ -1,0 +1,44 @@
+Control Identifiers:
+
+Dialog - 'KNIME Analytics Platform'    (L163, T33, R1443, B993)
+['Dialog', 'KNIME Analytics Platform', 'KNIME Analytics PlatformDialog']
+child_window(title="KNIME Analytics Platform", control_type="Window")
+   | 
+   | Pane - ''    (L172, T71, R1435, B984)
+   | ['Pane', 'Pane0', 'Pane1']
+   | child_window(auto_id="1182096", control_type="Pane")
+   |    | 
+   |    | Pane - ''    (L172, T71, R1435, B984)
+   |    | ['Pane2']
+   |    | child_window(auto_id="1771660", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - ''    (L172, T71, R1435, B984)
+   |    |    | ['Pane3']
+   |    |    | child_window(auto_id="2951478", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - 'KNIME Modern UI'    (L172, T71, R1435, B984)
+   |    |    |    | ['Pane4', 'KNIME Modern UI', 'KNIME Modern UIPane']
+   |    |    |    | child_window(title="KNIME Modern UI", auto_id="1378508", control_type="Pane")
+   | 
+   | TitleBar - ''    (L192, T36, R1434, B71)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'System'    (L172, T42, R200, B70)
+   |    | ['System', 'Menu', 'SystemMenu', 'System0', 'System1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'System'    (L172, T42, R200, B70)
+   |    |    | ['System2', 'MenuItem', 'SystemMenuItem']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Minimize'    (L1256, T34, R1316, B71)
+   |    | ['Button', 'MinimizeButton', 'Minimize', 'Button0', 'Button1']
+   |    | child_window(title="Minimize", control_type="Button")
+   |    | 
+   |    | Button - 'Maximize'    (L1316, T34, R1375, B71)
+   |    | ['Button2', 'MaximizeButton', 'Maximize']
+   |    | child_window(title="Maximize", control_type="Button")
+   |    | 
+   |    | Button - 'Close'    (L1375, T34, R1435, B71)
+   |    | ['Button3', 'CloseButton', 'Close']
+   |    | child_window(title="Close", control_type="Button")

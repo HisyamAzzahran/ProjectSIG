@@ -1,0 +1,27 @@
+{
+  "artifact": "knime\\Case10_Garin_Lowry_Final.knwf",
+  "sha256": "89c9fee8b479d1c72ac9561b73701de853ba9373fdfb050824ec734b39c85668",
+  "bytes": 22886752,
+  "export_method": "KNIME GUI File > Export KNIME Workflow",
+  "native_initial_execution_all_nodes": true,
+  "imported_by_knime_gui": true,
+  "reimport_reset_and_reexecuted": true,
+  "original_native_baseline": {
+    "native_baseline_verified": true,
+    "rows": 136,
+    "od_pairs": 18496,
+    "population_max_error": 3.552713678800501e-15,
+    "service_max_error": 1.1102230246251565e-15
+  },
+  "reimport_native_baseline": {
+    "native_baseline_verified": true,
+    "rows": 136,
+    "od_pairs": 18496,
+    "population_max_error": 3.552713678800501e-15,
+    "service_max_error": 1.1102230246251565e-15
+  },
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "pytest_cases": 25,
+  "pytest_failures": 0
+}

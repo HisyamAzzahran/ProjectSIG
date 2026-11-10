@@ -1,0 +1,78 @@
+CompileCommand: exclude org/eclipse/jdt/internal/core/dom/rewrite/ASTRewriteAnalyzer.getExtendedRange bool exclude = true
+WARN 	 ModalContext AbstractColumnarContainerTable	 Creation of hard links not supported, will copy files instead (and suppress further warnings)
+java.nio.file.FileSystemException: C:\Users\MUHAMM~1\AppData\Local\Temp\knime_Case10_Garin_Lo_18453\knime_container_20261110_8195300086380607394.knable -> D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\Initialize Project (#27)\port_1\data.zip: The system cannot move the file to a different disk drive
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createLink(Unknown Source)
+	at java.base/java.nio.file.Files.createLink(Unknown Source)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.hardLinkOrCopy(AbstractColumnarContainerTable.java:317)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.<init>(AbstractColumnarContainerTable.java:141)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader$SavedColumnarContainerTable.<init>(ColumnarContainerTableLoader.java:97)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader.load(ColumnarContainerTableLoader.java:65)
+	at org.knime.core.node.ExtensionTableRegistry.loadExtensionTable(ExtensionTableRegistry.java:134)
+	at org.knime.core.node.ExtensionTable.loadExtensionTable(ExtensionTable.java:318)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:888)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflowManager(DesktopAPUtil.java:171)
+	at org.knime.ui.java.util.CreateProject.lambda$1(CreateProject.java:146)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$10(DesktopAPUtil.java:422)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+WARN 	 ModalContext Node	 Execute failed: 'key of type tuple not found and not a MultiIndex'
+WARN 	 KNIME-Worker-1-Python Script 3:29 PythonScriptNodeModel	 Traceback (most recent call last):
+  File "<string>", line 32, in <module>
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\main.py", line 15, in run
+    results,summary,histories,matrices=run_scenarios(root,zones,points,roads)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\scenario_analysis.py", line 17, in run_scenarios
+    original_validation=validate_original(points,duration,pop,svc,root)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\validation.py", line 11, in validate_original
+    original_duration=cached.pivot(index='Origin ID',columns='Destination ID',values='Duration').loc[ids,ids].to_numpy()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\frame.py", line 9366, in pivot
+    return pivot(self, index=index, columns=columns, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\reshape\pivot.py", line 557, in pivot
+    multiindex = MultiIndex.from_arrays(index_list)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\indexes\multi.py", line 534, in from_arrays
+    codes, levels = factorize_from_iterables(arrays)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\categorical.py", line 3110, in factorize_from_iterables
+    codes, categories = zip(*(factorize_from_iterable(it) for it in iterables))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\categorical.py", line 3110, in <genexpr>
+    codes, categories = zip(*(factorize_from_iterable(it) for it in iterables))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\categorical.py", line 3083, in factorize_from_iterable
+    cat = Categorical(values, ordered=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\categorical.py", line 460, in __init__
+    codes, categories = factorize(values, sort=True)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\algorithms.py", line 779, in factorize
+    codes, uniques = values.factorize(use_na_sentinel=use_na_sentinel)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\.venv\Lib\site-packages\pandas\core\arrays\base.py", line 1490, in factorize
+    uniques_ea = self._from_factorized(uniques, self)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_pandas.py", line 539, in _from_factorized
+    raise NotImplementedError(
+WARN 	 ModalContext Node	 Execute failed: NotImplementedError: KnimePandasExtensionArray cannot be created from factorized yet.
+WARN 	 main Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+WARN 	 main Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+WARN 	 main Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"

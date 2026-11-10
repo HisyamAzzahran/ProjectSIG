@@ -1,0 +1,89 @@
+CompileCommand: exclude org/eclipse/jdt/internal/core/dom/rewrite/ASTRewriteAnalyzer.getExtendedRange bool exclude = true
+WARN 	 ModalContext Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+WARN 	 ModalContext Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+WARN 	 ModalContext Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+WARN 	 KNIME-Worker-1-Python Script 3:27 PythonScriptNodeModel	 Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\data_loader.py", line 78, in audit
+    zones, points, roads = load_data(root)
+                           ^^^^^^^^^^^^^^^
+  File "D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\data\case10_project\src\data_loader.py", line 68, in load_data
+    original = shapely.from_wkb(cached.loc[row.ROAD0_, 'geometry']['0'])
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+WARN 	 KNIME-Worker-1-Python Script 3:27 Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+WARN 	 KNIME-Worker-1-Python Script 3:27 Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+WARN 	 KNIME-Worker-1-Python Script 3:27 Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+WARN 	 KNIME-Worker-2-Python Script 3:27 PythonScriptNodeModel	 Traceback (most recent call last):
+  File "<string>", line 24, in <module>
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3_5.12.0.v202606171811\src\main\python\knime\api\table.py", line 387, in from_pandas
+    return _backend.create_table_from_pandas(data, sentinel, row_ids=row_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_table.py", line 165, in create_table_from_pandas
+    return _create_table_from_pandas(data, sentinel, row_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_table.py", line 151, in _create_table_from_pandas
+    return _create_table_from_pyarrow(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_table.py", line 97, in _create_table_from_pyarrow
+    data = katy.wrap_primitive_arrays(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_types.py", line 1463, in wrap_primitive_arrays
+    arrays = [
+             ^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_types.py", line 1464, in <listcomp>
+    _wrap_primitive_array(column, i == 0, table.schema.names[i])
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.arrow_5.12.0.v202606171811\src\main\python\knime\_arrow\_types.py", line 1370, in _wrap_primitive_array
+    raise ValueError(
+WARN 	 KNIME-Worker-2-Python Script 3:27 Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+WARN 	 KNIME-Worker-2-Python Script 3:27 Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+WARN 	 KNIME-Worker-2-Python Script 3:27 Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+WARN 	 KNIME-Worker-7-Road Network Distance Matrix 3:4 CloseablePythonNodeProxy	 Traceback (most recent call last):
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.nodes_5.12.0.v202606171811\src\main\python\_node_backend_launcher.py", line 1207, in execute
+    outputs = self._node.execute(exec_context, *inputs)
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\org.knime.python3.nodes_5.12.0.v202606171811\src\main\python\knime\extension\nodes.py", line 1353, in wrapper
+    results = func(*args, **kwargs)
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\plugins\sdl.harvard.geospatial_2.1.0.202610271233\src\main\python\src\nodes\spatialnetwork.py", line 1302, in execute
+    self.split_line(edges["geometry"][idx], pps)
+                    ~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\geopandas\geoseries.py", line 779, in __getitem__
+    return self._wrapped_pandas_method("__getitem__", key)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\geopandas\geoseries.py", line 772, in _wrapped_pandas_method
+    val = getattr(super(), mtd)(*args, **kwargs)
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\pandas\core\series.py", line 1165, in __getitem__
+    return self._get_with(key)
+           ~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\pandas\core\series.py", line 1175, in _get_with
+    return self._get_values_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Muhammad Fatih\AppData\Local\Programs\KNIME\bundling\sdl_harvard_geospatial\.pixi\envs\default\Lib\site-packages\pandas\core\series.py", line 1219, in _get_values_tuple
+    raise KeyError("key of type tuple not found and not a MultiIndex")
+KeyError: 'key of type tuple not found and not a MultiIndex'
+
+WARN 	 ModalContext AbstractColumnarContainerTable	 Creation of hard links not supported, will copy files instead (and suppress further warnings)
+java.nio.file.FileSystemException: D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\validation_workspace\Case10_Garin_Lowry\GeoFile Reader (#1)\port_1\data.zip -> C:\Users\MUHAMM~1\AppData\Local\Temp\knime_Case10_Garin_Lo_15580\knime_container_20261110_820407803648429796.knable: The system cannot move the file to a different disk drive
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createLink(Unknown Source)
+	at java.base/java.nio.file.Files.createLink(Unknown Source)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.hardLinkOrCopy(AbstractColumnarContainerTable.java:317)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.saveToFileOverwrite(AbstractColumnarContainerTable.java:174)
+	at org.knime.core.data.columnar.table.UnsavedColumnarContainerTable.saveToFileOverwrite(UnsavedColumnarContainerTable.java:100)
+	at org.knime.core.node.ExtensionTable.saveToFile(ExtensionTable.java:261)
+	at org.knime.core.node.BufferedDataTable.save(BufferedDataTable.java:685)
+	at org.knime.core.node.FileNodePersistor.saveBufferedDataTable(FileNodePersistor.java:1439)
+	at org.knime.core.node.FileNodePersistor.savePort(FileNodePersistor.java:1344)
+	at org.knime.core.node.FileNodePersistor.savePorts(FileNodePersistor.java:1248)
+	at org.knime.core.node.FileNodePersistor.save(FileNodePersistor.java:1202)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.save(FileNativeNodeContainerPersistor.java:548)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.save(FileSingleNodeContainerPersistor.java:641)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.saveNodeContainer(FileWorkflowPersistor.java:2343)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.saveContent(FileWorkflowPersistor.java:2091)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.save(FileWorkflowPersistor.java:1982)
+	at org.knime.core.node.workflow.WorkflowManager.save(WorkflowManager.java:9774)
+	at org.knime.core.node.workflow.WorkflowManager.save(WorkflowManager.java:9723)
+	at org.knime.ui.java.api.SaveProject.saveRegularWorkflow(SaveProject.java:217)
+	at org.knime.ui.java.api.SaveProject.saveLocalProject(SaveProject.java:192)
+	at org.knime.ui.java.api.SaveProject.saveProject(SaveProject.java:176)
+	at org.knime.ui.java.api.SaveProject.lambda$0(SaveProject.java:154)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)

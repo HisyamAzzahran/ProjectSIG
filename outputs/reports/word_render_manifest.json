@@ -1,0 +1,26 @@
+[
+  {
+    "docx": "Laporan_Garin_Lowry_KNIME_dan_Studi_Mandiri.docx",
+    "pdf": "Laporan_Garin_Lowry_KNIME_dan_Studi_Mandiri.pdf",
+    "pages": 28,
+    "figures": 18,
+    "tables": 8,
+    "word_version": "16.0"
+  },
+  {
+    "docx": "Studi_Kasus_Mandiri_Kota_Tiga_Pusat.docx",
+    "pdf": "Studi_Kasus_Mandiri_Kota_Tiga_Pusat.pdf",
+    "pages": 12,
+    "figures": 7,
+    "tables": 1,
+    "word_version": "16.0"
+  },
+  {
+    "docx": "Penjelasan_Mudah_Project_Garin_Lowry.docx",
+    "pdf": "Penjelasan_Mudah_Project_Garin_Lowry.pdf",
+    "pages": 7,
+    "figures": 3,
+    "tables": 0,
+    "word_version": "16.0"
+  }
+]

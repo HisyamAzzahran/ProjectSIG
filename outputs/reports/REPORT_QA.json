@@ -1,0 +1,285 @@
+[
+  {
+    "pdf": "Laporan_Garin_Lowry_KNIME_dan_Studi_Mandiri.pdf",
+    "pages": 28,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPSMT"
+    ],
+    "text_colors_rgb_int": [
+      0
+    ],
+    "font_scope": "Selectable document text; authentic screenshot UI fonts remain unmodified",
+    "figures": 18,
+    "layout_problems": [],
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 295,
+        "images": 0
+      },
+      {
+        "page": 2,
+        "chars": 1084,
+        "images": 0
+      },
+      {
+        "page": 3,
+        "chars": 2994,
+        "images": 0
+      },
+      {
+        "page": 4,
+        "chars": 2195,
+        "images": 0
+      },
+      {
+        "page": 5,
+        "chars": 1473,
+        "images": 1
+      },
+      {
+        "page": 6,
+        "chars": 1349,
+        "images": 0
+      },
+      {
+        "page": 7,
+        "chars": 828,
+        "images": 1
+      },
+      {
+        "page": 8,
+        "chars": 1514,
+        "images": 1
+      },
+      {
+        "page": 9,
+        "chars": 1450,
+        "images": 0
+      },
+      {
+        "page": 10,
+        "chars": 837,
+        "images": 1
+      },
+      {
+        "page": 11,
+        "chars": 1846,
+        "images": 0
+      },
+      {
+        "page": 12,
+        "chars": 1184,
+        "images": 1
+      },
+      {
+        "page": 13,
+        "chars": 1134,
+        "images": 1
+      },
+      {
+        "page": 14,
+        "chars": 1366,
+        "images": 0
+      },
+      {
+        "page": 15,
+        "chars": 159,
+        "images": 1
+      },
+      {
+        "page": 16,
+        "chars": 826,
+        "images": 1
+      },
+      {
+        "page": 17,
+        "chars": 952,
+        "images": 1
+      },
+      {
+        "page": 18,
+        "chars": 567,
+        "images": 1
+      },
+      {
+        "page": 19,
+        "chars": 880,
+        "images": 2
+      },
+      {
+        "page": 20,
+        "chars": 1399,
+        "images": 1
+      },
+      {
+        "page": 21,
+        "chars": 1010,
+        "images": 1
+      },
+      {
+        "page": 22,
+        "chars": 298,
+        "images": 1
+      },
+      {
+        "page": 23,
+        "chars": 1021,
+        "images": 1
+      },
+      {
+        "page": 24,
+        "chars": 287,
+        "images": 2
+      },
+      {
+        "page": 25,
+        "chars": 905,
+        "images": 0
+      },
+      {
+        "page": 26,
+        "chars": 1535,
+        "images": 0
+      },
+      {
+        "page": 27,
+        "chars": 1456,
+        "images": 0
+      },
+      {
+        "page": 28,
+        "chars": 1518,
+        "images": 0
+      }
+    ]
+  },
+  {
+    "pdf": "Studi_Kasus_Mandiri_Kota_Tiga_Pusat.pdf",
+    "pages": 12,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPSMT"
+    ],
+    "text_colors_rgb_int": [
+      0
+    ],
+    "font_scope": "Selectable document text; authentic screenshot UI fonts remain unmodified",
+    "figures": 7,
+    "layout_problems": [],
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 248,
+        "images": 0
+      },
+      {
+        "page": 2,
+        "chars": 994,
+        "images": 0
+      },
+      {
+        "page": 3,
+        "chars": 768,
+        "images": 0
+      },
+      {
+        "page": 4,
+        "chars": 795,
+        "images": 1
+      },
+      {
+        "page": 5,
+        "chars": 1314,
+        "images": 1
+      },
+      {
+        "page": 6,
+        "chars": 913,
+        "images": 0
+      },
+      {
+        "page": 7,
+        "chars": 600,
+        "images": 1
+      },
+      {
+        "page": 8,
+        "chars": 198,
+        "images": 1
+      },
+      {
+        "page": 9,
+        "chars": 1018,
+        "images": 1
+      },
+      {
+        "page": 10,
+        "chars": 285,
+        "images": 2
+      },
+      {
+        "page": 11,
+        "chars": 1052,
+        "images": 0
+      },
+      {
+        "page": 12,
+        "chars": 1456,
+        "images": 0
+      }
+    ]
+  },
+  {
+    "pdf": "Penjelasan_Mudah_Project_Garin_Lowry.pdf",
+    "pages": 7,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPSMT"
+    ],
+    "text_colors_rgb_int": [
+      0
+    ],
+    "font_scope": "Selectable document text; authentic screenshot UI fonts remain unmodified",
+    "figures": 3,
+    "layout_problems": [],
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 237,
+        "images": 0
+      },
+      {
+        "page": 2,
+        "chars": 507,
+        "images": 1
+      },
+      {
+        "page": 3,
+        "chars": 1068,
+        "images": 1
+      },
+      {
+        "page": 4,
+        "chars": 587,
+        "images": 0
+      },
+      {
+        "page": 5,
+        "chars": 852,
+        "images": 1
+      },
+      {
+        "page": 6,
+        "chars": 726,
+        "images": 0
+      },
+      {
+        "page": 7,
+        "chars": 1032,
+        "images": 0
+      }
+    ]
+  }
+]

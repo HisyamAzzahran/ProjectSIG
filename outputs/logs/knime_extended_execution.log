@@ -1,0 +1,626 @@
+2026-11-10 11:36:45,422 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 11:36:45,424 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 11:36:45,424 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-11-10 11:36:45,424 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-11-10 11:36:45,424 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : # D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\.metadata\knime\knime.log
+2026-11-10 11:36:45,428 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-11-10 11:36:45,439 : INFO  : main :  : NodeLogger :  :  : # logging date=Tue Nov 10 11:36:45 WIB 2026
+2026-11-10 11:36:45,439 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-11-10 11:36:45,439 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-11-10 11:36:45,439 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-11-10 11:36:45,439 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-11-10 11:36:45,440 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-11-10 11:36:45,440 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-11-10 11:36:45,440 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-11-10 11:36:45,449 : INFO  : main :  : NodeLogger :  :  : # host=MSI
+2026-11-10 11:36:45,451 : INFO  : main :  : NodeLogger :  :  : # username=Muhammad Fatih
+2026-11-10 11:36:45,452 : INFO  : main :  : NodeLogger :  :  : # max mem=16272MB
+2026-11-10 11:36:45,452 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-11-10 11:36:45,454 : INFO  : main :  : NodeLogger :  :  : # KNID=11-be4fb7647189ca62-01-c15d63275f1339c9
+2026-11-10 11:36:45,454 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-11-10 11:36:44,802 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-11-10 11:36:45,287 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-11-10 11:36:45,350 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-11-10 11:36:47,322 : INFO  : ForkJoinPool.commonPool-worker-3 :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-11-10 11:36:47,322 : INFO  : ForkJoinPool.commonPool-worker-3 :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-11-10 11:36:48,959 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-11-10 11:36:48,959 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\.metadata\knime\history_database_urls.txt' does not exist.
+2026-11-10 11:36:49,781 : INFO  : main :  : KNIMECorePlugin :  :  : Setting console view log level to WARN
+2026-11-10 11:36:51,278 : INFO  : main :  : MRUFileMenuItem :  :  : Could not find the workbench.xmi file - this is expected in new workspaces.
+java.io.FileNotFoundException: D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.knime.workbench.editor2.menu.MRUFileMenuItem.assureMapInitialPopulation(MRUFileMenuItem.java:222)
+	at org.knime.workbench.editor2.menu.MRUFileMenuItem.fill(MRUFileMenuItem.java:165)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:194)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:728)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:805)
+	at org.eclipse.jface.action.MenuManager.updateAll(MenuManager.java:918)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:825)
+	at org.eclipse.jface.action.MenuManager.updateAll(MenuManager.java:918)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:825)
+	at org.eclipse.jface.action.MenuManager.updateAll(MenuManager.java:918)
+	at org.knime.product.rcp.KNIMEApplicationWorkbenchWindowAdvisor.postWindowOpen(KNIMEApplicationWorkbenchWindowAdvisor.java:178)
+	at org.eclipse.ui.internal.WorkbenchWindow.fireWindowOpened(WorkbenchWindow.java:1771)
+	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1567)
+	at org.eclipse.ui.internal.StandardTrim.createStatusLine(StandardTrim.java:106)
+	at org.eclipse.ui.internal.StandardTrim.createWidget(StandardTrim.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:326)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:228)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:93)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:37)
+	at org.eclipse.ui.internal.WorkbenchContributionFactory.create(WorkbenchContributionFactory.java:51)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolControlRenderer.createWidget(ToolControlRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:106)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:684)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1079)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:212)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1403)
+2026-11-10 11:36:51,532 : INFO  : ForkJoinPool.commonPool-worker-3 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=22760) from thread 'ForkJoinPool.commonPool-worker-3'
+2026-11-10 11:36:52,408 : INFO  : main :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-11-10 11:36:55,055 : INFO  : Worker-0: Workflow Coach loader :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=3128) from thread 'Worker-0: Workflow Coach loader'
+2026-11-10 11:36:56,719 : INFO  : ForkJoinPool.commonPool-worker-3 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=19948) from thread 'ForkJoinPool.commonPool-worker-3'
+2026-11-10 11:36:58,806 : INFO  : Worker-0: Workflow Coach loader :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=11336) from thread 'Worker-0: Workflow Coach loader'
+2026-11-10 11:36:59,609 : INFO  : Worker-0: Workflow Coach loader :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 11:36:59,987 : INFO  : KNIME-Worker-0 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=18912) from thread 'KNIME-Worker-0'
+2026-11-10 11:37:02,124 : INFO  : Worker-0: Workflow Coach loader :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 11:37:02,337 : INFO  : Worker-0: Workflow Coach loader :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 11:37:02,866 : INFO  : Worker-0: Workflow Coach loader :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-11-10 11:37:02,969 : INFO  : KNIME-Worker-0 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=23756) from thread 'KNIME-Worker-0'
+2026-11-10 11:37:04,792 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-11-10 11:37:05,740 : INFO  : Worker-0: Workflow Coach loader :  : StringHistory : File Reader (deprecated) : 2:4:4 : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\.metadata\knime\history_ASCIIfile.txt' does not exist.
+2026-11-10 11:37:06,019 : INFO  : Worker-0: Workflow Coach loader :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.core.ui.workflowcoach.data.PrefsTripleProvider>
+2026-11-10 11:37:06,019 : INFO  : Worker-0: Workflow Coach loader :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.data.CommunityTripleProvider>
+2026-11-10 11:37:06,019 : INFO  : Worker-0: Workflow Coach loader :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.local.data.WorkspaceTripleProvider>
+2026-11-10 11:37:06,337 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-11-10 11:37:07,105 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 11:37:07,107 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 11:37:07,107 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-11-10 11:37:07,107 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 11:37:07,107 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 11:37:07,114 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-11-10 11:37:07,130 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 11:37:07,131 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 11:37:07,135 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-11-10 11:38:52,677 : WARN  : ModalContext :  : AbstractColumnarContainerTable : Python Script : 3:27 : Creation of hard links not supported, will copy files instead (and suppress further warnings)
+java.nio.file.FileSystemException: C:\Users\MUHAMM~1\AppData\Local\Temp\knime_Case10_Extended_14319\knime_container_20261110_1557035715919394099.knable -> D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\Case10_Extended_8_Scenarios\Initialize Project (#27)\port_1\data.zip: The system cannot move the file to a different disk drive
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createLink(Unknown Source)
+	at java.base/java.nio.file.Files.createLink(Unknown Source)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.hardLinkOrCopy(AbstractColumnarContainerTable.java:317)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.<init>(AbstractColumnarContainerTable.java:141)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader$SavedColumnarContainerTable.<init>(ColumnarContainerTableLoader.java:97)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader.load(ColumnarContainerTableLoader.java:65)
+	at org.knime.core.node.ExtensionTableRegistry.loadExtensionTable(ExtensionTableRegistry.java:134)
+	at org.knime.core.node.ExtensionTable.loadExtensionTable(ExtensionTable.java:318)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:888)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 11:38:52,719 : INFO  : ModalContext :  : ColumnarPreferenceUtils : Python Script : 3:27 : Column Data Cache size is 6373 MB.
+2026-11-10 11:38:54,536 : INFO  : pool-24-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=19516) from thread 'pool-24-thread-1'
+2026-11-10 11:38:56,177 : INFO  : pool-28-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=5684) from thread 'pool-28-thread-1'
+2026-11-10 11:38:57,828 : INFO  : pool-32-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=23700) from thread 'pool-32-thread-1'
+2026-11-10 11:38:59,504 : INFO  : pool-36-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=19056) from thread 'pool-36-thread-1'
+2026-11-10 11:39:01,183 : INFO  : pool-40-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=4864) from thread 'pool-40-thread-1'
+2026-11-10 11:39:02,845 : INFO  : pool-44-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=9132) from thread 'pool-44-thread-1'
+2026-11-10 11:39:04,549 : INFO  : pool-48-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=26344) from thread 'pool-48-thread-1'
+2026-11-10 11:39:06,219 : INFO  : pool-52-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=23000) from thread 'pool-52-thread-1'
+2026-11-10 11:39:07,883 : INFO  : pool-56-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=8484) from thread 'pool-56-thread-1'
+2026-11-10 11:39:09,593 : INFO  : pool-60-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=14668) from thread 'pool-60-thread-1'
+2026-11-10 11:39:11,251 : INFO  : pool-64-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=3652) from thread 'pool-64-thread-1'
+2026-11-10 11:39:12,909 : INFO  : pool-68-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=10036) from thread 'pool-68-thread-1'
+2026-11-10 11:39:14,618 : INFO  : pool-72-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=24844) from thread 'pool-72-thread-1'
+2026-11-10 11:39:16,307 : INFO  : pool-76-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=22860) from thread 'pool-76-thread-1'
+2026-11-10 11:39:17,971 : INFO  : pool-80-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=11868) from thread 'pool-80-thread-1'
+2026-11-10 11:39:18,713 : WARN  : ModalContext :  : FileNodePersistor : Python Script : 3:29 : Unable to load file store handler for node "Python Script": String for key "file_store_location" not found.
+org.knime.core.node.InvalidSettingsException: String for key "file_store_location" not found.
+	at org.knime.core.node.config.base.ConfigBase.getString(ConfigBase.java:423)
+	at org.knime.core.node.FileNodePersistor.loadFileStoreHandler(FileNodePersistor.java:694)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:977)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 11:39:18,901 : WARN  : ModalContext :  : FileNodePersistor : Row Filter (deprecated) : 3:33 : Unable to load file store handler for node "Row Filter (deprecated)": String for key "file_store_location" not found.
+org.knime.core.node.InvalidSettingsException: String for key "file_store_location" not found.
+	at org.knime.core.node.config.base.ConfigBase.getString(ConfigBase.java:423)
+	at org.knime.core.node.FileNodePersistor.loadFileStoreHandler(FileNodePersistor.java:694)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:977)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 11:39:20,548 : INFO  : pool-84-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=17372) from thread 'pool-84-thread-1'
+2026-11-10 11:39:22,206 : INFO  : pool-88-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=26008) from thread 'pool-88-thread-1'
+2026-11-10 11:39:23,853 : INFO  : pool-92-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=8792) from thread 'pool-92-thread-1'
+2026-11-10 11:39:25,701 : INFO  : pool-96-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=20268) from thread 'pool-96-thread-1'
+2026-11-10 11:39:27,364 : INFO  : pool-100-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=6588) from thread 'pool-100-thread-1'
+2026-11-10 11:39:29,019 : WARN  : ModalContext :  : FileNodePersistor : Geospatial View : 3:34 : Unable to load file store handler for node "Geospatial View": String for key "file_store_location" not found.
+org.knime.core.node.InvalidSettingsException: String for key "file_store_location" not found.
+	at org.knime.core.node.config.base.ConfigBase.getString(ConfigBase.java:423)
+	at org.knime.core.node.FileNodePersistor.loadFileStoreHandler(FileNodePersistor.java:694)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:977)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-11-10 11:39:29,024 : INFO  : pool-104-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=11900) from thread 'pool-104-thread-1'
+2026-11-10 11:39:29,028 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: Case10_Extended_8_Scenarios 3 loaded with error during data load
+2026-11-10 11:39:29,029 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: Case10_Extended_8_Scenarios 3
+2026-11-10 11:39:29,029 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Python Script 3:29
+2026-11-10 11:39:29,029 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load file store handler for node "Python Script": String for key "file_store_location" not found.
+2026-11-10 11:39:29,029 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from IDLE to CONFIGURED
+2026-11-10 11:39:29,029 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Row Filter (deprecated) 3:33
+2026-11-10 11:39:29,029 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load file store handler for node "Row Filter (deprecated)": String for key "file_store_location" not found.
+2026-11-10 11:39:29,029 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Geospatial View 3:34
+2026-11-10 11:39:29,029 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load file store handler for node "Geospatial View": String for key "file_store_location" not found.
+2026-11-10 11:39:29,029 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from EXECUTED to IDLE
+2026-11-10 11:40:43,573 : ERROR : main :  : NodeMigrationRuleRegistry :  :  : Plug-in org.knime.database.nodes was unable to load class org.knime.database.node.utility.tablecreator3.DBTableCreate3NodeMigrationRule.
+org.eclipse.core.runtime.CoreException: Plug-in org.knime.database.nodes was unable to load class org.knime.database.node.utility.tablecreator3.DBTableCreate3NodeMigrationRule.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:245)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:228)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:1034)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:286)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.knime.workflow.migration.NodeMigrationRuleRegistry.<init>(NodeMigrationRuleRegistry.java:107)
+	at org.knime.workflow.migration.NodeMigrationRuleRegistry.<clinit>(NodeMigrationRuleRegistry.java:76)
+	at org.knime.workflow.migration.WorkflowMigrationManager.hasMatchingRule(WorkflowMigrationManager.java:793)
+	at org.knime.workflow.migration.MigrationWorkflowEditorEventListener.workflowLoaded(MigrationWorkflowEditorEventListener.java:102)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.lambda$6(LoadWorkflowRunnable.java:243)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3727)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:608)
+	at org.knime.workbench.editor2.WorkflowEditor.promptToSaveOnClose(WorkflowEditor.java:1949)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:230)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:488)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:450)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:445)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:440)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1414)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1584)
+	at org.eclipse.ui.internal.CloseEditorHandler.execute(CloseEditorHandler.java:49)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:320)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:581)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:662)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:451)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:104)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1340)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1265)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1261)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1748)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4902)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4779)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5106)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3722)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:212)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1403)
+Caused by: java.lang.ClassNotFoundException: org.knime.database.node.utility.tablecreator3.DBTableCreate3NodeMigrationRule cannot be found by org.knime.database.nodes_5.12.0.v202606171318
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:567)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:562)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:652)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:226)
+	... 76 more
+2026-11-10 11:42:20,905 : INFO  : pool-108-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=22492) from thread 'pool-108-thread-1'
+2026-11-10 11:42:22,573 : INFO  : pool-112-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=26840) from thread 'pool-112-thread-1'
+2026-11-10 11:42:24,220 : INFO  : pool-116-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=416) from thread 'pool-116-thread-1'
+2026-11-10 11:42:25,906 : INFO  : pool-120-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=13552) from thread 'pool-120-thread-1'
+2026-11-10 11:42:27,607 : INFO  : pool-124-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=12036) from thread 'pool-124-thread-1'
+2026-11-10 11:42:29,325 : INFO  : pool-128-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=26576) from thread 'pool-128-thread-1'
+2026-11-10 11:42:30,968 : INFO  : pool-132-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=22136) from thread 'pool-132-thread-1'
+2026-11-10 11:42:32,606 : INFO  : pool-136-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=27356) from thread 'pool-136-thread-1'
+2026-11-10 11:42:34,288 : INFO  : pool-140-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=25620) from thread 'pool-140-thread-1'
+2026-11-10 11:42:35,960 : INFO  : pool-144-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=21036) from thread 'pool-144-thread-1'
+2026-11-10 11:42:37,605 : INFO  : pool-148-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=8564) from thread 'pool-148-thread-1'
+2026-11-10 11:42:39,261 : INFO  : pool-152-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=22436) from thread 'pool-152-thread-1'
+2026-11-10 11:42:40,932 : INFO  : pool-156-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=3404) from thread 'pool-156-thread-1'
+2026-11-10 11:42:42,569 : INFO  : pool-160-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=16328) from thread 'pool-160-thread-1'
+2026-11-10 11:42:44,236 : INFO  : pool-164-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=7568) from thread 'pool-164-thread-1'
+2026-11-10 11:42:46,231 : INFO  : pool-168-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=13324) from thread 'pool-168-thread-1'
+2026-11-10 11:42:47,924 : INFO  : pool-172-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=16580) from thread 'pool-172-thread-1'
+2026-11-10 11:42:49,556 : INFO  : pool-176-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=13056) from thread 'pool-176-thread-1'
+2026-11-10 11:42:51,216 : INFO  : pool-180-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=26276) from thread 'pool-180-thread-1'
+2026-11-10 11:42:52,869 : INFO  : pool-184-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=9416) from thread 'pool-184-thread-1'
+2026-11-10 11:42:54,539 : INFO  : pool-188-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=27040) from thread 'pool-188-thread-1'
+2026-11-10 11:42:56,228 : INFO  : pool-192-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=15104) from thread 'pool-192-thread-1'
+2026-11-10 11:42:56,429 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: Case10_Extended_8_Scenarios 3 loaded with warnings
+2026-11-10 11:42:56,429 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: Case10_Extended_8_Scenarios 3
+2026-11-10 11:42:56,429 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Python Script 3:29
+2026-11-10 11:42:56,429 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2026-11-10 11:42:56,429 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Row Filter (deprecated) 3:33
+2026-11-10 11:42:56,429 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2026-11-10 11:42:56,430 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Geospatial View 3:34
+2026-11-10 11:42:56,430 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2026-11-10 11:42:56,430 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: State has changed from EXECUTED to IDLE
+2026-11-10 11:44:16,023 : INFO  : pool-196-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=12060) from thread 'pool-196-thread-1'
+2026-11-10 11:44:17,674 : INFO  : pool-200-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=26036) from thread 'pool-200-thread-1'
+2026-11-10 11:44:19,307 : INFO  : pool-204-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=13620) from thread 'pool-204-thread-1'
+2026-11-10 11:44:21,008 : INFO  : pool-208-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=13856) from thread 'pool-208-thread-1'
+2026-11-10 11:44:22,842 : INFO  : pool-212-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=26644) from thread 'pool-212-thread-1'
+2026-11-10 11:44:24,570 : INFO  : pool-216-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=17700) from thread 'pool-216-thread-1'
+2026-11-10 11:44:26,295 : INFO  : pool-220-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=17632) from thread 'pool-220-thread-1'
+2026-11-10 11:44:27,964 : INFO  : pool-224-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=23080) from thread 'pool-224-thread-1'
+2026-11-10 11:44:28,264 : WARN  : main :  : Node : GeoFile Reader : 3:28 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+2026-11-10 11:44:28,264 : WARN  : main :  : Node : GeoFile Reader : 3:2 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+2026-11-10 11:44:28,265 : WARN  : main :  : Node : GeoFile Reader : 3:1 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+2026-11-10 11:46:28,781 : INFO  : KNIME-Worker-6-Python Script 3:27 :  : PythonScriptingSession : Python Script : 3:27 : PythonScriptingSession created gateway (hash=6002c216) on thread 'KNIME-Worker-6-Python Script 3:27'
+2026-11-10 11:46:30,101 : INFO  : python-output-redirector-13 :  : PythonScriptingSession : Python Script : 3:27 : INFO:pyogrio._io:Created 330 records
+2026-11-10 11:46:30,201 : INFO  : python-output-redirector-13 :  : PythonScriptingSession : Python Script : 3:27 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:46:30,256 : INFO  : pool-235-thread-1 :  : DefaultPythonGateway : Python Script : 3:27 : Closing PythonGateway (PID=25572) from thread 'pool-235-thread-1'
+2026-11-10 11:46:30,267 : INFO  : KNIME-Worker-6-Python Script 3:27 :  : LocalNodeExecutionJob : Python Script : 3:27 : Python Script 3:27 End execute (2 secs)
+2026-11-10 11:46:31,926 : INFO  : pool-239-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=12244) from thread 'pool-239-thread-1'
+2026-11-10 11:46:33,551 : INFO  : pool-243-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=18900) from thread 'pool-243-thread-1'
+2026-11-10 11:46:35,194 : INFO  : pool-247-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=21412) from thread 'pool-247-thread-1'
+2026-11-10 11:46:36,915 : INFO  : pool-251-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=8240) from thread 'pool-251-thread-1'
+2026-11-10 11:46:38,563 : INFO  : pool-255-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=3008) from thread 'pool-255-thread-1'
+2026-11-10 11:46:40,200 : INFO  : pool-259-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=19324) from thread 'pool-259-thread-1'
+2026-11-10 11:46:41,802 : INFO  : pool-263-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=17928) from thread 'pool-263-thread-1'
+2026-11-10 11:46:43,435 : INFO  : pool-267-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=23536) from thread 'pool-267-thread-1'
+2026-11-10 11:46:45,066 : INFO  : pool-271-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=21012) from thread 'pool-271-thread-1'
+2026-11-10 11:46:46,697 : INFO  : pool-275-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=23336) from thread 'pool-275-thread-1'
+2026-11-10 11:46:48,375 : INFO  : pool-279-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=22584) from thread 'pool-279-thread-1'
+2026-11-10 11:46:50,007 : INFO  : pool-283-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=21104) from thread 'pool-283-thread-1'
+2026-11-10 11:46:52,236 : INFO  : pool-292-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:1 : Closing PythonGateway (PID=6376) from thread 'pool-292-thread-1'
+2026-11-10 11:46:52,236 : INFO  : KNIME-Worker-10-GeoFile Reader 3:1 :  : LocalNodeExecutionJob : GeoFile Reader : 3:1 : GeoFile Reader 3:1 End execute (2 secs)
+2026-11-10 11:46:52,267 : INFO  : KNIME-Worker-6-Column Filter 3:23 :  : LocalNodeExecutionJob : Column Filter : 3:23 : Column Filter 3:23 End execute (0 secs)
+2026-11-10 11:46:52,267 : INFO  : KNIME-Worker-7-Column Filter 3:19 :  : LocalNodeExecutionJob : Column Filter : 3:19 : Column Filter 3:19 End execute (0 secs)
+2026-11-10 11:46:53,076 : INFO  : KNIME-Worker-9-GeoFile Reader 3:2 :  : LocalNodeExecutionJob : GeoFile Reader : 3:2 : GeoFile Reader 3:2 End execute (3 secs)
+2026-11-10 11:46:53,076 : INFO  : pool-297-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:2 : Closing PythonGateway (PID=15972) from thread 'pool-297-thread-1'
+2026-11-10 11:46:53,905 : INFO  : KNIME-Worker-8-GeoFile Reader 3:28 :  : LocalNodeExecutionJob : GeoFile Reader : 3:28 : GeoFile Reader 3:28 End execute (3 secs)
+2026-11-10 11:46:53,906 : INFO  : pool-303-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 3:28 : Closing PythonGateway (PID=6920) from thread 'pool-303-thread-1'
+2026-11-10 11:46:54,784 : INFO  : pool-305-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=25580) from thread 'pool-305-thread-1'
+2026-11-10 11:46:56,452 : INFO  : pool-309-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=4376) from thread 'pool-309-thread-1'
+2026-11-10 11:47:03,241 : INFO  : KNIME-Worker-6-Road Network Distance Matrix 3:4 :  : LocalNodeExecutionJob : Road Network Distance Matrix : 3:4 : Road Network Distance Matrix 3:4 End execute (6 secs)
+2026-11-10 11:47:03,241 : INFO  : pool-318-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 3:4 : Closing PythonGateway (PID=20540) from thread 'pool-318-thread-1'
+2026-11-10 11:47:03,263 : INFO  : KNIME-Worker-7-Joiner 3:5 :  : ColumnarPreferenceUtils : Joiner : 3:5 : Small Table Cache size is 32 MB
+2026-11-10 11:47:03,463 : INFO  : KNIME-Worker-7-Joiner 3:5 :  : LocalNodeExecutionJob : Joiner : 3:5 : Joiner 3:5 End execute (0 secs)
+2026-11-10 11:47:03,565 : INFO  : KNIME-Worker-9-Joiner 3:6 :  : LocalNodeExecutionJob : Joiner : 3:6 : Joiner 3:6 End execute (0 secs)
+2026-11-10 11:47:03,836 : INFO  : KNIME-Worker-8-Math Formula 3:7 :  : LocalNodeExecutionJob : Math Formula : 3:7 : Math Formula 3:7 End execute (0 secs)
+2026-11-10 11:47:04,004 : INFO  : KNIME-Worker-7-Math Formula 3:8 :  : LocalNodeExecutionJob : Math Formula : 3:8 : Math Formula 3:8 End execute (0 secs)
+2026-11-10 11:47:04,004 : INFO  : KNIME-Worker-6-Math Formula 3:13 :  : LocalNodeExecutionJob : Math Formula : 3:13 : Math Formula 3:13 End execute (0 secs)
+2026-11-10 11:47:04,907 : INFO  : KNIME-Worker-8-Pivot 3:14 :  : LocalNodeExecutionJob : Pivot : 3:14 : Pivot 3:14 End execute (0 secs)
+2026-11-10 11:47:04,914 : INFO  : KNIME-Worker-9-Pivot 3:9 :  : LocalNodeExecutionJob : Pivot : 3:9 : Pivot 3:9 End execute (0 secs)
+2026-11-10 11:47:05,020 : INFO  : KNIME-Worker-7-RowID 3:15 :  : LocalNodeExecutionJob : RowID : 3:15 : RowID 3:15 End execute (0 secs)
+2026-11-10 11:47:05,020 : INFO  : KNIME-Worker-6-RowID 3:10 :  : LocalNodeExecutionJob : RowID : 3:10 : RowID 3:10 End execute (0 secs)
+2026-11-10 11:47:05,158 : INFO  : KNIME-Worker-10-Geospatial View 3:3 :  : LocalNodeExecutionJob : Geospatial View : 3:3 : Geospatial View 3:3 End execute (8 secs)
+2026-11-10 11:47:05,159 : INFO  : pool-319-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:3 : Closing PythonGateway (PID=19724) from thread 'pool-319-thread-1'
+2026-11-10 11:47:05,326 : INFO  : KNIME-Worker-9-Math Formula (Multi Column) 3:11 :  : LocalNodeExecutionJob : Math Formula (Multi Column) : 3:11 : Math Formula (Multi Column) 3:11 End execute (0 secs)
+2026-11-10 11:47:05,327 : INFO  : KNIME-Worker-8-Math Formula (Multi Column) 3:16 :  : LocalNodeExecutionJob : Math Formula (Multi Column) : 3:16 : Math Formula (Multi Column) 3:16 End execute (0 secs)
+2026-11-10 11:47:05,332 : INFO  : KNIME-Worker-10-Python Script 3:20 :  : PythonScriptingSession : Python Script : 3:20 : PythonScriptingSession created gateway (hash=5e4a68a) on thread 'KNIME-Worker-10-Python Script 3:20'
+2026-11-10 11:47:05,419 : INFO  : KNIME-Worker-7-Table Transposer 3:12 :  : LocalNodeExecutionJob : Table Transposer : 3:12 : Table Transposer 3:12 End execute (0 secs)
+2026-11-10 11:47:05,428 : INFO  : KNIME-Worker-6-Table Transposer 3:17 :  : LocalNodeExecutionJob : Table Transposer : 3:17 : Table Transposer 3:17 End execute (0 secs)
+2026-11-10 11:47:06,170 : INFO  : KNIME-Worker-10-Python Script 3:20 :  : LocalNodeExecutionJob : Python Script : 3:20 : Python Script 3:20 End execute (0 secs)
+2026-11-10 11:47:06,171 : INFO  : pool-323-thread-1 :  : DefaultPythonGateway : Python Script : 3:20 : Closing PythonGateway (PID=11300) from thread 'pool-323-thread-1'
+2026-11-10 11:47:07,538 : INFO  : KNIME-Worker-9-Python Script 3:18 :  : PythonScriptingSession : Python Script : 3:18 : PythonScriptingSession created gateway (hash=1bca444a) on thread 'KNIME-Worker-9-Python Script 3:18'
+2026-11-10 11:47:08,309 : INFO  : pool-333-thread-1 :  : DefaultPythonGateway : Python Script : 3:18 : Closing PythonGateway (PID=16248) from thread 'pool-333-thread-1'
+2026-11-10 11:47:08,309 : INFO  : KNIME-Worker-9-Python Script 3:18 :  : LocalNodeExecutionJob : Python Script : 3:18 : Python Script 3:18 End execute (2 secs)
+2026-11-10 11:47:08,309 : INFO  : KNIME-Worker-6-Python Script 3:21 :  : PythonScriptingSession : Python Script : 3:21 : PythonScriptingSession created gateway (hash=65cb59c5) on thread 'KNIME-Worker-6-Python Script 3:21'
+2026-11-10 11:47:09,156 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:21 : True
+2026-11-10 11:47:09,170 : INFO  : pool-338-thread-1 :  : DefaultPythonGateway : Python Script : 3:21 : Closing PythonGateway (PID=12048) from thread 'pool-338-thread-1'
+2026-11-10 11:47:09,170 : INFO  : KNIME-Worker-6-Python Script 3:21 :  : LocalNodeExecutionJob : Python Script : 3:21 : Python Script 3:21 End execute (0 secs)
+2026-11-10 11:47:09,170 : INFO  : KNIME-Worker-10-Python Script 3:22 :  : PythonScriptingSession : Python Script : 3:22 : PythonScriptingSession created gateway (hash=11f25dbe) on thread 'KNIME-Worker-10-Python Script 3:22'
+2026-11-10 11:47:09,830 : INFO  : pool-342-thread-1 :  : DefaultPythonGateway : Python Script : 3:22 : Closing PythonGateway (PID=10836) from thread 'pool-342-thread-1'
+2026-11-10 11:47:09,830 : INFO  : KNIME-Worker-10-Python Script 3:22 :  : LocalNodeExecutionJob : Python Script : 3:22 : Python Script 3:22 End execute (0 secs)
+2026-11-10 11:47:09,854 : INFO  : KNIME-Worker-9-Column Appender 3:24 :  : LocalNodeExecutionJob : Column Appender : 3:24 : Column Appender 3:24 End execute (0 secs)
+2026-11-10 11:47:09,858 : INFO  : KNIME-Worker-6-Python Script 3:29 :  : PythonScriptingSession : Python Script : 3:29 : PythonScriptingSession created gateway (hash=65ee02de) on thread 'KNIME-Worker-6-Python Script 3:29'
+2026-11-10 11:47:09,868 : INFO  : KNIME-Worker-8-Row Filter (deprecated) 3:25 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 3:25 : Row Filter (deprecated) 3:25 End execute (0 secs)
+2026-11-10 11:47:09,905 : INFO  : KNIME-Worker-7-Line Plot (Plotly) 3:26 :  : LocalNodeExecutionJob : Line Plot (Plotly) : 3:26 : Line Plot (Plotly) 3:26 End execute (0 secs)
+2026-11-10 11:47:12,054 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:12,156 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:12,260 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 330 records
+2026-11-10 11:47:15,197 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 330 records
+2026-11-10 11:47:15,301 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:15,405 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:15,509 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:15,621 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:15,724 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:15,829 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:15,933 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:22,653 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 : {"native_baseline_verified": true, "rows": 136, "od_pairs": 18496, "population_max_error": 3.552713678800501e-15, "service_max_error": 1.1102230246251565e-15, "scenario_count": 8, "output_rows": 1088, "custom_case": "polycentric_centers"}
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :            scenario  population_total  service_total
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :    baseline_uniform         499.99992     149.999976
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :      cbd_employment         499.99992     149.999976
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :        low_friction         499.99992     149.999976
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :       high_friction         499.99992     149.999976
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :             beltway         499.99992     149.999976
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :   cbd_high_friction         499.99992     149.999976
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 :         cbd_beltway         499.99992     149.999976
+2026-11-10 11:47:24,023 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:29 : polycentric_centers         499.99992     149.999976
+2026-11-10 11:47:24,120 : INFO  : pool-349-thread-1 :  : DefaultPythonGateway : Python Script : 3:29 : Closing PythonGateway (PID=7884) from thread 'pool-349-thread-1'
+2026-11-10 11:47:24,120 : INFO  : KNIME-Worker-6-Python Script 3:29 :  : LocalNodeExecutionJob : Python Script : 3:29 : Python Script 3:29 End execute (14 secs)
+2026-11-10 11:47:25,829 : INFO  : pool-355-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=26852) from thread 'pool-355-thread-1'
+2026-11-10 11:47:27,503 : INFO  : pool-359-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=26380) from thread 'pool-359-thread-1'
+2026-11-10 11:47:27,619 : INFO  : KNIME-Worker-9-Joiner 3:30 :  : LocalNodeExecutionJob : Joiner : 3:30 : Joiner 3:30 End execute (0 secs)
+2026-11-10 11:47:29,302 : INFO  : pool-363-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=23008) from thread 'pool-363-thread-1'
+2026-11-10 11:47:30,934 : INFO  : pool-367-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=6888) from thread 'pool-367-thread-1'
+2026-11-10 11:47:30,985 : INFO  : KNIME-Worker-7-Row Filter (deprecated) 3:33 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 3:33 : Row Filter (deprecated) 3:33 End execute (0 secs)
+2026-11-10 11:47:30,985 : INFO  : KNIME-Worker-8-Row Filter (deprecated) 3:31 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 3:31 : Row Filter (deprecated) 3:31 End execute (0 secs)
+2026-11-10 11:47:32,638 : INFO  : pool-371-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=22660) from thread 'pool-371-thread-1'
+2026-11-10 11:47:34,299 : INFO  : pool-375-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=25584) from thread 'pool-375-thread-1'
+2026-11-10 11:47:41,539 : INFO  : KNIME-Worker-10-Geospatial View 3:34 :  : LocalNodeExecutionJob : Geospatial View : 3:34 : Geospatial View 3:34 End execute (7 secs)
+2026-11-10 11:47:41,539 : INFO  : pool-382-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:34 : Closing PythonGateway (PID=21812) from thread 'pool-382-thread-1'
+2026-11-10 11:47:42,290 : INFO  : KNIME-Worker-6-Geospatial View 3:32 :  : LocalNodeExecutionJob : Geospatial View : 3:32 : Geospatial View 3:32 End execute (7 secs)
+2026-11-10 11:47:42,290 : INFO  : pool-383-thread-1 :  : DefaultPythonGateway : Geospatial View : 3:32 : Closing PythonGateway (PID=10880) from thread 'pool-383-thread-1'
+2026-11-10 11:52:12,695 : WARN  : Thread-384 :  : CEFNodeView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/3_34/7669085/index.html; line: 0)
+2026-11-10 11:52:28,071 : INFO  : python-gateway-closer-0 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=9160) from thread 'python-gateway-closer-0'
+2026-11-10 11:52:28,071 : INFO  : python-gateway-closer-1 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=9316) from thread 'python-gateway-closer-1'
+2026-11-10 11:55:57,307 : INFO  : pool-387-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:28 : Closing PythonGateway (PID=3996) from thread 'pool-387-thread-1'
+2026-11-10 11:55:58,945 : INFO  : pool-391-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:28 : Closing PythonGateway (PID=26600) from thread 'pool-391-thread-1'
+2026-11-10 11:56:00,563 : INFO  : pool-395-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:28 : Closing PythonGateway (PID=11300) from thread 'pool-395-thread-1'
+2026-11-10 11:56:02,196 : INFO  : pool-399-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=17632) from thread 'pool-399-thread-1'
+2026-11-10 11:56:03,842 : INFO  : pool-403-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=6188) from thread 'pool-403-thread-1'
+2026-11-10 11:56:05,466 : INFO  : pool-407-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=12608) from thread 'pool-407-thread-1'
+2026-11-10 11:56:07,114 : INFO  : pool-411-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=22660) from thread 'pool-411-thread-1'
+2026-11-10 11:56:08,760 : INFO  : pool-415-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=20596) from thread 'pool-415-thread-1'
+2026-11-10 11:56:10,426 : INFO  : pool-419-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=19516) from thread 'pool-419-thread-1'
+2026-11-10 11:56:12,103 : INFO  : pool-423-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:3 : Closing PythonGateway (PID=6248) from thread 'pool-423-thread-1'
+2026-11-10 11:56:13,750 : INFO  : pool-427-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:3 : Closing PythonGateway (PID=8248) from thread 'pool-427-thread-1'
+2026-11-10 11:56:15,415 : INFO  : pool-431-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:3 : Closing PythonGateway (PID=24224) from thread 'pool-431-thread-1'
+2026-11-10 11:56:17,128 : INFO  : pool-435-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 4:4 : Closing PythonGateway (PID=22784) from thread 'pool-435-thread-1'
+2026-11-10 11:56:18,770 : INFO  : pool-439-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 4:4 : Closing PythonGateway (PID=19948) from thread 'pool-439-thread-1'
+2026-11-10 11:56:20,436 : INFO  : pool-443-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 4:4 : Closing PythonGateway (PID=17264) from thread 'pool-443-thread-1'
+2026-11-10 11:56:22,796 : INFO  : pool-447-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:32 : Closing PythonGateway (PID=21240) from thread 'pool-447-thread-1'
+2026-11-10 11:56:24,468 : INFO  : pool-451-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:32 : Closing PythonGateway (PID=16056) from thread 'pool-451-thread-1'
+2026-11-10 11:56:26,369 : INFO  : pool-455-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:32 : Closing PythonGateway (PID=20424) from thread 'pool-455-thread-1'
+2026-11-10 11:56:28,212 : INFO  : pool-459-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:34 : Closing PythonGateway (PID=16328) from thread 'pool-459-thread-1'
+2026-11-10 11:56:29,935 : INFO  : pool-463-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:34 : Closing PythonGateway (PID=25520) from thread 'pool-463-thread-1'
+2026-11-10 11:56:31,695 : INFO  : pool-467-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:34 : Closing PythonGateway (PID=22180) from thread 'pool-467-thread-1'
+2026-11-10 11:58:29,680 : INFO  : pool-471-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=22820) from thread 'pool-471-thread-1'
+2026-11-10 11:58:31,360 : INFO  : pool-475-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=26448) from thread 'pool-475-thread-1'
+2026-11-10 11:58:33,052 : INFO  : pool-479-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=4280) from thread 'pool-479-thread-1'
+2026-11-10 11:58:34,730 : INFO  : pool-483-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=27468) from thread 'pool-483-thread-1'
+2026-11-10 11:58:36,536 : INFO  : pool-487-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=6244) from thread 'pool-487-thread-1'
+2026-11-10 11:58:38,155 : INFO  : pool-491-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=11232) from thread 'pool-491-thread-1'
+2026-11-10 11:58:39,925 : INFO  : pool-495-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=14488) from thread 'pool-495-thread-1'
+2026-11-10 11:58:41,575 : INFO  : pool-499-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=9392) from thread 'pool-499-thread-1'
+2026-11-10 11:58:41,868 : WARN  : main :  : Node : GeoFile Reader : 4:28 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+2026-11-10 11:58:41,869 : WARN  : main :  : Node : GeoFile Reader : 4:2 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+2026-11-10 11:58:41,869 : WARN  : main :  : Node : GeoFile Reader : 4:1 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+2026-11-10 11:59:02,839 : INFO  : KNIME-Worker-11-Python Script 4:27 :  : PythonScriptingSession : Python Script : 4:27 : PythonScriptingSession created gateway (hash=5567b83f) on thread 'KNIME-Worker-11-Python Script 4:27'
+2026-11-10 11:59:04,106 : INFO  : python-output-redirector-19 :  : PythonScriptingSession : Python Script : 4:27 : INFO:pyogrio._io:Created 330 records
+2026-11-10 11:59:04,219 : INFO  : python-output-redirector-19 :  : PythonScriptingSession : Python Script : 4:27 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:04,273 : INFO  : pool-506-thread-1 :  : DefaultPythonGateway : Python Script : 4:27 : Closing PythonGateway (PID=9968) from thread 'pool-506-thread-1'
+2026-11-10 11:59:04,273 : INFO  : KNIME-Worker-11-Python Script 4:27 :  : LocalNodeExecutionJob : Python Script : 4:27 : Python Script 4:27 End execute (2 secs)
+2026-11-10 11:59:06,008 : INFO  : pool-510-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:28 : Closing PythonGateway (PID=27356) from thread 'pool-510-thread-1'
+2026-11-10 11:59:07,655 : INFO  : pool-514-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:28 : Closing PythonGateway (PID=10204) from thread 'pool-514-thread-1'
+2026-11-10 11:59:09,288 : INFO  : pool-518-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:28 : Closing PythonGateway (PID=3108) from thread 'pool-518-thread-1'
+2026-11-10 11:59:10,938 : INFO  : pool-522-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:28 : Closing PythonGateway (PID=2572) from thread 'pool-522-thread-1'
+2026-11-10 11:59:12,734 : INFO  : pool-526-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=5096) from thread 'pool-526-thread-1'
+2026-11-10 11:59:14,347 : INFO  : pool-530-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=2824) from thread 'pool-530-thread-1'
+2026-11-10 11:59:15,972 : INFO  : pool-534-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=23848) from thread 'pool-534-thread-1'
+2026-11-10 11:59:17,634 : INFO  : pool-538-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=17612) from thread 'pool-538-thread-1'
+2026-11-10 11:59:19,269 : INFO  : pool-542-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=2540) from thread 'pool-542-thread-1'
+2026-11-10 11:59:20,899 : INFO  : pool-546-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=13740) from thread 'pool-546-thread-1'
+2026-11-10 11:59:22,526 : INFO  : pool-550-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=9168) from thread 'pool-550-thread-1'
+2026-11-10 11:59:24,137 : INFO  : pool-554-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=26820) from thread 'pool-554-thread-1'
+2026-11-10 11:59:26,200 : INFO  : KNIME-Worker-15-GeoFile Reader 4:1 :  : LocalNodeExecutionJob : GeoFile Reader : 4:1 : GeoFile Reader 4:1 End execute (2 secs)
+2026-11-10 11:59:26,200 : INFO  : pool-563-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:1 : Closing PythonGateway (PID=4188) from thread 'pool-563-thread-1'
+2026-11-10 11:59:26,202 : INFO  : KNIME-Worker-11-Column Filter 4:23 :  : LocalNodeExecutionJob : Column Filter : 4:23 : Column Filter 4:23 End execute (0 secs)
+2026-11-10 11:59:26,202 : INFO  : KNIME-Worker-12-Column Filter 4:19 :  : LocalNodeExecutionJob : Column Filter : 4:19 : Column Filter 4:19 End execute (0 secs)
+2026-11-10 11:59:27,174 : INFO  : KNIME-Worker-13-GeoFile Reader 4:28 :  : LocalNodeExecutionJob : GeoFile Reader : 4:28 : GeoFile Reader 4:28 End execute (3 secs)
+2026-11-10 11:59:27,175 : INFO  : pool-568-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:28 : Closing PythonGateway (PID=9060) from thread 'pool-568-thread-1'
+2026-11-10 11:59:27,985 : INFO  : KNIME-Worker-14-GeoFile Reader 4:2 :  : LocalNodeExecutionJob : GeoFile Reader : 4:2 : GeoFile Reader 4:2 End execute (3 secs)
+2026-11-10 11:59:27,985 : INFO  : pool-572-thread-1 :  : DefaultPythonGateway : GeoFile Reader : 4:2 : Closing PythonGateway (PID=26260) from thread 'pool-572-thread-1'
+2026-11-10 11:59:29,623 : INFO  : pool-576-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:3 : Closing PythonGateway (PID=26788) from thread 'pool-576-thread-1'
+2026-11-10 11:59:31,287 : INFO  : pool-580-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 4:4 : Closing PythonGateway (PID=6248) from thread 'pool-580-thread-1'
+2026-11-10 11:59:38,694 : INFO  : KNIME-Worker-15-Geospatial View 4:3 :  : LocalNodeExecutionJob : Geospatial View : 4:3 : Geospatial View 4:3 End execute (7 secs)
+2026-11-10 11:59:38,694 : INFO  : pool-587-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:3 : Closing PythonGateway (PID=7020) from thread 'pool-587-thread-1'
+2026-11-10 11:59:39,195 : INFO  : KNIME-Worker-11-Road Network Distance Matrix 4:4 :  : LocalNodeExecutionJob : Road Network Distance Matrix : 4:4 : Road Network Distance Matrix 4:4 End execute (7 secs)
+2026-11-10 11:59:39,195 : INFO  : pool-590-thread-1 :  : DefaultPythonGateway : Road Network Distance Matrix : 4:4 : Closing PythonGateway (PID=14876) from thread 'pool-590-thread-1'
+2026-11-10 11:59:39,238 : INFO  : KNIME-Worker-12-Joiner 4:5 :  : LocalNodeExecutionJob : Joiner : 4:5 : Joiner 4:5 End execute (0 secs)
+2026-11-10 11:59:39,270 : INFO  : KNIME-Worker-13-Joiner 4:6 :  : LocalNodeExecutionJob : Joiner : 4:6 : Joiner 4:6 End execute (0 secs)
+2026-11-10 11:59:39,407 : INFO  : KNIME-Worker-14-Math Formula 4:7 :  : LocalNodeExecutionJob : Math Formula : 4:7 : Math Formula 4:7 End execute (0 secs)
+2026-11-10 11:59:39,461 : INFO  : KNIME-Worker-11-Math Formula 4:8 :  : LocalNodeExecutionJob : Math Formula : 4:8 : Math Formula 4:8 End execute (0 secs)
+2026-11-10 11:59:39,466 : INFO  : KNIME-Worker-15-Math Formula 4:13 :  : LocalNodeExecutionJob : Math Formula : 4:13 : Math Formula 4:13 End execute (0 secs)
+2026-11-10 11:59:39,857 : INFO  : KNIME-Worker-13-Pivot 4:14 :  : LocalNodeExecutionJob : Pivot : 4:14 : Pivot 4:14 End execute (0 secs)
+2026-11-10 11:59:39,857 : INFO  : KNIME-Worker-12-Pivot 4:9 :  : LocalNodeExecutionJob : Pivot : 4:9 : Pivot 4:9 End execute (0 secs)
+2026-11-10 11:59:39,911 : INFO  : KNIME-Worker-14-RowID 4:15 :  : LocalNodeExecutionJob : RowID : 4:15 : RowID 4:15 End execute (0 secs)
+2026-11-10 11:59:39,911 : INFO  : KNIME-Worker-11-RowID 4:10 :  : LocalNodeExecutionJob : RowID : 4:10 : RowID 4:10 End execute (0 secs)
+2026-11-10 11:59:40,032 : INFO  : KNIME-Worker-15-Math Formula (Multi Column) 4:16 :  : LocalNodeExecutionJob : Math Formula (Multi Column) : 4:16 : Math Formula (Multi Column) 4:16 End execute (0 secs)
+2026-11-10 11:59:40,039 : INFO  : KNIME-Worker-13-Math Formula (Multi Column) 4:11 :  : LocalNodeExecutionJob : Math Formula (Multi Column) : 4:11 : Math Formula (Multi Column) 4:11 End execute (0 secs)
+2026-11-10 11:59:40,039 : INFO  : KNIME-Worker-14-Python Script 4:20 :  : PythonScriptingSession : Python Script : 4:20 : PythonScriptingSession created gateway (hash=6392db04) on thread 'KNIME-Worker-14-Python Script 4:20'
+2026-11-10 11:59:40,071 : INFO  : KNIME-Worker-12-Table Transposer 4:17 :  : LocalNodeExecutionJob : Table Transposer : 4:17 : Table Transposer 4:17 End execute (0 secs)
+2026-11-10 11:59:40,071 : INFO  : KNIME-Worker-11-Table Transposer 4:12 :  : LocalNodeExecutionJob : Table Transposer : 4:12 : Table Transposer 4:12 End execute (0 secs)
+2026-11-10 11:59:40,675 : INFO  : pool-594-thread-1 :  : DefaultPythonGateway : Python Script : 4:20 : Closing PythonGateway (PID=1828) from thread 'pool-594-thread-1'
+2026-11-10 11:59:40,676 : INFO  : KNIME-Worker-14-Python Script 4:20 :  : LocalNodeExecutionJob : Python Script : 4:20 : Python Script 4:20 End execute (0 secs)
+2026-11-10 11:59:41,964 : INFO  : KNIME-Worker-15-Python Script 4:18 :  : PythonScriptingSession : Python Script : 4:18 : PythonScriptingSession created gateway (hash=445c8c10) on thread 'KNIME-Worker-15-Python Script 4:18'
+2026-11-10 11:59:42,732 : INFO  : pool-604-thread-1 :  : DefaultPythonGateway : Python Script : 4:18 : Closing PythonGateway (PID=19984) from thread 'pool-604-thread-1'
+2026-11-10 11:59:42,733 : INFO  : KNIME-Worker-15-Python Script 4:18 :  : LocalNodeExecutionJob : Python Script : 4:18 : Python Script 4:18 End execute (2 secs)
+2026-11-10 11:59:42,735 : INFO  : KNIME-Worker-11-Python Script 4:21 :  : PythonScriptingSession : Python Script : 4:21 : PythonScriptingSession created gateway (hash=68d08382) on thread 'KNIME-Worker-11-Python Script 4:21'
+2026-11-10 11:59:43,474 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:21 : True
+2026-11-10 11:59:43,536 : INFO  : pool-609-thread-1 :  : DefaultPythonGateway : Python Script : 4:21 : Closing PythonGateway (PID=16348) from thread 'pool-609-thread-1'
+2026-11-10 11:59:43,536 : INFO  : KNIME-Worker-11-Python Script 4:21 :  : LocalNodeExecutionJob : Python Script : 4:21 : Python Script 4:21 End execute (0 secs)
+2026-11-10 11:59:43,536 : INFO  : KNIME-Worker-14-Python Script 4:22 :  : PythonScriptingSession : Python Script : 4:22 : PythonScriptingSession created gateway (hash=401042c4) on thread 'KNIME-Worker-14-Python Script 4:22'
+2026-11-10 11:59:44,163 : INFO  : pool-613-thread-1 :  : DefaultPythonGateway : Python Script : 4:22 : Closing PythonGateway (PID=17288) from thread 'pool-613-thread-1'
+2026-11-10 11:59:44,164 : INFO  : KNIME-Worker-14-Python Script 4:22 :  : LocalNodeExecutionJob : Python Script : 4:22 : Python Script 4:22 End execute (0 secs)
+2026-11-10 11:59:44,172 : INFO  : KNIME-Worker-15-Column Appender 4:24 :  : LocalNodeExecutionJob : Column Appender : 4:24 : Column Appender 4:24 End execute (0 secs)
+2026-11-10 11:59:44,175 : INFO  : KNIME-Worker-11-Python Script 4:29 :  : PythonScriptingSession : Python Script : 4:29 : PythonScriptingSession created gateway (hash=34dd3465) on thread 'KNIME-Worker-11-Python Script 4:29'
+2026-11-10 11:59:44,184 : INFO  : KNIME-Worker-13-Row Filter (deprecated) 4:25 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 4:25 : Row Filter (deprecated) 4:25 End execute (0 secs)
+2026-11-10 11:59:44,202 : INFO  : KNIME-Worker-12-Line Plot (Plotly) 4:26 :  : LocalNodeExecutionJob : Line Plot (Plotly) : 4:26 : Line Plot (Plotly) 4:26 End execute (0 secs)
+2026-11-10 11:59:46,376 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:46,489 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:46,591 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 330 records
+2026-11-10 11:59:49,632 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 330 records
+2026-11-10 11:59:49,745 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:49,857 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:49,959 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:50,063 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:50,167 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:50,271 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:50,488 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:56,987 : INFO  : python-output-redirector-22 :  : PythonScriptingSession : Python Script : 4:29 : INFO:pyogrio._io:Created 136 records
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 : {"native_baseline_verified": true, "rows": 136, "od_pairs": 18496, "population_max_error": 3.552713678800501e-15, "service_max_error": 1.1102230246251565e-15, "scenario_count": 8, "output_rows": 1088, "custom_case": "polycentric_centers"}
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 :            scenario  population_total  service_total
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 :    baseline_uniform         499.99992     149.999976
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 :      cbd_employment         499.99992     149.999976
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 :        low_friction         499.99992     149.999976
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 :       high_friction         499.99992     149.999976
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 :             beltway         499.99992     149.999976
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 :   cbd_high_friction         499.99992     149.999976
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 :         cbd_beltway         499.99992     149.999976
+2026-11-10 11:59:58,464 : INFO  : python-output-redirector-23 :  : PythonScriptingSession : Python Script : 4:29 : polycentric_centers         499.99992     149.999976
+2026-11-10 11:59:58,541 : INFO  : pool-620-thread-1 :  : DefaultPythonGateway : Python Script : 4:29 : Closing PythonGateway (PID=20316) from thread 'pool-620-thread-1'
+2026-11-10 11:59:58,541 : INFO  : KNIME-Worker-11-Python Script 4:29 :  : LocalNodeExecutionJob : Python Script : 4:29 : Python Script 4:29 End execute (14 secs)
+2026-11-10 12:00:00,262 : INFO  : pool-626-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:32 : Closing PythonGateway (PID=25932) from thread 'pool-626-thread-1'
+2026-11-10 12:00:01,970 : INFO  : pool-630-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:34 : Closing PythonGateway (PID=21076) from thread 'pool-630-thread-1'
+2026-11-10 12:00:02,039 : INFO  : KNIME-Worker-15-Joiner 4:30 :  : LocalNodeExecutionJob : Joiner : 4:30 : Joiner 4:30 End execute (0 secs)
+2026-11-10 12:00:03,775 : INFO  : pool-634-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:32 : Closing PythonGateway (PID=10632) from thread 'pool-634-thread-1'
+2026-11-10 12:00:05,458 : INFO  : pool-638-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:34 : Closing PythonGateway (PID=25236) from thread 'pool-638-thread-1'
+2026-11-10 12:00:05,499 : INFO  : KNIME-Worker-13-Row Filter (deprecated) 4:31 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 4:31 : Row Filter (deprecated) 4:31 End execute (0 secs)
+2026-11-10 12:00:05,500 : INFO  : KNIME-Worker-12-Row Filter (deprecated) 4:33 :  : LocalNodeExecutionJob : Row Filter (deprecated) : 4:33 : Row Filter (deprecated) 4:33 End execute (0 secs)
+2026-11-10 12:00:07,108 : INFO  : pool-642-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:32 : Closing PythonGateway (PID=25028) from thread 'pool-642-thread-1'
+2026-11-10 12:00:09,656 : INFO  : pool-649-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:34 : Closing PythonGateway (PID=14056) from thread 'pool-649-thread-1'
+2026-11-10 12:00:14,475 : INFO  : KNIME-Worker-14-Geospatial View 4:32 :  : LocalNodeExecutionJob : Geospatial View : 4:32 : Geospatial View 4:32 End execute (7 secs)
+2026-11-10 12:00:14,475 : INFO  : pool-653-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:32 : Closing PythonGateway (PID=25196) from thread 'pool-653-thread-1'
+2026-11-10 12:00:16,989 : INFO  : KNIME-Worker-11-Geospatial View 4:34 :  : LocalNodeExecutionJob : Geospatial View : 4:34 : Geospatial View 4:34 End execute (7 secs)
+2026-11-10 12:00:16,995 : INFO  : pool-654-thread-1 :  : DefaultPythonGateway : Geospatial View : 4:34 : Closing PythonGateway (PID=22532) from thread 'pool-654-thread-1'
+2026-11-10 12:05:28,073 : INFO  : python-gateway-closer-2 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=1956) from thread 'python-gateway-closer-2'
+2026-11-10 12:05:28,073 : INFO  : python-gateway-closer-3 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=24464) from thread 'python-gateway-closer-3'

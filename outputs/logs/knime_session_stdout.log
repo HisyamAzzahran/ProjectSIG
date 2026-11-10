@@ -1,0 +1,97 @@
+CompileCommand: exclude org/eclipse/jdt/internal/core/dom/rewrite/ASTRewriteAnalyzer.getExtendedRange bool exclude = true
+WARN 	 ModalContext AbstractColumnarContainerTable	 Creation of hard links not supported, will copy files instead (and suppress further warnings)
+java.nio.file.FileSystemException: C:\Users\MUHAMM~1\AppData\Local\Temp\knime_Case10_Extended_14319\knime_container_20261110_1557035715919394099.knable -> D:\Project Kuliah\ProjectSIG\SIG\Studi Kasus KNIME\Case10_Garin_Lowry_Project\knime\report_workspace\Case10_Extended_8_Scenarios\Initialize Project (#27)\port_1\data.zip: The system cannot move the file to a different disk drive
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createLink(Unknown Source)
+	at java.base/java.nio.file.Files.createLink(Unknown Source)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.hardLinkOrCopy(AbstractColumnarContainerTable.java:317)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.<init>(AbstractColumnarContainerTable.java:141)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader$SavedColumnarContainerTable.<init>(ColumnarContainerTableLoader.java:97)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader.load(ColumnarContainerTableLoader.java:65)
+	at org.knime.core.node.ExtensionTableRegistry.loadExtensionTable(ExtensionTableRegistry.java:134)
+	at org.knime.core.node.ExtensionTable.loadExtensionTable(ExtensionTable.java:318)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:888)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+WARN 	 ModalContext FileNodePersistor	 Unable to load file store handler for node "Python Script": String for key "file_store_location" not found.
+org.knime.core.node.InvalidSettingsException: String for key "file_store_location" not found.
+	at org.knime.core.node.config.base.ConfigBase.getString(ConfigBase.java:423)
+	at org.knime.core.node.FileNodePersistor.loadFileStoreHandler(FileNodePersistor.java:694)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:977)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+WARN 	 ModalContext FileNodePersistor	 Unable to load file store handler for node "Row Filter (deprecated)": String for key "file_store_location" not found.
+org.knime.core.node.InvalidSettingsException: String for key "file_store_location" not found.
+	at org.knime.core.node.config.base.ConfigBase.getString(ConfigBase.java:423)
+	at org.knime.core.node.FileNodePersistor.loadFileStoreHandler(FileNodePersistor.java:694)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:977)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+WARN 	 ModalContext FileNodePersistor	 Unable to load file store handler for node "Geospatial View": String for key "file_store_location" not found.
+org.knime.core.node.InvalidSettingsException: String for key "file_store_location" not found.
+	at org.knime.core.node.config.base.ConfigBase.getString(ConfigBase.java:423)
+	at org.knime.core.node.FileNodePersistor.loadFileStoreHandler(FileNodePersistor.java:694)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:977)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+WARN 	 ModalContext LoadWorkflowRunnable	 Warnings during load: Status: Warning: Case10_Extended_8_Scenarios 3 loaded with warnings
+WARN 	 ModalContext LoadWorkflowRunnable	   Status: Warning: Case10_Extended_8_Scenarios 3
+WARN 	 ModalContext LoadWorkflowRunnable	     Status: Warning: Python Script 3:29
+WARN 	 ModalContext LoadWorkflowRunnable	       Status: Warning: State has changed from IDLE to CONFIGURED
+WARN 	 ModalContext LoadWorkflowRunnable	     Status: Warning: Row Filter (deprecated) 3:33
+WARN 	 ModalContext LoadWorkflowRunnable	       Status: Warning: State has changed from IDLE to CONFIGURED
+WARN 	 ModalContext LoadWorkflowRunnable	     Status: Warning: Geospatial View 3:34
+WARN 	 ModalContext LoadWorkflowRunnable	       Status: Warning: State has changed from IDLE to CONFIGURED
+WARN 	 ModalContext LoadWorkflowRunnable	     Status: Warning: State has changed from EXECUTED to IDLE
+WARN 	 main Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+WARN 	 main Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+WARN 	 main Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
+WARN 	 Thread-384 CEFNodeView	 An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.view/uiext-view/3_34/7669085/index.html; line: 0)
+WARN 	 main Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_polygons_path"
+WARN 	 main Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_roads_path"
+WARN 	 main Node	 Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "case10_points_path"
