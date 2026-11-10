@@ -17,3 +17,4 @@ Implementasi Model Garin-Lowry pada Kota Hipotetis Menggunakan KNIME Analytics P
 *.pem
 *.key
 knime/batch_workspace/
+outputs/logs/pytest_temp/
