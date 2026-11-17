@@ -1,0 +1,13 @@
+{
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "bbox_wgs84": [
+    106.78714848386635,
+    -6.249191507644411,
+    106.83216958640065,
+    -6.203828073198692
+  ],
+  "received_utc": "2026-11-17T06:34:50Z",
+  "bytes": 4841359,
+  "license": "ODbL 1.0",
+  "attribution": "OpenStreetMap contributors"
+}

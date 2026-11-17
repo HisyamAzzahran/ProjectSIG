@@ -1,0 +1,11 @@
+{
+  "browser": "Chromium / Playwright",
+  "zones": 81,
+  "roads": 28017,
+  "loaded_basemap_tiles": 24,
+  "page_errors": [],
+  "scenario_selector": "passed",
+  "metric_selector": "passed",
+  "popup": "passed",
+  "mobile_no_horizontal_overflow": true
+}

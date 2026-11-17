@@ -1,0 +1,1 @@
+[out:json][timeout:40];way["highway"~"^(trunk|primary|secondary|tertiary|unclassified|residential|living_street|service|trunk_link|primary_link|secondary_link|tertiary_link)$"]["access"!~"^(private|no)$"](-6.249191507644411,106.78714848386635,-6.203828073198692,106.83216958640065);(._;>;);out body;

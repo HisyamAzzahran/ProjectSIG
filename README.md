@@ -1,5 +1,7 @@
 # Implementing the Garin–Lowry Model in a Hypothetical City
 
+**Studi lokasi nyata SCBD Jakarta:** peta interaktif, jaringan jalan OSM dan 81 zona analisis tersedia. Jalankan `Launch_SCBD.ps1`, lalu baca [panduan SCBD](docs/SCBD_JAKARTA.md). Geografi nyata; pekerjaan dan penduduk tetap nilai simulasi. Workflow `.knwf` lama tetap untuk kota hipotetis.
+
 **Pembaruan laporan dan studi mandiri:** tersedia versi **8 skenario / 34 node**, laporan Word dan PDF bergambar, serta panduan penjelasan mudah. Mulai dari [petunjuk laporan dan studi mandiri](docs/PETUNJUK_LAPORAN_DAN_STUDI_MANDIRI.md). Versi extended diekspor melalui KNIME, diimpor ulang, di-reset dan dieksekusi kembali. Bukti tambahan: [validasi pengembangan](docs/VALIDASI_PENGEMBANGAN.md). Uraian tujuh skenario di bawah tetap mendokumentasikan versi awal yang dipertahankan.
 
 Proyek SIG berbasis **workflow KNIME Case 10 asli**, didukung model Python yang diuji, analisis jaringan jalan, tujuh simulasi, peta GIS dan panduan presentasi. File asli, dataset asli, kasus lain serta folder SHP File dan SHP2 dipertahankan.

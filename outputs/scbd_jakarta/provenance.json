@@ -1,0 +1,84 @@
+{
+  "title": "SCBD Jakarta: geografi nyata, ekonomi simulasi",
+  "center_lon_lat": [
+    106.80966,
+    -6.22651
+  ],
+  "center_reference": "https://www.wikidata.org/wiki/Q30590531",
+  "scbd_profile": "https://www.scbd.com/menu/page/profile",
+  "crs_projected": "EPSG:32748",
+  "raw_osm_sha256": "af08a5c4a6c54dd66c8d41072b62e9c1b0dd21c106b4b8032139272768380bda",
+  "osm_snapshot": {
+    "timestamp_osm_base": "2026-11-17T06:32:42Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "zone_count": 81,
+  "cell_size_m": 400,
+  "window_size_m": 3600,
+  "graph_nodes": 25745,
+  "graph_edges": 28017,
+  "road_segments": 28017,
+  "original_components": 46,
+  "discarded_nodes_outside_largest_component": 392,
+  "max_snap_distance_m": 183.65220010522498,
+  "assumed_speeds_kph": {
+    "trunk": 40,
+    "primary": 30,
+    "secondary": 30,
+    "tertiary": 25,
+    "unclassified": 20,
+    "residential": 20,
+    "living_street": 10,
+    "service": 15
+  },
+  "limitations": [
+    "Grid analisis buatan, bukan batas administrasi atau batas resmi SCBD.",
+    "1.000 pekerjaan dasar adalah asumsi, bukan data ketenagakerjaan aktual.",
+    "Jaringan disederhanakan dua arah; tidak memodelkan oneway, turn restrictions atau kemacetan.",
+    "Kecepatan berdasarkan asumsi kelas jalan; akses centroid berjalan 5 km/jam, biaya internal 0,5 menit.",
+    "Hasil penduduk dan jasa adalah keluaran model; bukan statistik atau prediksi terkalibrasi.",
+    "Peta dasar online, sedangkan jaringan dan keluaran model menggunakan snapshot tersimpan."
+  ],
+  "diagnostics": {
+    "merata": {
+      "residual_inf": 5.684341886080802e-14,
+      "balance_residual_inf": 5.684341886080802e-14,
+      "iterative_difference_inf": 1.1326051208015997e-11,
+      "iterations": 58,
+      "converged": true,
+      "spectral_radius": 0.6000000000000001,
+      "condition_number": 2.5154605846783524,
+      "basic_total": 1000.0000000000002,
+      "population_total": 5000.0,
+      "service_total": 1500.0,
+      "total_employment": 2499.9999999999995
+    },
+    "scbd_terpusat": {
+      "residual_inf": 9.947598300641403e-14,
+      "balance_residual_inf": 7.105427357601002e-14,
+      "iterative_difference_inf": 1.1269207789155189e-11,
+      "iterations": 58,
+      "converged": true,
+      "spectral_radius": 0.6000000000000001,
+      "condition_number": 2.5154605846783524,
+      "basic_total": 1000.0,
+      "population_total": 4999.999999999998,
+      "service_total": 1499.9999999999995,
+      "total_employment": 2499.9999999999995
+    },
+    "tiga_pusat": {
+      "residual_inf": 3.197442310920451e-14,
+      "balance_residual_inf": 4.263256414560601e-14,
+      "iterative_difference_inf": 1.1311840353300795e-11,
+      "iterations": 58,
+      "converged": true,
+      "spectral_radius": 0.6000000000000001,
+      "condition_number": 2.5154605846783524,
+      "basic_total": 1000.0,
+      "population_total": 4999.999999999998,
+      "service_total": 1499.9999999999995,
+      "total_employment": 2499.9999999999995
+    }
+  }
+}
